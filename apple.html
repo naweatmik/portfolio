@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>apple</title>
+  <link rel="shortcut icon" href="../RWBtvfjC.ico">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="colorbox.css">
+  <script src="jquery-1.11.3.min.js"></script>
+  <script src="jquery-ui-1.10.3.custom.min.js"></script>
+  <script src="jquery.colorbox.js"></script>
+  <script>
+    $(function(){
+
+      // 박스를 개별적으로 선택을했을대 오버레이+ 캡션이 나타나게
+
+      $(".imgbox").on({
+        mouseover:function(){
+          $(this).find("a,span").stop(true).animate({opacity:'1'},500,'linear')
+        },
+        mouseout:function(){
+          $(this).find("a,span").stop(true).animate({opacity:'0'},500,'linear')
+        }
+      })
+
+      /*
+      colorbox ,lightbox 플러그인 ( 형태가 잡힌 내용물을 연결하여 사용하는 방식)
+      :모달창이 나타나면서 그룹화된 영역이 슬라이드 되는 방식
+
+      colorboxcss, js, >> 연결 
+      images 폴더
+
+       a : 이미지연결 영역
+       rel : 동일한 그룹 연결 영역
+       class : 호출
+
+      */
+
+      $("a.cbox").colorbox();
+      //호출 메서드
+
+
+
+
+
+    });
+  </script>
+</head>
+<body>
+  <!-- header -->
+  <header>
+    <nav>
+      <a href="#" class="logo">iPhone 13 Pro</a>
+      <ul>
+        <li><a href="#">개요</a></li>
+        <li><a href="#">제품사항</a></li>
+        <li><a href="#">구입하기</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- //header -->
+  <!-- main -->
+  <main>
+    <h1>
+      iPhone 13 Pro<br>
+      비약적으로 강하된 카메라<br>
+      감각을 선사하는 디스플레이<br>
+      이제 프로할 시간.
+    </h1>
+  </main>
+  <!-- //main -->
+
+  <!-- section -->
+  <section>
+    <div class="imgbox">
+      <img src="01.jpg" alt="/">
+      <span><!--오버레이--></span>
+      <a href="big01.jpg" rel="cbox" class="cbox">액세사리</a>
+    </div>
+    <div class="imgbox">
+      <img src="02.jpg" alt="/">
+      <span><!--오버레이--></span>
+      <a href="big02.jpg" rel="cbox" class="cbox">방수</a>
+    </div>
+    <div class="imgbox">
+      <img src="03.jpg" alt="/">
+      <span><!--오버레이--></span>
+      <a href="big03.jpg" rel="cbox" class="cbox">배터리</a>
+    </div>
+    <div class="imgbox">
+      <img src="04.jpg" alt="/">
+      <span><!--오버레이--></span>
+      <a href="big04.jpg" rel="cbox" class="cbox">색상</a>
+    </div>
+  </section>
+  <!-- //section -->
+</body>
+</html>
