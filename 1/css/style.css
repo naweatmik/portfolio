@@ -1,0 +1,1879 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* 헤드 font-family: 'Playfair Display', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+/* 본문 kr font-family: 'Noto Sans KR', sans-serif; */
+
+@font-face {
+  font-family: 'PlayfairDisplay-Italic-VariableFont_wght';
+  src: url('PlayfairDisplay-Italic-VariableFont_wght.eot');
+  src: url('PlayfairDisplay-Italic-VariableFont_wght.eot?#iefix') format('embedded-opentype'),
+       url('PlayfairDisplay-Italic-VariableFont_wght.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PlayfairDisplay-Italic';
+  src: url('PlayfairDisplay-Italic.svg#PlayfairDisplay-Italic') format('svg'),
+       url('PlayfairDisplay-Italic.ttf') format('truetype'),
+       url('PlayfairDisplay-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PlayfairDisplay-Regular';
+  src: url('PlayfairDisplay-Regular.svg#PlayfairDisplay-Regular') format('svg'),
+       url('PlayfairDisplay-Regular.ttf') format('truetype'),
+       url('PlayfairDisplay-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PlayfairDisplay-VariableFont_wght';
+  src: url('PlayfairDisplay-VariableFont_wght.eot');
+  src: url('PlayfairDisplay-VariableFont_wght.eot?#iefix') format('embedded-opentype'),
+       url('PlayfairDisplay-VariableFont_wght.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+
+@font-face {
+  font-family: 'NotoSansKR-Thin-Alphabetic';
+  src: url('NotoSansKR-Thin-Alphabetic.eot');
+  src: url('NotoSansKR-Thin-Alphabetic.eot?#iefix') format('embedded-opentype'),
+       url('NotoSansKR-Thin-Alphabetic.svg#NotoSansKR-Thin-Alphabetic') format('svg'),
+       url('NotoSansKR-Thin-Alphabetic.ttf') format('truetype'),
+       url('NotoSansKR-Thin-Alphabetic.woff') format('woff'),
+       url('NotoSansKR-Thin-Alphabetic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSansKR-Regular-Alphabetic';
+  src: url('NotoSansKR-Regular-Alphabetic.eot');
+  src: url('NotoSansKR-Regular-Alphabetic.eot?#iefix') format('embedded-opentype'),
+       url('NotoSansKR-Regular-Alphabetic.svg#NotoSansKR-Regular-Alphabetic') format('svg'),
+       url('NotoSansKR-Regular-Alphabetic.ttf') format('truetype'),
+       url('NotoSansKR-Regular-Alphabetic.woff') format('woff'),
+       url('NotoSansKR-Regular-Alphabetic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSansKR-Medium-Alphabetic';
+  src: url('NotoSansKR-Medium-Alphabetic.eot');
+  src: url('NotoSansKR-Medium-Alphabetic.eot?#iefix') format('embedded-opentype'),
+       url('NotoSansKR-Medium-Alphabetic.svg#NotoSansKR-Medium-Alphabetic') format('svg'),
+       url('NotoSansKR-Medium-Alphabetic.ttf') format('truetype'),
+       url('NotoSansKR-Medium-Alphabetic.woff') format('woff'),
+       url('NotoSansKR-Medium-Alphabetic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSansKR-Light-Alphabetic';
+  src: url('NotoSansKR-Light-Alphabetic.eot');
+  src: url('NotoSansKR-Light-Alphabetic.eot?#iefix') format('embedded-opentype'),
+       url('NotoSansKR-Light-Alphabetic.svg#NotoSansKR-Light-Alphabetic') format('svg'),
+       url('NotoSansKR-Light-Alphabetic.ttf') format('truetype'),
+       url('NotoSansKR-Light-Alphabetic.woff') format('woff'),
+       url('NotoSansKR-Light-Alphabetic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSansKR-Bold-Alphabetic';
+  src: url('NotoSansKR-Bold-Alphabetic.eot');
+  src: url('NotoSansKR-Bold-Alphabetic.eot?#iefix') format('embedded-opentype'),
+       url('NotoSansKR-Bold-Alphabetic.svg#NotoSansKR-Bold-Alphabetic') format('svg'),
+       url('NotoSansKR-Bold-Alphabetic.ttf') format('truetype'),
+       url('NotoSansKR-Bold-Alphabetic.woff') format('woff'),
+       url('NotoSansKR-Bold-Alphabetic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSansKR-Black-Alphabetic';
+  src: url('NotoSansKR-Black-Alphabetic.eot');
+  src: url('NotoSansKR-Black-Alphabetic.eot?#iefix') format('embedded-opentype'),
+       url('NotoSansKR-Black-Alphabetic.svg#NotoSansKR-Black-Alphabetic') format('svg'),
+       url('NotoSansKR-Black-Alphabetic.ttf') format('truetype'),
+       url('NotoSansKR-Black-Alphabetic.woff') format('woff'),
+       url('NotoSansKR-Black-Alphabetic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+*{padding: 0; margin: 0; color: #2e302f; max-width: cover; transition: all 0.5s;}
+
+ul,li,ol{list-style: none; }
+img{display: block;}
+html{font-size: 15px;}
+/* 1-15, 2-30,2.5-37, 3-45, 4-60,8-120, 12-180, 13-195, 13.3 */
+a{text-decoration: none; color: inherit;}
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+/* set */
+
+
+
+a#MOVE_TOP_BTN {
+    position:fixed;
+    right:2%;
+    bottom:50px;
+    display:none;
+    z-index:999;
+    font-size: 4rem;
+   }
+
+
+/* header*/
+header{
+    background: url(../img/main/main1.jpg) no-repeat;
+    background-size: cover;
+    height: 1000px;
+    width: 100%;
+}
+
+
+.logo{
+    padding: 37px;    
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    width: 551px;
+    height: 41px;
+}
+header i{
+    float: right;
+    margin-right: 5.26%;
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin-top: -61px;
+}
+/* header*/
+
+
+/* section1_daegu museum */
+
+.dmuseum{
+    padding-top: 226px;
+    padding-bottom: 226px;
+    position: relative;
+    text-align: center;
+}
+.d1,.d2{
+    font-family: 'Playfair Display', serif;
+    font-size: 13.3rem;
+    font-weight: bold;
+}
+.d2{
+    color:#dbdbdb;
+}
+.d1{
+    position: absolute;
+    top: 210px;
+    left: 240px;
+}
+.dmuseum p{
+    line-height: 36px;
+    margin-top: 68px;
+}
+/* section1_daegu museum */
+
+/* section2_program */
+.pro_left{
+    width: 821px;
+    height: 940px;
+    float: left;
+}
+.pro_right{
+    padding-left: 30px;
+    overflow: hidden;
+}
+.pro_right_top{
+    padding-top: 158px;
+}
+.pro_right_top h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 2.6rem;
+}
+.pro_right_top p{
+    line-height: 36px;
+}
+.pro_right_bottom{
+    overflow: hidden;
+    margin-left: 130px;
+}
+.p1{
+    float: left;
+    margin-top: 109px;
+    margin-right: 30px;
+}
+.p2{
+    float: left;
+    margin-top: 217px;
+}
+
+/* section2_program */
+
+
+
+/* section3_collection */
+.collection{
+    background: url(../img/main/collection.jpg) no-repeat;
+    background-size: cover;
+    margin-top: 266px;
+    margin-bottom: 266px;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+.collection h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 2.6rem;
+    font-weight: bold;
+    margin-bottom: 135px;
+    text-align: center;
+    color: #ffffff;
+}
+.collection p{
+    margin-top: 20px;
+    line-height: 32px;
+    color: #ffffff;
+}
+.collection_text{
+    padding-left: 56px;
+}
+/* section3_collection */
+
+/* section4_lee gun hee */
+.leegunhee h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 2.6rem;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 83px;
+    line-height: 58px;
+}
+.leegunhee_text{
+    line-height: 32px;
+}
+.leegunhee_title{
+    margin-top: 46px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.leegunhee_title2{
+    margin-top: 180px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.leegunhee_text2{
+    line-height: 32px;
+    margin-bottom: 18px;
+}
+/* section4_lee gun hee */
+
+
+/* section5_notice */
+.notice{
+    margin-top: 226px;
+    margin-bottom: 266px;
+}
+.notice_box{
+    border: 1px solid #2e302f;
+    width: 680px;
+    height: 1080px;
+    padding-top: 293px;
+    padding-bottom: 293px;
+}
+.notice_box h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 2.6rem;
+    font-weight: bold;
+    border-top: 1px solid #2e302f;
+    border-bottom: 1px solid #2e302f;
+    padding: 54px 0 54px 120px;
+}
+.notice_box ul{
+    padding: 13px 120px 0 120px;
+}
+.notice_box ul li{
+    margin-top: 30px;
+    border-bottom: 1px solid #2e302f;
+    padding-bottom: 9px;
+}
+/* section5_notice */
+
+/* footer */
+.footer{
+    width: 100%;
+    overflow: hidden;
+    background-color: #e3e3e3;
+    padding-top: 127px;
+    padding-bottom: 127px;
+}
+.footer p{margin: 0;}
+.footer_text1{float: left; margin-right: 40px;}
+.footer li{margin-bottom: 16px;}
+.footer_text, .footer_tell{
+    margin-bottom: 36px;
+}
+.footer_icon{
+    font-size: 1.5rem;
+    text-align: right;
+}
+.footer_icon li a i{
+    float: right;
+    margin-left: 20px;
+}
+.footer_road{
+    width: 100%;
+    float: right;
+    text-align: right;
+    margin-top: 36px;
+}
+/* footer */
+
+
+
+
+
+/* up_btm */
+.up_btn{
+    font-size: 3.5rem;
+}
+/* up_btm */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 반응형 */
+/*pc desktop ( 가로폭 1024이상 )1920 1025 */
+@media secreen and (min-width:1200px){
+    
+/* header*/
+header{
+    background: url(../img/main/main1.jpg) no-repeat;
+    background-size: cover;
+    height: 1000px;
+    width: 100%;
+}
+.logo{
+    padding: 37px;    
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    width: 551px;
+    height: 41px;
+}
+header i{
+    float: right;
+    margin-right: 5.26%;
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin-top: -61px;
+}
+/* header*/
+
+
+/* section1_daegu museum */
+
+.dmuseum{
+    padding-top: 226px;
+    padding-bottom: 226px;
+    position: relative;
+    text-align: center;
+}
+.d1,.d2{
+    font-family: 'Playfair Display', serif;
+    font-size: 13.3rem;
+    font-weight: bold;
+}
+.d2{
+    color:#dbdbdb;
+}
+.d1{
+    position: absolute;
+    top: 210px;
+    left: 240px;
+}
+.dmuseum p{
+    line-height: 36px;
+    margin-top: 68px;
+}
+/* section1_daegu museum */
+
+/* section2_program */
+.program{
+    overflow: hidden;
+}
+.pro_left{
+    width: 821px;
+    height: 940px;
+    float: left;
+}
+.pro_right{
+    padding-left: 30px;
+    overflow: hidden;
+}
+.pro_right_top{
+    padding-top: 158px;
+}
+.pro_right_top h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 2.6rem;
+}
+.pro_right_top p{
+    line-height: 36px;
+}
+.pro_right_bottom{
+    overflow: hidden;
+    margin-left: 130px;
+}
+
+.p1{
+    float: left;
+    margin-top: 109px;
+    margin-right: 30px;
+}
+.p2{
+    float: left;
+    margin-top: 217px;
+}
+
+/* section2_program */
+
+
+
+/* section3_collection */
+.collection{
+    background: url(../img/main/collection.jpg) no-repeat;
+    background-size: cover;
+    margin-top: 266px;
+    margin-bottom: 266px;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+.collection h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 2.6rem;
+    font-weight: bold;
+    margin-bottom: 135px;
+    text-align: center;
+    color: #ffffff;
+}
+.collection p{
+    margin-top: 20px;
+    line-height: 32px;
+    color: #ffffff;
+}
+.collection_text{
+    padding-left: 56px;
+}
+/* section3_collection */
+
+/* section4_lee gun hee */
+.leegunhee h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 2.6rem;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 83px;
+    line-height: 58px;
+}
+.leegunhee_text{
+    line-height: 32px;
+}
+.leegunhee_title{
+    margin-top: 46px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.leegunhee_title2{
+    margin-top: 180px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.leegunhee_text2{
+    line-height: 32px;
+    margin-bottom: 18px;
+}
+/* section4_lee gun hee */
+
+
+/* section5_notice */
+.notice{
+    margin-top: 226px;
+    margin-bottom: 266px;
+}
+.notice_box{
+    border: 1px solid #2e302f;
+    width: 680px;
+    height: 1080px;
+    padding-top: 293px;
+    padding-bottom: 293px;
+}
+.notice_box h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 2.6rem;
+    font-weight: bold;
+    border-top: 1px solid #2e302f;
+    border-bottom: 1px solid #2e302f;
+    padding: 54px 0 54px 120px;
+}
+.notice_box ul{
+    padding: 13px 120px 0 120px;
+}
+.notice_box ul li{
+    margin-top: 30px;
+    border-bottom: 1px solid #2e302f;
+    padding-bottom: 9px;
+}
+/* section5_notice */
+
+/* footer */
+.footer{
+    width: 100%;
+    overflow: hidden;
+    background-color: #e3e3e3;
+    padding-top: 127px;
+    padding-bottom: 127px;
+}
+.footer p{margin: 0;}
+.footer_text1{float: left; margin-right: 40px;}
+.footer li{margin-bottom: 16px;}
+.footer_text, .footer_tell{
+    margin-bottom: 36px;
+}
+.footer_icon{
+    font-size: 1.5rem;
+    text-align: right;
+}
+.footer_icon li a i{
+    float: right;
+    margin-left: 20px;
+}
+.footer_road{
+    width: 100%;
+    float: right;
+    text-align: right;
+    margin-top: 36px;
+}
+/* footer */
+
+
+
+
+
+/* up_btm */
+.up_btn{
+    font-size: 3.5rem;
+}
+/* up_btm */
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+
+
+
+/* 1199-1024 */
+@media screen and (min-width:1024px)and (max-width:1199px){
+
+/* section1_daegu museum */
+
+.dmuseum{
+    padding-top: 226px;
+    padding-bottom: 226px;
+    position: relative;
+    text-align: center;
+}
+.d1,.d2{
+    font-family: 'Playfair Display', serif;
+    font-size: 13.3rem;
+    font-weight: bold;
+}
+.d2{
+    color:#dbdbdb;
+}
+.d1{
+    position: absolute;
+    top: 210px;
+    left: 20px;
+}
+.dmuseum p{
+    line-height: 36px;
+    margin-top: 68px;
+}
+/* section1_daegu museum */
+
+
+
+/* section2_program */
+.pro_left{
+    width: 100%;
+    overflow: hidden;
+}
+.pro_left img{margin: auto;}
+.pro_right{
+    width: 100%;
+    padding-left: 30px;
+    overflow: hidden;
+}
+.pro_right_top{
+    padding-top: 150px;
+    text-align: center;
+}
+.pro_right_top h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 2.6rem;
+}
+.pro_right_top p{
+    line-height: 36px;
+}
+.pro_right_bottom{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.pro_right_bottom img:first-child{
+    width: 320px;
+    overflow: hidden;
+    margin-left: 60px;
+    margin-right: 30px;
+    float: left;
+}
+.pro_right_bottom img:last-child{
+    float: right;
+    margin-right: 30px;
+    margin-top: 160px;
+}
+.p1{
+    float: left;
+    margin-top: 109px;
+    margin-right: 60px;
+}
+.p2{
+    float: left;
+    margin-top: 217px;
+}
+
+/* section2_program */
+
+
+
+/* section3_collection */
+.collection{
+    background: url(../img/main/collection.jpg) no-repeat;
+    background-size: cover;
+    margin-top: 266px;
+    margin-bottom: 266px;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+.collection h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 2.6rem;
+    font-weight: bold;
+    margin-bottom: 135px;
+    text-align: center;
+    color: #ffffff;
+}
+.collection img{
+    max-width: 100%;
+}
+.collection p{
+    margin-top: 20px;
+    line-height: 32px;
+    color: #ffffff;
+}
+.collection_text{
+    padding-left: 56px;
+}
+/* section3_collection */
+
+
+
+
+
+
+/* section4_lee gun hee */
+.leegunhee h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 2.6rem;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 83px;
+    line-height: 58px;
+}
+.leegunhee img{
+    max-width: 100%;
+    padding-right: 30px;
+}
+.leegunhee_text{
+    line-height: 32px;
+}
+.leegunhee_title{
+    margin-top: 46px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.leegunhee_title2{
+    margin-top: 180px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.leegunhee_text2{
+    line-height: 32px;
+    margin-bottom: 18px;
+}
+/* section4_lee gun hee */
+
+
+
+/* section5_notice */
+.notice{
+    margin-top: 226px;
+    margin-bottom: 266px;
+}
+.notice img{
+    width: 680px;
+    margin: auto;
+    max-width: 100%;
+}
+.notice_box{
+    border: 1px solid #2e302f;
+    width: 480px;
+    height: 770px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.notice_box h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 2.6rem;
+    font-weight: bold;
+    border-top: 1px solid #2e302f;
+    border-bottom: 1px solid #2e302f;
+    padding: 20px 0 20px 120px;
+}
+.notice_box ul{
+    padding: 13px 120px 0 120px;
+}
+.notice_box ul li{
+    margin-top: 30px;
+    border-bottom: 1px solid #2e302f;
+    padding-bottom: 9px;
+}
+/* section5_notice */
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* tablet(가로폭 768px이상 1023px 이하) */
+@media screen and (min-width:992px)and (max-width:1023px)
+{
+    /* section1_daegu museum */
+
+.dmuseum{
+    padding-top: 226px;
+    padding-bottom: 226px;
+    position: relative;
+    text-align: center;
+}
+.d1,.d2{
+    font-family: 'Playfair Display', serif;
+    font-size: 13.3rem;
+    font-weight: bold;
+}
+.d2{
+    color:#dbdbdb;
+}
+.d1{
+    position: absolute;
+    top: 210px;
+    left: 20px;
+}
+.dmuseum p{
+    line-height: 36px;
+    margin-top: 68px;
+}
+/* section1_daegu museum */
+
+
+
+/* section2_program */
+.pro_left{
+    width: 100%;
+    overflow: hidden;
+}
+.pro_left img{margin: auto;}
+.pro_right{
+    width: 100%;
+    padding-left: 30px;
+    overflow: hidden;
+}
+.pro_right_top{
+    padding-top: 150px;
+    text-align: center;
+}
+.pro_right_top h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 2.6rem;
+}
+.pro_right_top p{
+    line-height: 36px;
+}
+.pro_right_bottom{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.pro_right_bottom img:first-child{
+    width: 320px;
+    overflow: hidden;
+    margin-left: 60px;
+    margin-right: 30px;
+    float: left;
+}
+.pro_right_bottom img:last-child{
+    float: right;
+    margin-right: 30px;
+    margin-top: 160px;
+}
+.p1{
+    float: left;
+    margin-top: 109px;
+    margin-right: 60px;
+}
+.p2{
+    float: left;
+    margin-top: 217px;
+}
+
+/* section2_program */
+
+
+
+/* section3_collection */
+.collection{
+    background: url(../img/main/collection.jpg) no-repeat;
+    background-size: cover;
+    margin-top: 266px;
+    margin-bottom: 266px;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+.collection h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 2.6rem;
+    font-weight: bold;
+    margin-bottom: 135px;
+    text-align: center;
+    color: #ffffff;
+}
+.collection img{
+    max-width: 100%;
+}
+.collection p{
+    margin-top: 20px;
+    line-height: 32px;
+    color: #ffffff;
+}
+.collection_text{
+    padding-left: 56px;
+}
+/* section3_collection */
+
+
+
+
+
+
+/* section4_lee gun hee */
+.leegunhee h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 2.6rem;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 83px;
+    line-height: 58px;
+}
+.leegunhee img{
+    max-width: 100%;
+    padding-right: 30px;
+}
+.leegunhee_text{
+    line-height: 32px;
+}
+.leegunhee_title{
+    margin-top: 46px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.leegunhee_title2{
+    margin-top: 180px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.leegunhee_text2{
+    line-height: 32px;
+    margin-bottom: 18px;
+}
+/* section4_lee gun hee */
+
+
+
+/* section5_notice */
+.notice{
+    margin-top: 226px;
+    margin-bottom: 266px;
+}
+.notice img{
+    width: 680px;
+    margin: auto;
+    max-width: 100%;
+}
+.notice_box{
+    border: 1px solid #2e302f;
+    width: 480px;
+    height: 770px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.notice_box h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 2.6rem;
+    font-weight: bold;
+    border-top: 1px solid #2e302f;
+    border-bottom: 1px solid #2e302f;
+    padding: 20px 0 20px 120px;
+}
+.notice_box ul{
+    padding: 13px 120px 0 120px;
+}
+.notice_box ul li{
+    margin-top: 30px;
+    border-bottom: 1px solid #2e302f;
+    padding-bottom: 9px;
+}
+/* section5_notice */
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* tablet(가로폭 768px이상 1023px 이하) */
+@media screen and (min-width:768px)and (max-width:991px)
+{
+    /* section1_daegu museum */
+
+.dmuseum{
+    padding-top: 226px;
+    padding-bottom: 226px;
+    position: relative;
+    text-align: center;
+}
+.d1,.d2{
+    font-family: 'Playfair Display', serif;
+    font-size: 11rem;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+}
+.d2{
+    color:#dbdbdb;
+    text-align: center;
+}
+.d1{
+    position: absolute;
+    top: 210px;
+    left: -20px;
+}
+.dmuseum p{
+    line-height: 36px;
+    margin-top: 68px;
+    padding: 0 80px 0 80px;
+}
+/* section1_daegu museum */
+
+
+
+/* section2_program */
+.pro_left{
+    width: 100%;
+    overflow: hidden;
+}
+.pro_left img{margin: auto;}
+.pro_right{
+    width: 100%;
+    padding-left: 0px;
+    overflow: hidden;
+}
+.pro_right_top{
+    padding-top: 150px;
+    text-align: center;
+}
+.pro_right_top h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 2.6rem;
+}
+.pro_right_top p{
+    line-height: 36px;
+}
+.pro_right_bottom{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.pro_right_bottom img:first-child{
+    max-width: 49%;
+    overflow: hidden;
+    margin-left: 0px;
+    margin-right: 2%;
+    float: left;
+}
+.pro_right_bottom img:last-child{
+    max-width: 49%;
+    float: right;
+    margin-right: 0px;
+    margin-top: 160px;
+}
+.p1{
+    float: left;
+    margin-top: 109px;
+    margin-right: 50px;
+}
+.p2{
+    float: left;
+    margin-top: 217px;
+}
+
+/* section2_program */
+
+
+
+/* section3_collection */
+.collection{
+    background: url(../img/main/collection.jpg) no-repeat;
+    background-size: cover;
+    margin-top: 266px;
+    margin-bottom: 266px;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+.collection h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 2.6rem;
+    font-weight: bold;
+    margin-bottom: 135px;
+    text-align: center;
+    color: #ffffff;
+}
+.collection img{
+    max-width: 90%;
+    margin-left: 5%;
+}
+.collection p:last-child{
+    margin-top: 20px;
+    line-height: 32px;
+    color: #ffffff;
+    float: right;
+}
+.collection p:first-child{
+    margin-top: 20px;
+    line-height: 32px;
+    color: #ffffff;
+    float: left;
+    margin-right:15%;
+    padding-left: 0;
+}
+.collection_text{
+    padding-left: 56px;
+}
+/* section3_collection */
+
+
+
+
+
+
+/* section4_lee gun hee */
+.leegunhee h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 2.6rem;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 83px;
+    line-height: 58px;
+}
+.leegunhee img{
+    float: left;
+    margin: auto;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+.leegunhee_text{
+    line-height: 32px;
+}
+.leegunhee_title{
+    margin-top: 46px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: right;
+}
+.leegunhee_title2{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    float: left;
+    margin-bottom: 10px;
+    text-align: right;
+    padding-top: 38px;
+}
+.leegunhee_text2{
+    line-height: 32px;
+    margin-bottom: 18px;
+    float: left;
+    text-align: right; 
+    margin-top: 50px;
+    padding-top: 36px;
+}
+.gunhee_text2 img{
+    float: right;
+}
+
+/* section4_lee gun hee */
+
+
+
+/* section5_notice */
+.notice{
+    margin-top: 226px;
+    margin-bottom: 266px;
+}
+.notice img{
+    width: 680px;
+    margin: auto;
+    max-width: 100%;
+}
+.notice_box{
+    border: 1px solid #2e302f;
+    width: 100%;
+    height: 770px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 40px;
+}
+.notice_box h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 2.6rem;
+    font-weight: bold;
+    border-top: 1px solid #2e302f;
+    border-bottom: 1px solid #2e302f;
+    padding: 20px 0 20px 120px;
+}
+.notice_box ul{
+    padding: 13px 120px 0 120px;
+}
+.notice_box ul li{
+    margin-top: 30px;
+    border-bottom: 1px solid #2e302f;
+    padding-bottom: 9px;
+}
+/* section5_notice */
+
+
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile device(가로폭 767px 이하) */
+@media screen and (max-width:767px){
+        /* section1_daegu museum */
+
+  
+/* header*/
+header{
+    background: url(../img/main/main1.jpg) no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 700px;
+    width: 100%;
+}
+.logo{
+    padding: 37px;    
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    width: 551px;
+    height: 41px;
+}
+header i{
+    float: right;
+    margin-right: 5.26%;
+    color: #ffffff;
+    font-size: 1.3rem;
+    margin-top: -59px;
+}
+/* header*/
+
+.dmuseum{
+    padding-top: 226px;
+    padding-bottom: 226px;
+    position: relative;
+    text-align: center;
+}
+.d1,.d2{
+    font-family: 'Playfair Display', serif;
+    font-size: 7rem;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+}
+.d2{
+    color:#dbdbdb;
+    text-align: center;
+}
+.d1{
+    position: absolute;
+    top: 215px;
+    left: -10px;
+}
+.dmuseum p{
+    line-height: 36px;
+    margin-top: 68px;
+    padding: 0 80px 0 80px;
+}
+/* section1_daegu museum */
+
+
+
+/* section2_program */
+.pro_left{
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
+}
+.pro_left img{margin: auto;
+width: 100%;
+}
+.pro_right{
+    width: 100%;
+    padding-left: 0px;
+    overflow: hidden;
+}
+.pro_right_top{
+    padding-top: 50px;
+    text-align: center;
+}
+.pro_right_top h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 2.6rem;
+}
+.pro_right_top p{
+    line-height: 36px;
+}
+.pro_right_bottom{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.pro_right_bottom img:first-child{
+    width: 320px;
+    overflow: hidden;
+    margin-left: 0px;
+    margin-right: 0%;
+    float: left;
+    max-width: 45%;
+}
+.pro_right_bottom img:last-child{
+    float: right;
+    margin-right: 0px;
+    margin-top: 100px;
+    max-width: 45%;
+}
+.p1{
+    float: left;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.p2{
+    float: left;
+    margin-top: 217px;
+}
+
+/* section2_program */
+
+
+
+/* section3_collection */
+.collection{
+    background: url(../img/main/collection.jpg) no-repeat;
+    background-size: cover;
+    margin-top: 266px;
+    margin-bottom: 266px;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+.collection h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 2.6rem;
+    font-weight: bold;
+    margin-bottom: 135px;
+    text-align: center;
+    color: #ffffff;
+}
+.collection img{
+    max-width: 90%;
+    margin-left: 5%;
+}
+.collection p:last-child{
+    margin-top: 20px;
+    line-height: 32px;
+    color: #ffffff;
+    float: right;
+    margin-left: 20px;
+}
+.collection p:first-child{
+    margin-top: 20px;
+    line-height: 32px;
+    color: #ffffff;
+    float: left;
+    margin-right:19%;
+    padding-left: 0;
+    margin-left: 20px;
+}
+.collection_text{
+    padding-left: 56px;
+}
+
+/* section3_collection */
+
+
+
+
+
+
+/* section4_lee gun hee */
+.leegunhee h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 2.6rem;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 83px;
+    line-height: 58px;
+    text-align: center;
+}
+.leegunhee img{
+    margin: auto;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+.leegunhee_text{
+    line-height: 32px;
+    text-align: center;
+}
+.leegunhee_title{
+    margin-top: 46px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.leegunhee_title2{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: 10px;
+}
+.leegunhee_text2{
+    line-height: 32px;
+    margin-bottom: 18px;
+    float: none;
+    text-align: center; 
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.gunhee_text2 img{
+    float: none;
+}
+
+/* section4_lee gun hee */
+
+
+
+/* section5_notice */
+.notice{
+    margin-top: 226px;
+    margin-bottom: 266px;
+}
+.notice img{
+    width: 680px;
+    margin: auto;
+    max-width: 80%;
+}
+.notice_box{
+    border: 1px solid #2e302f;
+    width: 90%;
+    margin-left: 5%;
+    height: 740px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 40px;
+}
+.notice_box h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 2.6rem;
+    font-weight: bold;
+    border-top: 1px solid #2e302f;
+    border-bottom: 1px solid #2e302f;
+    padding: 20px 0 20px 120px;
+}
+.notice_box ul{
+    padding: 13px 60px 0 60px;
+}
+.notice_box ul li{
+    margin-top: 30px;
+    border-bottom: 1px solid #2e302f;
+    padding-bottom: 9px;
+}
+/* section5_notice */
+
+
+/* footer */
+.footer{
+    width: 100%;
+    padding: 127px 4% 127px 4%;
+    overflow: hidden;
+    background-color: #e3e3e3;
+}
+.footer p{margin: 0;}
+.footer_text1{float: left; margin-right: 40px;}
+.footer li{margin-bottom: 16px;}
+.footer_text, .footer_tell{
+    margin-bottom: 36px;
+}
+.footer_icon{
+    font-size: 1.5rem;
+    text-align: right;
+}
+.footer_icon li a i{
+    float: right;
+    margin-left: 20px;
+}
+.footer_road{
+    width: 100%;
+    float: right;
+    text-align: right;
+    margin-top: 36px;
+}
+/* footer */
+
+
+
+
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile device(가로폭 480px 이하) */
+@media screen and (max-width:480px){
+           /* section1_daegu museum */
+
+  
+/* header*/
+header{
+    background: url(../img/main/main1.jpg) no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 500px;
+    width: 100%;
+}
+.logo{
+    padding: 37px;    
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{
+    width: 400px;
+    height: 31px;
+
+}
+
+header i{
+    float: right;
+    margin-right: 3%;
+    color: #ffffff;
+    font-size: 1rem;
+    margin-top: -54px;
+}
+/* header*/
+
+.dmuseum{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    text-align: center;
+}
+.d1,.d2{
+    font-family: 'Playfair Display', serif;
+    font-size: 5rem;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+}
+.d2{
+    color:#dbdbdb;
+    text-align: center;
+}
+.d1{
+    position: absolute;
+    top: 90px;
+    left: -10px;
+}
+.dmuseum p{
+    line-height: 28px;
+    font-size: 0.8rem;
+    margin-top: 68px;
+    padding: 0 90px 0 90px;
+}
+/* section1_daegu museum */
+
+
+
+/* section2_program */
+.pro_left{
+    width: 100%;
+    overflow: hidden;
+    height: fit-content;
+}
+.pro_left img{
+    width: 821px;
+    max-width: 100%;
+    margin: auto;
+}
+.pro_right{
+    width: 100%;
+    padding-left: 0px;
+    overflow: hidden;
+}
+.pro_right_top{
+    padding-top: 50px;
+    text-align: center;
+}
+.pro_right_top h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.pro_right_top p{
+    line-height: 30px;
+    font-size: 0.8rem;
+}
+.pro_right_bottom{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.pro_right_bottom img:first-child{
+    width: 320px;
+    overflow: hidden;
+    margin-left: 0px;
+    margin-right: 0%;
+    float: left;
+    margin-top: 20px;
+    max-width: 45%;
+}
+.pro_right_bottom img:last-child{
+    float: right;
+    margin-right: 0px;
+    margin-top: 50px;
+    max-width: 45%;
+}
+.p1{
+    float: left;
+    margin-top: 109px;
+    margin-right: 50px;
+}
+.p2{
+    float: left;
+    margin-top: 217px;
+}
+
+/* section2_program */
+
+
+
+/* section3_collection */
+.collection{
+    background: url(../img/main/collection.jpg) no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 580px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.collection h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 2.6rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #ffffff;
+}
+.collection img{
+    max-width: 90%;
+    margin-left: 5%;
+}
+.collection p:last-child{
+    margin-top: 20px;
+    line-height: 28px;
+    color: #ffffff;
+    float: right;
+    margin-left: 20px;
+    font-size: 0.8rem;
+}
+.collection p:first-child{
+    margin-top: 20px;
+    line-height: 28px;
+    color: #ffffff;
+    float: left;
+    font-size: 0.8rem;
+    margin-right:19%;
+    padding-left: 0;
+    margin-left: 20px;
+}
+.collection_text{
+    padding-left: 56px;
+    font-size: 0.8rem;
+}
+
+/* section3_collection */
+
+
+
+
+
+
+/* section4_lee gun hee */
+.leegunhee h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 2.6rem;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 83px;
+    line-height: 50px;
+    text-align: center;
+}
+.leegunhee img{
+    margin: auto;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+.leegunhee_text{
+    line-height: 27px;
+    text-align: center;
+    font-size: 0.8rem;
+}
+.leegunhee_title{
+    margin-top: 46px;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+}
+.leegunhee_title2{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: 10px;
+}
+.leegunhee_text2{
+    line-height: 27px;
+    margin-bottom: 18px;
+    float: none;
+    font-size: 0.8rem;
+    text-align: center; 
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.gunhee_text2 img{
+    float: none;
+}
+/* section4_lee gun hee */
+
+
+
+/* section5_notice */
+.notice{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.notice img{
+    width: 680px;
+    margin: auto;
+    max-width: 80%;
+}
+.notice_box{
+    border: 1px solid #2e302f;
+    width: 90%;
+    margin-left: 5%;
+    height: 700px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 40px;
+}
+.notice_box h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 2.6rem;
+    font-weight: bold;
+    border-top: 1px solid #2e302f;
+    border-bottom: 1px solid #2e302f;
+    padding: 20px 0 20px 120px;
+}
+.notice_box ul{
+    padding: 13px 40px 0 40px;
+}
+.notice_box ul li{
+    margin-top: 30px;
+    font-size: 0.8rem;
+    border-bottom: 1px solid #2e302f;
+    padding-bottom: 9px;
+}
+
+/* section5_notice */
+
+.footer{
+    width: 100%;
+    padding: 127px 4% 127px 4%;
+    overflow: hidden;
+    background-color: #e3e3e3;
+}
+
+.footer ul li, .footer p{
+    font-size: 0.7rem;
+}
+.footer i{font-size: 1.3rem;}
+
+
+
+
+a#MOVE_TOP_BTN {
+    position:fixed;
+    right:5%;
+    bottom:30px;
+    display:none;
+    z-index:999;
+    font-size: 3rem;
+   }
+
+
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */

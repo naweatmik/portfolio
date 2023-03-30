@@ -1,0 +1,1939 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* 헤드 font-family: 'Playfair Display', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+/* 본문 kr font-family: 'Noto Sans KR', sans-serif; */
+
+@font-face {
+  font-family: 'PlayfairDisplay-Italic-VariableFont_wght';
+  src: url('PlayfairDisplay-Italic-VariableFont_wght.eot');
+  src: url('PlayfairDisplay-Italic-VariableFont_wght.eot?#iefix') format('embedded-opentype'),
+       url('PlayfairDisplay-Italic-VariableFont_wght.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PlayfairDisplay-Italic';
+  src: url('PlayfairDisplay-Italic.svg#PlayfairDisplay-Italic') format('svg'),
+       url('PlayfairDisplay-Italic.ttf') format('truetype'),
+       url('PlayfairDisplay-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PlayfairDisplay-Regular';
+  src: url('PlayfairDisplay-Regular.svg#PlayfairDisplay-Regular') format('svg'),
+       url('PlayfairDisplay-Regular.ttf') format('truetype'),
+       url('PlayfairDisplay-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PlayfairDisplay-VariableFont_wght';
+  src: url('PlayfairDisplay-VariableFont_wght.eot');
+  src: url('PlayfairDisplay-VariableFont_wght.eot?#iefix') format('embedded-opentype'),
+       url('PlayfairDisplay-VariableFont_wght.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+
+@font-face {
+  font-family: 'NotoSansKR-Thin-Alphabetic';
+  src: url('NotoSansKR-Thin-Alphabetic.eot');
+  src: url('NotoSansKR-Thin-Alphabetic.eot?#iefix') format('embedded-opentype'),
+       url('NotoSansKR-Thin-Alphabetic.svg#NotoSansKR-Thin-Alphabetic') format('svg'),
+       url('NotoSansKR-Thin-Alphabetic.ttf') format('truetype'),
+       url('NotoSansKR-Thin-Alphabetic.woff') format('woff'),
+       url('NotoSansKR-Thin-Alphabetic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSansKR-Regular-Alphabetic';
+  src: url('NotoSansKR-Regular-Alphabetic.eot');
+  src: url('NotoSansKR-Regular-Alphabetic.eot?#iefix') format('embedded-opentype'),
+       url('NotoSansKR-Regular-Alphabetic.svg#NotoSansKR-Regular-Alphabetic') format('svg'),
+       url('NotoSansKR-Regular-Alphabetic.ttf') format('truetype'),
+       url('NotoSansKR-Regular-Alphabetic.woff') format('woff'),
+       url('NotoSansKR-Regular-Alphabetic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSansKR-Medium-Alphabetic';
+  src: url('NotoSansKR-Medium-Alphabetic.eot');
+  src: url('NotoSansKR-Medium-Alphabetic.eot?#iefix') format('embedded-opentype'),
+       url('NotoSansKR-Medium-Alphabetic.svg#NotoSansKR-Medium-Alphabetic') format('svg'),
+       url('NotoSansKR-Medium-Alphabetic.ttf') format('truetype'),
+       url('NotoSansKR-Medium-Alphabetic.woff') format('woff'),
+       url('NotoSansKR-Medium-Alphabetic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSansKR-Light-Alphabetic';
+  src: url('NotoSansKR-Light-Alphabetic.eot');
+  src: url('NotoSansKR-Light-Alphabetic.eot?#iefix') format('embedded-opentype'),
+       url('NotoSansKR-Light-Alphabetic.svg#NotoSansKR-Light-Alphabetic') format('svg'),
+       url('NotoSansKR-Light-Alphabetic.ttf') format('truetype'),
+       url('NotoSansKR-Light-Alphabetic.woff') format('woff'),
+       url('NotoSansKR-Light-Alphabetic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSansKR-Bold-Alphabetic';
+  src: url('NotoSansKR-Bold-Alphabetic.eot');
+  src: url('NotoSansKR-Bold-Alphabetic.eot?#iefix') format('embedded-opentype'),
+       url('NotoSansKR-Bold-Alphabetic.svg#NotoSansKR-Bold-Alphabetic') format('svg'),
+       url('NotoSansKR-Bold-Alphabetic.ttf') format('truetype'),
+       url('NotoSansKR-Bold-Alphabetic.woff') format('woff'),
+       url('NotoSansKR-Bold-Alphabetic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSansKR-Black-Alphabetic';
+  src: url('NotoSansKR-Black-Alphabetic.eot');
+  src: url('NotoSansKR-Black-Alphabetic.eot?#iefix') format('embedded-opentype'),
+       url('NotoSansKR-Black-Alphabetic.svg#NotoSansKR-Black-Alphabetic') format('svg'),
+       url('NotoSansKR-Black-Alphabetic.ttf') format('truetype'),
+       url('NotoSansKR-Black-Alphabetic.woff') format('woff'),
+       url('NotoSansKR-Black-Alphabetic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+*{padding: 0; margin: 0; color: #2e302f; max-width: cover;}
+ul,li,ol{list-style: none;}
+img{display: block;}
+html{font-size: 15px;}
+/* 1-15, 1.1=17, 1.3=20, 2-30,2.5-37, 3-45, 4-60,8-120, 12-180, 13-195, 13.3 */
+a{text-decoration: none; color: inherit;}
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+/* set */
+
+
+a#MOVE_TOP_BTN {
+    position:fixed;
+    right:2%;
+    bottom:50px;
+    display:none;
+    z-index:999;
+    font-size: 4rem;
+    }
+
+
+/* header*/
+.logo{
+    padding: 37px;    
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    border-bottom: 1px solid #2e302f;
+    justify-content: center;
+}
+.logo img{
+    width: 551px;
+    height: 41px;
+}
+header i{
+    float: right;
+    margin-right: 5.26%;
+    color: #2e302f;
+    font-size: 1.5rem;
+    margin-top: -61px;
+}
+
+/* ///////////////// */
+
+.sub4_main{
+    background: url(../img/sub4/1.jpg) no-repeat;
+    width: 100%;
+    height: 900px;
+    background-size: cover;
+    position: relative;
+}
+.sub4_main h1, .sub4_main h2, .sub4_main h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 12rem;
+    margin: 0;
+    color: #fff;
+}
+.sub4_main h1{
+    position: absolute;
+    right:28.73%;
+    bottom: 546px;
+}
+.sub4_main h2{
+    position: absolute;
+    right: 13.68%;/*260*/
+    bottom: 387px;
+}
+.sub4_main h3{
+    position: absolute;
+    right: 13.68%;
+    bottom: 230px;
+}
+
+/* header*/
+
+
+/* collection */
+.collect_all{
+    position: relative;
+}
+.collect_all h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 4rem;
+    text-decoration: underline;
+    margin: 0;
+}
+.coll_text{
+    position: relative;
+    top: 168px;
+    left: 418px;
+}
+.collect_slider{
+    position: absolute;
+    top: -370px;
+    left: 470px;
+}
+.sub4_collection{
+    margin: 266px 0 0 0;
+}
+.line{
+    width: 440px;
+    height: 1px;
+    background-color: #2e302f;
+    position: absolute;
+    bottom: -220px;
+}
+.coll_text_mini{
+    position: absolute;
+    bottom: -255px;
+    right: 30px;
+}
+
+/* collection */
+
+/* leegunhee */
+.sub4_leegunhee img{
+    max-width: 100%;
+}
+.all1, .all2, .all3{
+    max-width: 100%;
+}
+.sub4_leegunhee{
+    margin: 0 0 266px 0;
+    text-align: center;
+}
+.sub4_leegunhee h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 4rem;
+    text-decoration: underline;
+    margin: 0 0 200px 0;
+    text-align: center;
+}
+.sub4_leegunhee h4{
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 1.2rem;
+}
+.sub4_c{
+    margin-top: 170px;
+}
+.sub4_text2{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.sub4_all img{
+    display: inline-block;
+}
+.sub4_all{
+    margin-bottom:200px ;
+}
+
+
+
+.sub4_left{
+    width: 50%;
+    float: left;
+    position: relative;
+    margin-bottom: 200px;
+}
+.sub4_left p{
+    position: absolute;
+    bottom: 30px;
+    left: 5.26%;
+    font-size: 1.2rem;
+    color: #ffff;
+    font-weight: medium;
+}
+.sub4_right{
+    width: 50%;
+    float: right;
+    position: relative;
+    margin-bottom: 200px;
+}
+.sub4_right p{
+    position: absolute;
+    bottom: 30px;
+    right: 5.26%;
+    font-size: 1.2rem;
+    color: #ffff;
+    font-weight: medium;
+}
+.sub4_final{
+    text-align: left;
+    padding: 205px 0 205px 0;
+}
+.sub4_final h4{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.sub4_final h5{
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.sub4_final p{
+    font-size: 1.1rem;
+    line-height: 36px;
+}
+/* leegunhee */
+
+
+
+
+/* footer */
+.footer{
+    width: 100%;
+    overflow: hidden;
+    background-color: #e3e3e3;
+    padding-top: 127px;
+    padding-bottom: 127px;
+}
+.footer p{margin: 0;}
+.footer_text1{float: left; margin-right: 40px;}
+.footer li{margin-bottom: 16px;}
+.footer_text, .footer_tell{
+    margin-bottom: 36px;
+}
+.footer_icon{
+    font-size: 1.5rem;
+    text-align: right;
+}
+.footer_icon li a i{
+    float: right;
+    margin-left: 20px;
+}
+.footer_road{
+    width: 100%;
+    float: right;
+    text-align: right;
+    margin-top: 36px;
+}
+/* footer */
+
+/* up_btm */
+.up_btn{
+    font-size: 3.5rem;
+}
+/* up_btm */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 반응형 */
+/* 1200- */
+/*pc desktop ( 가로폭 1024이상 )1920 1025 */
+@media screen and (min-width:1200px){
+    
+/* header*/
+.logo{
+    padding: 37px;    
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    border-bottom: 1px solid #2e302f;
+    justify-content: center;
+}
+.logo img{
+    width: 551px;
+    height: 41px;
+}
+header i{
+    float: right;
+    margin-right: 5.26%;
+    color: #2e302f;
+    font-size: 1.5rem;
+    margin-top: -61px;
+}
+
+/* ///////////////// */
+
+.sub4_main{
+    background: url(../img/sub4/1.jpg) no-repeat;
+    width: 100%;
+    height: 900px;
+    background-size: cover;
+    position: relative;
+    transition: all 0.7s;
+}
+.sub4_main h1, .sub4_main h2, .sub4_main h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 12rem;
+    margin: 0;
+    color: #fff;
+    transition: all 0.7s;
+}
+.sub4_main h1{
+    position: absolute;
+    right:28.73%;
+    bottom: 546px;
+    transition: all 0.7s;
+}
+.sub4_main h2{
+    position: absolute;
+    right: 13.68%;/*260*/
+    bottom: 387px;
+    transition: all 0.7s;
+}
+.sub4_main h3{
+    position: absolute;
+    right: 13.68%;
+    bottom: 230px;
+    transition: all 0.7s;
+}
+
+/* header*/
+
+
+/* collection */
+.collect_all{
+    transition: all 0.7s;
+    position: relative;
+}
+.collect_all h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 4rem;
+    text-decoration: underline;
+    margin: 0;
+    transition: all 0.7s;
+}
+.coll_text{
+    position: relative;
+    top: 168px;
+    left: 418px;
+    transition: all 0.7s;
+}
+.collect_slider{
+    position: absolute;
+    top: -370px;
+    left: 470px;
+    transition: all 0.7s;
+}
+.sub4_collection{
+    margin: 266px 0 0 0;
+    transition: all 0.7s;
+}
+.line{
+    width: 440px;
+    height: 1px;
+    background-color: #2e302f;
+    position: absolute;
+    bottom: -220px;
+    transition: all 0.7s;
+}
+.coll_text_mini{
+    position: absolute;
+    bottom: -255px;
+    right: 30px;
+    transition: all 0.7s;
+}
+
+/* collection */
+
+/* leegunhee */
+.sub4_leegunhee img{
+    max-width: 100%;
+    transition: all 0.7s;
+}
+.all1, .all2, .all3{
+    max-width: 100%;
+    transition: all 0.7s;
+}
+.sub4_leegunhee{
+    margin: 0 0 266px 0;
+    text-align: center;
+    transition: all 0.7s;
+}
+.sub4_leegunhee h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 4rem;
+    text-decoration: underline;
+    margin: 0 0 200px 0;
+    text-align: center;
+    transition: all 0.7s;
+}
+.sub4_leegunhee h4{
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 1.2rem;
+    transition: all 0.7s;
+}
+.sub4_c{
+    margin-top: 170px;
+    transition: all 0.7s;
+}
+.sub4_text2{
+    margin-bottom: 30px;
+    text-align: center;
+    transition: all 0.7s;
+}
+.sub4_all img{
+    display: inline-block;
+    transition: all 0.7s;
+}
+.sub4_all{
+    margin-bottom:200px ;
+    transition: all 0.7s;
+}
+
+
+
+.sub4_left{
+    width: 50%;
+    float: left;
+    position: relative;
+    margin-bottom: 200px;
+    transition: all 0.7s;
+}
+.sub4_left p{
+    position: absolute;
+    bottom: 30px;
+    left: 5.26%;
+    font-size: 1.2rem;
+    color: #ffff;
+    font-weight: medium;
+    transition: all 0.7s;
+}
+.sub4_right{
+    width: 50%;
+    float: right;
+    position: relative;
+    margin-bottom: 200px;
+    transition: all 0.7s;
+}
+.sub4_right p{
+    position: absolute;
+    bottom: 30px;
+    right: 5.26%;
+    font-size: 1.2rem;
+    color: #ffff;
+    font-weight: medium;
+    transition: all 0.7s;
+}
+.sub4_final{
+    text-align: left;
+    padding: 205px 0 205px 0;
+    transition: all 0.7s;
+}
+.sub4_final h4{
+    font-size: 1.3rem;
+    font-weight: bold;
+    transition: all 0.7s;
+}
+.sub4_final h5{
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: 50px;
+    transition: all 0.7s;
+}
+.sub4_final p{
+    font-size: 1.1rem;
+    line-height: 36px;
+    transition: all 0.7s;
+}
+/* leegunhee */
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+
+
+
+
+
+/* 1024-1199 */
+@media screen and (min-width:1024px) and (max-width:1199px){
+    .logo{
+        padding: 37px;    
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        border-bottom: 1px solid #2e302f;
+        justify-content: center;
+    }
+    .logo img{
+        width: 551px;
+        height: 41px;
+    }
+    header i{
+        float: right;
+        margin-right: 5.26%;
+        color: #2e302f;
+        font-size: 1.5rem;
+        margin-top: -61px;
+    }
+    
+    /* ///////////////// */
+    
+    .sub4_main{
+        background: url(../img/sub4/1.jpg) no-repeat;
+        width: 100%;
+        height: 800px;
+        background-size: cover;
+        position: relative;
+        transition: all 0.7s;
+    }
+    .sub4_main h1, .sub4_main h2, .sub4_main h3{
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 10rem;
+        margin: 0;
+        color: #fff;
+        transition: all 0.7s;
+    }
+    .sub4_main h1{
+        position: absolute;
+        right:28%;
+        bottom: 480px;
+        transition: all 0.7s;
+    }
+    .sub4_main h2{
+        position: absolute;
+        right: 10%;/*260*/
+        bottom: 350px;
+        transition: all 0.7s;
+    }
+    .sub4_main h3{
+        position: absolute;
+        right: 10%;
+        bottom: 220px;
+        transition: all 0.7s;
+    }
+    
+    /* header*/
+    
+    
+    /* collection */
+    .collect_all{
+        position: relative;
+        transition: all 0.7s;
+    }
+    .collect_all h3{
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 4rem;
+        text-decoration: underline;
+        margin: 0;
+        transition: all 0.7s;
+    }
+    .coll_text{
+        position: relative;
+        max-width: 100%;
+        top: 0px;
+        left: 220px;
+        transition: all 0.7s;
+    }
+    .collect_slider{
+        position: absolute;
+        top: -370px;
+        left: 300px;
+        max-width: 100%;
+        transition: all 0.7s;
+    }
+    .sub4_collection{
+        margin: 266px 0 0 0;
+        transition: all 0.7s;
+    }
+    .line{
+        width: 245px;
+        height: 1px;
+        background-color: #2e302f;
+        position: absolute;
+        bottom: -20px;
+        transition: all 0.7s;
+    }
+    .coll_text_mini{
+        position: absolute;
+        bottom: -50px;
+        left:150px;
+        transition: all 0.7s;
+    }
+    
+    /* collection */
+    
+    /* leegunhee */
+    .sub4_leegunhee img{
+        max-width: 100%;
+        transition: all 0.7s;
+    }
+    .all1, .all2, .all3{
+        max-width: 100%;
+        transition: all 0.7s;
+        padding-right: 30px;
+    }
+    .all1{
+        padding-left: 30px;
+    }
+    .sub4_leegunhee{
+        margin: 0 0 266px 0;
+        text-align: center;
+        transition: all 0.7s;
+    }
+    .sub4_leegunhee h3{
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 4rem;
+        text-decoration: underline;
+        margin: 0px 0 100px 0;
+        text-align: center;
+        transition: all 0.7s;
+    }
+    .sub4_leegunhee h4{
+        font-weight: bold;
+        margin-top: 30px;
+        margin-left: -20px;
+        font-size: 1.2rem;
+        transition: all 0.7s;
+    }
+    .sub4_b h4{
+        margin-left: 3px;
+    }
+    .sub4_b p{
+        padding-left: 15px
+    }
+    .sub4_c{
+        margin-top: 170px;
+        transition: all 0.7s;
+    }
+    .sub4_c h4{
+        margin-right: 10px;
+    }
+    .sub4_c p{
+        margin-right: 10px;
+    }
+    .sub4_d h4{
+        margin-left: -20px;
+    }
+    .sub4_d p{
+        margin-right: 0px;
+    }
+    .sub4_text2{
+        margin-bottom: 30px;
+        text-align: center;
+        transition: all 0.7s;
+    }
+    .sub4_all img{
+        display: inline-block;
+        transition: all 0.7s;
+    }
+    .sub4_all{
+        margin-bottom:200px ;
+        transition: all 0.7s;
+    }
+    .sub4_all p{
+        margin-left: -20px;
+    }
+    
+    
+    
+    .sub4_left{
+        width: 50%;
+        float: left;
+        position: relative;
+        margin-bottom: 200px;
+        transition: all 0.7s;
+    }
+    .sub4_left img, .sub4_right img{
+        max-width: 100%;
+    }
+    .sub4_left p{
+        position: absolute;
+        bottom: 30px;
+        left: 5.26%;
+        font-size: 1rem;
+        color: #ffff;
+        font-weight: medium;
+        transition: all 0.7s;
+    }
+    .sub4_right{
+        width: 50%;
+        float: right;
+        position: relative;
+        margin-bottom: 200px;
+        transition: all 0.7s;
+    }
+    .sub4_right p{
+        position: absolute;
+        bottom: 30px;
+        right: 5.26%;
+        font-size: 1rem;
+        color: #ffff;
+        font-weight: medium;
+        transition: all 0.7s;
+    }
+    .sub4_final{
+        text-align: left;
+        padding: 80px 0 80px 0;
+        transition: all 0.7s;
+    }
+    .sub4_final h4{
+        font-size: 1.3rem;
+        font-weight: bold;
+        transition: all 0.7s;
+        margin-left: 0px;
+    }
+    .sub4_final h5{
+        font-size: 1.1rem;
+        font-weight: 400;
+        margin-bottom: 30px;
+        transition: all 0.7s;
+    }
+    .sub4_final p{
+        font-size: 1rem;
+        line-height: 36px;
+        transition: all 0.7s;
+    }
+    .sub4_last img{
+        max-width: 90%;
+    }
+    /* leegunhee */
+}
+
+
+
+
+
+
+
+
+
+/* 992 */
+/* tablet(가로폭 768px이상 1023px 이하) */
+@media screen and (min-width:992px)and (max-width:1023px){
+    /* header*/
+.logo{
+    padding: 37px;    
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    border-bottom: 1px solid #2e302f;
+    justify-content: center;
+}
+.logo img{
+    width: 551px;
+    height: 41px;
+}
+header i{
+    float: right;
+    margin-right: 5.26%;
+    color: #2e302f;
+    font-size: 1.5rem;
+    margin-top: -61px;
+}
+
+/* ///////////////// */
+
+.sub4_main{
+    background: url(../img/sub4/1.jpg) no-repeat;
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    position: relative;
+    transition: all 0.7s;
+}
+.sub4_main h1, .sub4_main h2, .sub4_main h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 10rem;
+    margin: 0;
+    color: #fff;
+    transition: all 0.7s;
+}
+.sub4_main h1{
+    position: absolute;
+    right:28%;
+    bottom: 480px;
+    transition: all 0.7s;
+}
+.sub4_main h2{
+    position: absolute;
+    right: 10%;/*260*/
+    bottom: 350px;
+    transition: all 0.7s;
+}
+.sub4_main h3{
+    position: absolute;
+    right: 10%;
+    bottom: 220px;
+    transition: all 0.7s;
+}
+
+/* header*/
+
+
+/* collection */
+.collect_all{
+    position: relative;
+    transition: all 0.7s;
+}
+.collect_all h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 4rem;
+    text-decoration: underline;
+    margin: 0;
+    transition: all 0.7s;
+}
+.coll_text{
+    position: relative;
+    top: 10px;
+    left: 250px;
+    transition: all 0.7s;
+}
+.collect_slider{
+    position: absolute;
+    top: -370px;
+    left: 300px;
+    max-width: 100%;
+    transition: all 0.7s;
+}
+.sub4_collection{
+    margin: 266px 0 0 0;
+    transition: all 0.7s;
+}
+.line{
+    width: 275px;
+    height: 1px;
+    background-color: #2e302f;
+    position: absolute;
+    bottom: -20px;
+    transition: all 0.7s;
+}
+.coll_text_mini{
+    position: absolute;
+    bottom: -50px;
+    left:180px;
+    transition: all 0.7s;
+}
+
+/* collection */
+
+/* leegunhee */
+.sub4_leegunhee img{
+    max-width: 100%;
+    transition: all 0.7s;
+}
+.all1, .all2, .all3{
+    max-width: 100%;
+    transition: all 0.7s;
+    padding-right: 30px;
+}
+.all1{
+    padding-left: 30px;
+}
+.sub4_leegunhee{
+    margin: 0 0 266px 0;
+    text-align: center;
+    transition: all 0.7s;
+}
+.sub4_leegunhee h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 4rem;
+    text-decoration: underline;
+    margin: 0px 0 100px 0;
+    text-align: center;
+    transition: all 0.7s;
+}
+.sub4_leegunhee h4{
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: -20px;
+    font-size: 1.2rem;
+    transition: all 0.7s;
+}
+.sub4_c{
+    margin-top: 170px;
+    transition: all 0.7s;
+}
+.sub4_text2{
+    margin-bottom: 30px;
+    text-align: center;
+    transition: all 0.7s;
+}
+.sub4_all img{
+    display: inline-block;
+    transition: all 0.7s;
+}
+.sub4_all{
+    margin-bottom:200px ;
+    transition: all 0.7s;
+}
+.sub4_all p{
+    margin-left: -20px;
+}
+
+
+
+.sub4_left{
+    width: 50%;
+    float: left;
+    position: relative;
+    margin-bottom: 200px;
+    transition: all 0.7s;
+}
+.sub4_left img, .sub4_right img{
+    max-width: 100%;
+}
+.sub4_left p{
+    position: absolute;
+    bottom: 30px;
+    left: 5.26%;
+    font-size: 1rem;
+    color: #ffff;
+    font-weight: medium;
+    transition: all 0.7s;
+}
+.sub4_right{
+    width: 50%;
+    float: right;
+    position: relative;
+    margin-bottom: 200px;
+    transition: all 0.7s;
+}
+.sub4_right p{
+    position: absolute;
+    bottom: 30px;
+    right: 5.26%;
+    font-size: 1rem;
+    color: #ffff;
+    font-weight: medium;
+    transition: all 0.7s;
+}
+.sub4_final{
+    text-align: left;
+    padding: 80px 0 80px 0;
+    transition: all 0.7s;
+}
+.sub4_final h4{
+    font-size: 1.3rem;
+    font-weight: bold;
+    transition: all 0.7s;
+    margin-left: 0px;
+}
+.sub4_final h5{
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+    transition: all 0.7s;
+}
+.sub4_final p{
+    font-size: 1rem;
+    line-height: 36px;
+    transition: all 0.7s;
+}
+.sub4_last img{
+    max-width: 90%;
+}
+/* leegunhee */
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+
+
+
+
+
+
+
+/* 768-991px */
+@media screen and (min-width:768px)and (max-width:991px){
+    /* header*/
+    .logo{
+        padding: 37px;    
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        border-bottom: 1px solid #2e302f;
+        justify-content: center;
+    }
+    .logo img{
+        width: 551px;
+        height: 41px;
+    }
+    header i{
+        float: right;
+        margin-right: 5.26%;
+        color: #2e302f;
+        font-size: 1.5rem;
+        margin-top: -61px;
+    }
+    
+    /* ///////////////// */
+    
+    .sub4_main{
+        background: url(../img/sub4/1.jpg) no-repeat;
+        width: 100%;
+        height: 700px;
+        background-size: cover;
+        position: relative;
+        transition: all 0.7s;
+    }
+    .sub4_main h1, .sub4_main h2, .sub4_main h3{
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 8rem;
+        margin: 0;
+        color: #fff;
+        transition: all 0.7s;
+    }
+    .sub4_main h1{
+        position: absolute;
+        right:28%;
+        bottom: 400px;
+        transition: all 0.7s;
+    }
+    .sub4_main h2{
+        position: absolute;
+        right: 10%;/*260*/
+        bottom: 270px;
+        transition: all 0.7s;
+    }
+    .sub4_main h3{
+        position: absolute;
+        right: 10%;
+        bottom: 140px;
+        transition: all 0.7s;
+    }
+    
+    /* header*/
+    
+    
+    /* collection */
+    .collect_all{
+        position: relative;
+        transition: all 0.7s;
+    }
+    .collect_all h3{
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 3rem;
+        text-decoration: underline;
+        margin: 0;
+        transition: all 0.7s;
+    }
+    .coll_text{
+        position: relative;
+        top: -30px;
+        left: 160px;
+        transition: all 0.7s;
+        width: 23px;
+        height: 247px;
+    }
+    .collect_slider{
+        position: absolute;
+        top: -310px;
+        left: 200px;
+        max-width: 100%;
+        transition: all 0.7s;
+    }
+    .sub4_collection{
+        margin: 150px 0 0 0;
+        transition: all 0.7s;
+    }
+    .line{
+        width: 185px;
+        height: 1px;
+        background-color: #2e302f;
+        position: absolute;
+        bottom: 20px;
+        transition: all 0.7s;
+    }
+    .coll_text_mini{
+        position: absolute;
+        bottom:-10px;
+        right:65px;
+        transition: all 0.7s;
+    }
+    
+    /* collection */
+    
+    /* leegunhee */
+    .sub4_leegunhee img{
+        max-width: 100%;
+        transition: all 0.7s;
+    }
+    .all1, .all2, .all3{
+        max-width: 100%;
+        transition: all 0.7s;
+        padding-right: 30px;
+    }
+    .all1{
+        padding-left: 30px;
+    }
+    .sub4_leegunhee{
+        margin: 0 0 266px 0;
+        text-align: center;
+        transition: all 0.7s;
+    }
+    .sub4_leegunhee h3{
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 3rem;
+        text-decoration: underline;
+        margin: 0px 0 100px 0;
+        text-align: center;
+        transition: all 0.7s;
+    }
+    .sub4_leegunhee h4{
+        font-weight: bold;
+        margin-top: 30px;
+        margin-left: -0px;
+        font-size: 1.2rem;
+        transition: all 0.7s;
+    }
+    .sub4_c{
+        margin-top: 60px;
+        transition: all 0.7s;
+    }
+    .sub4_c h4{
+        margin-right: 20px;
+    }
+    .sub4_c p{
+        margin-right: 15px;
+    }
+    .sub4_all h4{
+        margin-left: -5px;
+    }
+    .sub4_d h4{
+        margin-right: 20px;
+    }
+    .sub4_d p{
+        margin-right: 20px;
+    }
+    .sub4_text2{
+        margin-bottom: 30px;
+        text-align: center;
+        transition: all 0.7s;
+    }
+    .sub4_all img{
+        display: inline-block;
+        transition: all 0.7s;
+    }
+    .sub4_all{
+        margin-bottom:200px ;
+        transition: all 0.7s;
+    }
+    .sub4_all p{
+        margin-left: -10px;
+    }
+    
+    
+    
+    .sub4_left{
+        width: 50%;
+        float: left;
+        position: relative;
+        margin-bottom: 200px;
+        transition: all 0.7s;
+    }
+    .sub4_left img, .sub4_right img{
+        max-width: 100%;
+    }
+    .sub4_left p{
+        position: absolute;
+        bottom: 30px;
+        left: 5.26%;
+        font-size: 1rem;
+        color: #ffff;
+        font-weight: medium;
+        transition: all 0.7s;
+    }
+    .sub4_right{
+        width: 50%;
+        float: right;
+        position: relative;
+        margin-bottom: 200px;
+        transition: all 0.7s;
+    }
+    .sub4_right p{
+        position: absolute;
+        bottom: 30px;
+        right: 5.26%;
+        font-size: 1rem;
+        color: #ffff;
+        font-weight: medium;
+        transition: all 0.7s;
+    }
+    .sub4_final{
+        text-align: left;
+        padding: 45px 0 45px 0;
+        transition: all 0.7s;
+    }
+    .sub4_final h4{
+        font-size: 1.1rem;
+        font-weight: bold;
+        transition: all 0.7s;
+        margin-left: 0px;
+    }
+    .sub4_final h5{
+        font-size: 1rem;
+        font-weight: 400;
+        margin-bottom: 20px;
+        transition: all 0.7s;
+    }
+    .sub4_final p{
+        font-size: 0.9rem;
+        line-height: 32px;
+        transition: all 0.7s;
+    }
+    .sub4_last img{
+        max-width: 90%;
+    }
+    /* leegunhee */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile device(가로폭 767px 이하) */
+@media screen and (max-width:767px){
+    /* header*/
+    .logo{
+        padding: 37px;    
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        border-bottom: 1px solid #2e302f;
+        justify-content: center;
+    }
+    .logo img{
+        width: 551px;
+        height: 41px;
+    }
+    header i{
+        float: right;
+        margin-right: 5.26%;
+        color: #2e302f;
+        font-size: 1.5rem;
+        margin-top: -61px;
+    }
+    
+    /* ///////////////// */
+    
+    .sub4_main{
+        background: url(../img/sub4/1.jpg) no-repeat;
+        width: 100%;
+        height: 700px;
+        background-size: cover;
+        position: relative;
+        transition: all 0.7s;
+    }
+    .sub4_main h1, .sub4_main h2, .sub4_main h3{
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 8rem;
+        margin: 0;
+        color: #fff;
+        transition: all 0.7s;
+    }
+    .sub4_main h1{
+        position: absolute;
+        right:28%;
+        bottom: 400px;
+        transition: all 0.7s;
+    }
+    .sub4_main h2{
+        position: absolute;
+        right: 10%;/*260*/
+        bottom: 270px;
+        transition: all 0.7s;
+    }
+    .sub4_main h3{
+        position: absolute;
+        right: 10%;
+        bottom: 140px;
+        transition: all 0.7s;
+    }
+    
+    /* header*/
+    
+    
+    /* collection */
+    .collect_all{
+        position: relative;
+        transition: all 0.7s;
+    }
+    .collect_all h3{
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 3rem;
+        text-decoration: underline;
+        margin: 0;
+        transition: all 0.7s;
+    }
+    .coll_text{
+        position: relative;
+        top: -30px;
+        left: 160px;
+        transition: all 0.7s;
+        width: 23px;
+        height: 247px;
+    }
+    .collect_slider{
+        position: absolute;
+        top: -310px;
+        left: 200px;
+        max-width: 100%;
+        transition: all 0.7s;
+    }
+    .sub4_collection{
+        margin: 150px 0 0 0;
+        transition: all 0.7s;
+    }
+    .line{
+        width: 185px;
+        height: 1px;
+        background-color: #2e302f;
+        position: absolute;
+        bottom: 20px;
+        transition: all 0.7s;
+    }
+    .coll_text_mini{
+        position: absolute;
+        bottom:-10px;
+        right:65px;
+        transition: all 0.7s;
+    }
+    
+    /* collection */
+    
+    /* leegunhee */
+    .sub4_leegunhee img{
+        max-width: 100%;
+        transition: all 0.7s;
+    }
+    .all1, .all2, .all3{
+        max-width: 100%;
+        transition: all 0.7s;
+        padding-right: 30px;
+    }
+    .all1{
+        padding-left: 30px;
+    }
+    .sub4_leegunhee{
+        margin: 0 0 266px 0;
+        text-align: center;
+        transition: all 0.7s;
+    }
+    .sub4_leegunhee h3{
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 3rem;
+        text-decoration: underline;
+        margin: 0px 0 100px 0;
+        text-align: center;
+        transition: all 0.7s;
+    }
+    .sub4_leegunhee h4{
+        font-weight: bold;
+        margin-top: 30px;
+        margin-left: -0px;
+        font-size: 1.2rem;
+        transition: all 0.7s;
+    }
+    .sub4_c{
+        margin-top: 60px;
+        transition: all 0.7s;
+    }
+    .sub4_c h4{
+        margin-right: 20px;
+    }
+    .sub4_c p{
+        margin-right: 15px;
+    }
+    .sub4_all h4{
+        margin-left: -5px;
+    }
+    .sub4_d h4{
+        margin-right: 20px;
+    }
+    .sub4_d p{
+        margin-right: 20px;
+    }
+    .sub4_text2{
+        margin-bottom: 30px;
+        text-align: center;
+        transition: all 0.7s;
+    }
+    .sub4_all img{
+        display: inline-block;
+        transition: all 0.7s;
+    }
+    .sub4_all{
+        margin-bottom:200px ;
+        transition: all 0.7s;
+    }
+    .sub4_all p{
+        margin-left: -10px;
+    }
+    
+    
+    
+    .sub4_left{
+        width: 50%;
+        float: left;
+        position: relative;
+        margin-bottom: 200px;
+        transition: all 0.7s;
+    }
+    .sub4_left img, .sub4_right img{
+        max-width: 100%;
+    }
+    .sub4_left p{
+        position: absolute;
+        bottom: 3%;
+        left: 5.26%;
+        font-size: 0.9rem;
+        color: #ffff;
+        font-weight: medium;
+        transition: all 0.7s;
+    }
+    .sub4_right{
+        width: 50%;
+        float: right;
+        position: relative;
+        margin-bottom: 200px;
+        transition: all 0.7s;
+    }
+    .sub4_right p{
+        position: absolute;
+        bottom: 3%;
+        right: 5.26%;
+        font-size: 0.9rem;
+        color: #ffff;
+        font-weight: medium;
+        transition: all 0.7s;
+    }
+    .sub4_final{
+        text-align: left;
+        padding: 15% 0 0 0;
+        transition: all 0.7s;
+    }
+    .sub4_final h4{
+        font-size: 1.1rem;
+        font-weight: bold;
+        transition: all 0.7s;
+        margin-left: 0px;
+    }
+    .sub4_final h5{
+        font-size: 1rem;
+        font-weight: 400;
+        margin-bottom: 20px;
+        transition: all 0.7s;
+    }
+    .sub4_final p{
+        font-size: 0.9rem;
+        line-height: 32px;
+        transition: all 0.7s;
+        display: none;
+    }
+    .sub4_last img{
+        max-width: 90%;
+    }
+    /* leegunhee */
+
+
+    
+    /* footer */
+.footer{
+    width: 100%;
+    padding: 127px 4% 127px 4%;
+    overflow: hidden;
+    background-color: #e3e3e3;
+}
+.footer p{margin: 0;}
+.footer_text1{float: left; margin-right: 40px;}
+.footer li{margin-bottom: 16px;}
+.footer_text, .footer_tell{
+    margin-bottom: 36px;
+}
+.footer_icon{
+    font-size: 1.5rem;
+    text-align: right;
+}
+.footer_icon li a i{
+    float: right;
+    margin-left: 20px;
+}
+.footer_road{
+    width: 100%;
+    float: right;
+    text-align: right;
+    margin-top: 36px;
+}
+/* footer */
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+
+
+
+
+/* mobile device(가로폭 480px 이하) */
+@media screen and (max-width:480px){
+
+    /* header*/
+    .logo{
+        padding: 37px;    
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        border-bottom: 1px solid #2e302f;
+        justify-content: center;
+    }
+    .logo img{
+        width: 400px;
+        height: 31px;
+    
+    }
+    
+    header i{
+        float: right;
+        margin-right: 3%;
+        color: #2e302f;
+        font-size: 1rem;
+        margin-top: -54px;
+    }
+    
+    
+    /* ///////////////// */
+    
+    .sub4_main{
+        background: url(../img/sub4/1.jpg) no-repeat;
+        width: 100%;
+        height: 500px;
+        background-size: cover;
+        position: relative;
+        transition: all 0.7s;
+    }
+    .sub4_main h1, .sub4_main h2, .sub4_main h3{
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 4rem;
+        margin: 0;
+        color: #fff;
+        transition: all 0.7s;
+    }
+    .sub4_main h1{
+        position: absolute;
+        right:20%;
+        bottom: 210px;
+        transition: all 0.7s;
+    }
+    .sub4_main h2{
+        position: absolute;
+        right: 10%;/*260*/
+        bottom: 150px;
+        transition: all 0.7s;
+    }
+    .sub4_main h3{
+        position: absolute;
+        right: 10%;
+        bottom: 90px;
+        transition: all 0.7s;
+    }
+    
+    /* header*/
+    
+    
+    /* collection */
+    .collect_all{
+        position: relative;
+        transition: all 0.7s;
+    }
+    .collect_all h3{
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 3rem;
+        text-decoration: underline;
+        margin: 0 0 20px 20px;
+        transition: all 0.7s;
+    }
+    .coll_text{
+        position: relative;
+        top: -30px;
+        left: 360px;
+        transition: all 0.7s;
+        width: 23px;
+        height: 247px;
+        display: none;
+    }
+    .collect_slider{
+        position: absolute;
+        top: -0px;
+        left: 0;
+        max-width: 100%;
+        transition: all 0.7s;
+    }
+    .sub4_collection{
+        margin: 150px 0 0 0;
+        transition: all 0.7s;
+    }
+    .line{
+        width: 185px;
+        height: 1px;
+        background-color: #2e302f;
+        position: absolute;
+        bottom: 20px;
+        left: 280px;
+        transition: all 0.7s;
+    }
+    .coll_text_mini{
+        position: absolute;
+        bottom:20px;
+        right:-300px;
+        transition: all 0.7s;
+    }
+    
+    /* collection */
+    
+    /* leegunhee */
+    .sub4_leegunhee img{
+        max-width: 100%;
+        transition: all 0.7s;
+    }
+    .all1, .all2, .all3{
+        max-width: 100%;
+        transition: all 0.7s;
+        padding-right: 30px;
+    }
+    .all1{
+        padding-left: 30px;
+    }
+    .sub4_leegunhee{
+        margin: 0 0 100px 0;
+        text-align: center;
+        transition: all 0.7s;
+    }
+    .sub4_leegunhee h3{
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 2rem;
+        text-decoration: underline;
+        margin: 100px 0 100px 0;
+        text-align: center;
+        transition: all 0.7s;
+    }
+    .sub4_leegunhee h4{
+        font-weight: bold;
+        margin-top: 30px;
+        margin-left: -0px;
+        font-size: 1.2rem;
+        transition: all 0.7s;
+        display: none;
+    }
+    .sub4_c{
+        margin-top: 00px;
+        transition: all 0.7s;
+    }
+    .sub4_c h4{
+        margin-right: 20px;
+        display: none;
+    }
+    .sub4_c p{
+        margin-right: 15px;
+        display: none;
+    }
+    .sub4_all h4{
+        margin-left: -5px;
+    }
+    .sub4_d h4{
+        margin-right: 20px;
+    }
+    .sub4_d p{
+        margin-right: 20px;
+        display: none;
+    }
+    .sub4_text2{
+        margin-bottom: 30px;
+        text-align: center;
+        transition: all 0.7s;
+        display: none;
+    }
+    .sub4_all img{
+        transition: all 0.7s;
+        max-width: 100%;
+        padding: 0 5px 0 5px;
+    }
+    .sub4_all{
+        margin-bottom:100px ;
+        transition: all 0.7s;
+        
+    }
+    .sub4_all p{
+        margin-left: -10px;
+        display: none;
+    }
+    
+    
+    
+    .sub4_left{
+        width: 50%;
+        float: left;
+        position: relative;
+        margin-bottom: 100px;
+        transition: all 0.7s;
+    }
+    .sub4_left img, .sub4_right img{
+        max-width: 100%;
+    }
+    .sub4_left p{
+        position: absolute;
+        bottom:10px;
+        left: 5.26%;
+        font-size: 0.8rem;
+        color: #ffff;
+        font-weight: medium;
+        transition: all 0.7s;
+    }
+    .sub4_right{
+        width: 50%;
+        float: right;
+        position: relative;
+        margin-bottom: 100px;
+        transition: all 0.7s;
+    }
+    .sub4_right p{
+        position: absolute;
+        bottom: 10px;
+        right: 5.26%;
+        font-size: 0.8rem;
+        color: #ffff;
+        font-weight: medium;
+        transition: all 0.7s;
+    }
+    .sub4_final{
+        text-align: left;
+        padding: 70px 0 0px 0;
+        transition: all 0.7s;
+    }
+    .sub4_final h4{
+        font-size: 0.9rem;
+        font-weight: bold;
+        transition: all 0.7s;
+        margin-left: 0px;
+        display: block;
+    }
+    .sub4_final h5{
+        font-size: 0.8rem;
+        font-weight: 400;
+        margin-bottom: 20px;
+        transition: all 0.7s;
+    }
+    .sub4_final p{
+        font-size: 0.8rem;
+        line-height: 25px;
+        transition: all 0.7s;
+        display: none;
+    }
+    .sub4_last img{
+        max-width: 90%;
+    }
+    /* leegunhee */
+
+/* footer */
+.footer{
+    width: 100%;
+    padding: 127px 4% 127px 4%;
+    overflow: hidden;
+    background-color: #e3e3e3;
+}
+/* footer */
+
+
+    .footer ul li, .footer p{
+        font-size: 0.7rem;
+    }
+    .footer i{font-size: 1.3rem;}
+    
+
+    a#MOVE_TOP_BTN {
+        position:fixed;
+        right:5%;
+        bottom:30px;
+        display:none;
+        z-index:999;
+        font-size: 3rem;
+       }
+
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */

@@ -1,0 +1,2337 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* 헤드 font-family: 'Playfair Display', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+/* 본문 kr font-family: 'Noto Sans KR', sans-serif; */
+
+@font-face {
+  font-family: 'PlayfairDisplay-Italic-VariableFont_wght';
+  src: url('PlayfairDisplay-Italic-VariableFont_wght.eot');
+  src: url('PlayfairDisplay-Italic-VariableFont_wght.eot?#iefix') format('embedded-opentype'),
+       url('PlayfairDisplay-Italic-VariableFont_wght.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PlayfairDisplay-Italic';
+  src: url('PlayfairDisplay-Italic.svg#PlayfairDisplay-Italic') format('svg'),
+       url('PlayfairDisplay-Italic.ttf') format('truetype'),
+       url('PlayfairDisplay-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PlayfairDisplay-Regular';
+  src: url('PlayfairDisplay-Regular.svg#PlayfairDisplay-Regular') format('svg'),
+       url('PlayfairDisplay-Regular.ttf') format('truetype'),
+       url('PlayfairDisplay-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PlayfairDisplay-VariableFont_wght';
+  src: url('PlayfairDisplay-VariableFont_wght.eot');
+  src: url('PlayfairDisplay-VariableFont_wght.eot?#iefix') format('embedded-opentype'),
+       url('PlayfairDisplay-VariableFont_wght.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+
+@font-face {
+  font-family: 'NotoSansKR-Thin-Alphabetic';
+  src: url('NotoSansKR-Thin-Alphabetic.eot');
+  src: url('NotoSansKR-Thin-Alphabetic.eot?#iefix') format('embedded-opentype'),
+       url('NotoSansKR-Thin-Alphabetic.svg#NotoSansKR-Thin-Alphabetic') format('svg'),
+       url('NotoSansKR-Thin-Alphabetic.ttf') format('truetype'),
+       url('NotoSansKR-Thin-Alphabetic.woff') format('woff'),
+       url('NotoSansKR-Thin-Alphabetic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSansKR-Regular-Alphabetic';
+  src: url('NotoSansKR-Regular-Alphabetic.eot');
+  src: url('NotoSansKR-Regular-Alphabetic.eot?#iefix') format('embedded-opentype'),
+       url('NotoSansKR-Regular-Alphabetic.svg#NotoSansKR-Regular-Alphabetic') format('svg'),
+       url('NotoSansKR-Regular-Alphabetic.ttf') format('truetype'),
+       url('NotoSansKR-Regular-Alphabetic.woff') format('woff'),
+       url('NotoSansKR-Regular-Alphabetic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSansKR-Medium-Alphabetic';
+  src: url('NotoSansKR-Medium-Alphabetic.eot');
+  src: url('NotoSansKR-Medium-Alphabetic.eot?#iefix') format('embedded-opentype'),
+       url('NotoSansKR-Medium-Alphabetic.svg#NotoSansKR-Medium-Alphabetic') format('svg'),
+       url('NotoSansKR-Medium-Alphabetic.ttf') format('truetype'),
+       url('NotoSansKR-Medium-Alphabetic.woff') format('woff'),
+       url('NotoSansKR-Medium-Alphabetic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSansKR-Light-Alphabetic';
+  src: url('NotoSansKR-Light-Alphabetic.eot');
+  src: url('NotoSansKR-Light-Alphabetic.eot?#iefix') format('embedded-opentype'),
+       url('NotoSansKR-Light-Alphabetic.svg#NotoSansKR-Light-Alphabetic') format('svg'),
+       url('NotoSansKR-Light-Alphabetic.ttf') format('truetype'),
+       url('NotoSansKR-Light-Alphabetic.woff') format('woff'),
+       url('NotoSansKR-Light-Alphabetic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSansKR-Bold-Alphabetic';
+  src: url('NotoSansKR-Bold-Alphabetic.eot');
+  src: url('NotoSansKR-Bold-Alphabetic.eot?#iefix') format('embedded-opentype'),
+       url('NotoSansKR-Bold-Alphabetic.svg#NotoSansKR-Bold-Alphabetic') format('svg'),
+       url('NotoSansKR-Bold-Alphabetic.ttf') format('truetype'),
+       url('NotoSansKR-Bold-Alphabetic.woff') format('woff'),
+       url('NotoSansKR-Bold-Alphabetic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSansKR-Black-Alphabetic';
+  src: url('NotoSansKR-Black-Alphabetic.eot');
+  src: url('NotoSansKR-Black-Alphabetic.eot?#iefix') format('embedded-opentype'),
+       url('NotoSansKR-Black-Alphabetic.svg#NotoSansKR-Black-Alphabetic') format('svg'),
+       url('NotoSansKR-Black-Alphabetic.ttf') format('truetype'),
+       url('NotoSansKR-Black-Alphabetic.woff') format('woff'),
+       url('NotoSansKR-Black-Alphabetic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+*{padding: 0; margin: 0; color: #2e302f; max-width: cover; transition: all 0.5s;}
+ul,li,ol{list-style: none;}
+img{display: block;}
+html{font-size: 15px;}
+/* 1-15, 1.1=17, 1.3=20, 2-30,2.5-37, 3-45, 4-60,8-120, 12-180, 13-195, 13.3 */
+a{text-decoration: none; color: inherit;}
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+/* set */
+
+a#MOVE_TOP_BTN {
+    position:fixed;
+    right:2%;
+    bottom:50px;
+    display:none;
+    z-index:999;
+    font-size: 4rem;
+   }
+   
+/* header*/
+.logo{
+    padding: 37px;    
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    border-bottom: 1px solid #2e302f;
+    justify-content: center;
+}
+.logo img{
+    width: 551px;
+    height: 41px;
+}
+header i{
+    float: right;
+    margin-right: 5.26%;
+    color: #2e302f;
+    font-size: 1.5rem;
+    margin-top: -61px;
+}
+
+/* ///////////////// */
+
+.sub1_main{
+    padding: 154px 0 154px 0;
+    background: url(../img/sub1/main.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 900px;
+}
+.sub1_main h1{
+    position: absolute;
+    left: 56.31%;
+    top: 154px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 4rem;
+    color: #fff;
+    text-align: center;
+}
+.sub1_m1{
+    color: #fff;
+    position: absolute;
+    top: 266px;
+    left: 51.57%;
+    line-height: 36px;
+}
+.sub1_m2{
+    position: absolute;
+    color: #fff;
+    top: 266px;
+    left: 70.52%;
+    line-height: 36px;
+}
+
+
+/* header*/
+
+
+/* Daegu museum’s history */
+
+.sub1_history{
+    background-color: #e3e3e3;
+    padding: 266px 0 266px 0;
+}
+.history_title{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 4rem;
+    margin-top: 0;
+    margin-bottom: 87px;
+}
+.sub1_history h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0;
+}
+.history_1999{
+    line-height: 158px;
+}
+.history_2002, .history_2004, .history_2007, .history_2011{
+    line-height: 72px;
+}
+.history_2005, .history_2010{
+    line-height: 115px;
+}
+.history_month{
+    text-align: center;
+}
+.sub1_history li{
+    margin: 29px 0 29px 0 ;
+}
+.history_line{
+    width: 925px;
+    margin: auto;
+    border-bottom: 1px solid #2e302f;
+}
+/* Daegu museum’s history */
+
+
+/* guide */
+.sub1_guide{
+    margin: 266px 0 266px 0;
+    position: relative;
+}
+.guide_title{
+    margin: 73px 0 60px 0;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+.guide_list{
+    line-height: 33px;
+    margin-bottom: 45px;
+    font-size: 1rem;
+}
+.guide_click{
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 1.3rem;
+    margin: 0;
+}
+.guide_click i{
+    margin-left: 10px;
+    font-size: 1.1rem;
+    color: #2e302f;
+}
+.guide_img{
+    width: 1060px;
+    height: 835px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+/* guide */
+
+
+/* Facility Guide */
+.sub1_Facility .row{
+    margin-bottom: 200px;
+}
+.sub1_Facility .row:last-child{
+    margin-bottom: 10px;
+}
+.sub1_Facility h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 2rem;
+    margin: 0;
+}
+.Facility_left_title1{
+    margin-top: 306px;
+    margin-bottom: 58px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.Facility_left_text1{
+    font-size: 1.1rem;
+    line-height: 36px;
+}
+.Facility_right_title2{
+    margin: 341px 40px 58px 0;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: right;
+}
+.Facility_right_text2{
+    font-size: 1.1rem;
+    line-height: 36px;
+    text-align: right;
+    margin-right: 40px;
+}
+.Facility_left_title3{
+    margin-top: 185px;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.Facility_left_text3{
+    font-size: 1.1rem;
+    line-height: 36px;
+}
+.Facility_left_title4{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.Facility_left_text4{
+    line-height: 36px;
+    font-size: 1.1rem;
+    margin: 0;
+}
+.Facility_left_title5{
+    margin-top: 153px;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.Facility_left_text5{
+    line-height: 36px;
+    font-size: 1.1rem;
+}
+.Facility_right_title6{
+    margin-top: 241px;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 40px;
+}
+.Facility_right_text6{
+    line-height: 36px;
+    font-size: 1.1rem;
+    text-align: right;
+    margin-right: 40px;
+}
+
+/* Facility Guide */
+
+/* move */
+.animated-title {
+    font-size:2.7rem; 
+    font-family: 'Playfair Display', serif;
+    font-weight:bold; 
+    font-style: italic;
+    position: relative; width: 100%;
+    max-width:100%; height: auto; padding:70px 0 266px 0; 
+    overflow-x: hidden; overflow-y: hidden; 
+}
+.ani_text{
+    color: #ffff;
+    text-shadow: -1px 0 #cacaca, 0 1px #cacaca, 1px 0 #cacaca, 0 -1px #cacaca;
+}
+.animated-title .track {position: absolute; white-space: nowrap;will-change: transform;animation: marquee 60s linear infinite; }
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+@media (hover: hover) and (min-width: 700px){
+.animated-title .content {-webkit-transform: translateY(calc(100% - 8rem)); transform: translateY(calc(100% - 8rem));}
+    }
+/* move 출처: https://dbreblog.com/53 [기획하는 디자이너:티스토리] */
+
+
+
+/* footer */
+.footer{
+    width: 100%;
+    overflow: hidden;
+    background-color: #e3e3e3;
+    padding-top: 127px;
+    padding-bottom: 127px;
+}
+.footer p{margin: 0;}
+.footer_text1{float: left; margin-right: 40px;}
+.footer li{margin-bottom: 16px;}
+.footer_text, .footer_tell{
+    margin-bottom: 36px;
+}
+.footer_icon{
+    font-size: 1.5rem;
+    text-align: right;
+}
+.footer_icon li a i{
+    float: right;
+    margin-left: 20px;
+}
+.footer_road{
+    width: 100%;
+    float: right;
+    text-align: right;
+    margin-top: 36px;
+}
+/* footer */
+
+
+
+/* up_btm */
+.up_btn{
+    font-size: 3.5rem;
+}
+/* up_btm */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 반응형 */
+/*pc desktop ( 가로폭 1024이상 )1920 1025 */
+@media screen and (min-width:1199px){
+
+/* header*/
+.logo{
+    padding: 37px;    
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    border-bottom: 1px solid #2e302f;
+    justify-content: center;
+}
+.logo img{
+    width: 551px;
+    height: 41px;
+}
+header i{
+    float: right;
+    margin-right: 5.26%;
+    color: #2e302f;
+    font-size: 1.5rem;
+    margin-top: -61px;
+}
+
+/* ///////////////// */
+
+.sub1_main{
+    padding: 154px 0 154px 0;
+    background: url(../img/sub1/main.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 900px;
+}
+.sub1_main h1{
+    position: absolute;
+    left: 56.31%;
+    top: 154px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 4rem;
+    color: #fff;
+    text-align: center;
+}
+.sub1_m1{
+    color: #fff;
+    position: absolute;
+    top: 266px;
+    left: 51.57%;
+    line-height: 36px;
+}
+.sub1_m2{
+    position: absolute;
+    color: #fff;
+    top: 266px;
+    left: 70.52%;
+    line-height: 36px;
+}
+
+
+/* header*/
+
+
+/* Daegu museum’s history */
+
+.sub1_history{
+    background-color: #e3e3e3;
+    padding: 266px 0 266px 0;
+}
+.history_title{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 4rem;
+    margin-top: 0;
+    margin-bottom: 87px;
+}
+.sub1_history h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0;
+}
+.history_1999{
+    line-height: 158px;
+}
+.history_2002, .history_2004, .history_2007, .history_2011{
+    line-height: 72px;
+}
+.history_2005, .history_2010{
+    line-height: 115px;
+}
+.history_month{
+    text-align: center;
+}
+.sub1_history li{
+    margin: 29px 0 29px 0 ;
+}
+.history_line{
+    width: 925px;
+    margin: auto;
+    border-bottom: 1px solid #2e302f;
+}
+/* Daegu museum’s history */
+
+
+/* guide */
+.sub1_guide{
+    margin: 266px 0 266px 0;
+    position: relative;
+}
+.guide_title{
+    margin: 73px 0 60px 0;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+.guide_list{
+    line-height: 33px;
+    margin-bottom: 45px;
+    font-size: 1rem;
+}
+.guide_click{
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 1.3rem;
+    margin: 0;
+}
+.guide_click i{
+    margin-left: 10px;
+    font-size: 1.1rem;
+    color: #2e302f;
+}
+.guide_img{
+    width: 1060px;
+    height: 835px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+/* guide */
+
+
+/* Facility Guide */
+.sub1_Facility .row{
+    margin-bottom: 200px;
+}
+.sub1_Facility .row:last-child{
+    margin-bottom: 10px;
+}
+.sub1_Facility h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 2rem;
+    margin: 0;
+}
+.Facility_left_title1{
+    margin-top: 306px;
+    margin-bottom: 58px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.Facility_left_text1{
+    font-size: 1.1rem;
+    line-height: 36px;
+}
+.Facility_right_title2{
+    margin: 341px 40px 58px 0;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: right;
+}
+.Facility_right_text2{
+    font-size: 1.1rem;
+    line-height: 36px;
+    text-align: right;
+    margin-right: 40px;
+}
+.Facility_left_title3{
+    margin-top: 185px;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.Facility_left_text3{
+    font-size: 1.1rem;
+    line-height: 36px;
+}
+.Facility_left_title4{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.Facility_left_text4{
+    line-height: 36px;
+    font-size: 1.1rem;
+    margin: 0;
+}
+.Facility_left_title5{
+    margin-top: 153px;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.Facility_left_text5{
+    line-height: 36px;
+    font-size: 1.1rem;
+}
+.Facility_right_title6{
+    margin-top: 241px;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 40px;
+}
+.Facility_right_text6{
+    line-height: 36px;
+    font-size: 1.1rem;
+    text-align: right;
+    margin-right: 40px;
+}
+
+/* Facility Guide */
+
+/* move */
+.animated-title {
+    font-size:2.7rem; 
+    font-family: 'Playfair Display', serif;
+    font-weight:bold; 
+    font-style: italic;
+    position: relative; width: 100%;
+    max-width:100%; height: auto; padding:70px 0 266px 0; 
+    overflow-x: hidden; overflow-y: hidden; 
+}
+.ani_text{
+    color: #ffff;
+    text-shadow: -1px 0 #cacaca, 0 1px #cacaca, 1px 0 #cacaca, 0 -1px #cacaca;
+}
+.animated-title .track {position: absolute; white-space: nowrap;will-change: transform;animation: marquee 60s linear infinite; }
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+@media (hover: hover) and (min-width: 700px){
+.animated-title .content {-webkit-transform: translateY(calc(100% - 8rem)); transform: translateY(calc(100% - 8rem));}
+    }
+/* move 출처: https://dbreblog.com/53 [기획하는 디자이너:티스토리] */
+
+
+} 
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* pc2(가로폭 768px이상 1023px 이하) */
+@media screen and (min-width:1024px)and (max-width:1198px){
+   
+    .sub1_main{
+        padding: 154px 0 154px 0;
+        background: url(../img/sub1/main.jpg) no-repeat;
+        background-size: cover;
+        position: relative;
+        width: 100%;
+        height: 800px;
+    }
+    .sub1_main h1{
+        position: absolute;
+        left: 5%;
+        top: 80px;
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 4rem;
+        color: #fff;
+        text-align: center;
+    }
+    .sub1_m1{
+        color: #fff;
+        position: absolute;
+        top: 200px;
+        left:15%;
+        line-height: 35px;
+    }
+    .sub1_m2{
+        position: absolute;
+        color: #fff;
+        top: 200px;
+        left: 50%;
+        line-height: 35px;
+    }
+    
+    
+    /* header*/
+    
+    
+    /* Daegu museum’s history */
+    
+    .sub1_history{
+        background-color: #e3e3e3;
+        padding: 266px 0 266px 0;
+    }
+    .history_title{
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 4rem;
+        margin-top: 0;
+        margin-bottom: 87px;
+    }
+    .sub1_history h3{
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 2.5rem;
+        text-align: center;
+        margin: 0;
+    }
+    .history_1999{
+        line-height: 158px;
+    }
+    .history_2002, .history_2004, .history_2007, .history_2011{
+        line-height: 72px;
+    }
+    .history_2005, .history_2010{
+        line-height: 115px;
+    }
+    .history_month{
+        text-align: center;
+    }
+    .sub1_history li{
+        margin: 29px 0 29px 0 ;
+    }
+    .history_line{
+        width: 800px;
+        margin: 0 auto;
+        border-bottom: 1px solid #2e302f;
+    }
+    /* Daegu museum’s history */
+    
+    
+    /* guide */
+    .sub1_guide{
+        margin: 266px 0 266px 0;
+        position: relative;
+    }
+    .guide_title{
+        margin: 50px 0 40px 0;
+        width: 100%;
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 2rem;
+        text-decoration: underline;
+        text-align: left;
+        color: #000;
+    }
+    .guide_list{
+        line-height: 33px;
+        margin-bottom: 20px;
+        font-size: 1rem;
+        text-align: left;
+    }
+    .guide_list li{
+        color:#000;
+    }
+    .guide_click{
+        font-family: 'Playfair Display', serif;
+        font-weight: 600;
+        font-style: italic;
+        text-decoration: underline;
+        font-size: 1.3rem;
+        margin: 0;
+        text-align: left;
+        color: #000;
+    }
+    .guide_click i{
+        margin-left: 10px;
+        font-size: 1.1rem;
+        color: #000;
+    }
+    .guide_img{
+        width: 100%;
+        max-width: 100%;
+        height: 835px;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+    .guide_img img{
+        width: 1060px;
+        height: 835px;
+        max-width: 100%;
+        margin: auto;
+        opacity: 0.8;
+    }
+    /* guide */
+    
+    
+    /* Facility Guide */
+    .sub1_Facility img{
+        max-width: 90%;
+        height: fit-content;
+    }
+    .sub1_Facility .row{
+        margin-bottom: 100px;
+    }
+    .sub1_Facility .row:last-child{
+        margin-bottom: 10px;
+    }
+    .sub1_Facility h3{
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        text-decoration: underline;
+        font-size: 2rem;
+        margin-top: 20px;
+        margin-right: 40px;
+    }
+    .hall1{
+        width: 680px;
+        height: 590px;
+        margin: auto;
+    }
+    .Facility_left_title1{
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+    .Facility_left_text1{
+        font-size: 1rem;
+        line-height: 32px;
+        margin-left: 0px;
+    }
+    .Facility_right_title2{
+        margin: 0px 10px 20px 0;
+        font-size: 1.3rem;
+        font-weight: bold;
+        text-align: right;
+    }
+    .Facility_right_text2{
+        font-size: 1rem;
+        line-height: 32px;
+        text-align: right;
+        margin-right: 10px;
+    }
+    .Facility_left_title3{
+        margin-top: 30px;
+        margin-bottom: 20px;
+        font-size: 1.3rem;
+        font-weight: bold;
+        text-align: center;
+    }
+    .Facility_left_text3{
+        font-size: 0.9rem;
+        line-height: 32px;
+        text-align: center;
+    }
+    .title3_img{
+        padding-bottom: 30px;
+        width: 440px;
+        height: 580px;
+        margin: auto;
+    }
+    .Facility_left_title4{
+        margin-top: 15px;
+        margin-bottom: 20px;
+        font-size: 1.3rem;
+        font-weight: bold;
+        text-align: center;
+    }
+    .Facility_left_text4{
+        line-height: 32px;
+        font-size: 0.9rem;
+        margin: 0;
+        text-align: center;
+    }
+    .title4_img{
+        width: 440px;
+        height: 580px;
+        margin: auto;
+    }
+    .Facility_left_title5{
+        margin-top: 80px;
+        margin-bottom: 20px;
+        font-size: 1.3rem;
+        font-weight: bold;
+        text-align: center;
+    }
+    .Facility_left_text5{
+        line-height: 32px;
+        font-size: 0.9rem;
+        text-align: center;
+    }
+    .title5_img{
+        width: 440px;
+        height: 580px;
+        margin: auto;
+    }
+    .Facility_right_title6{
+        margin-top: 0px;
+        margin-bottom: 20px;
+        font-size: 1.3rem;
+        font-weight: bold;
+        text-align: right;
+        margin-right: 10px;
+    }
+    .Facility_right_text6{
+        line-height: 32px;
+        font-size: 1rem;
+        text-align: right;
+        margin-right: 10px;
+    }
+    
+    /* Facility Guide */
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* tablet(가로폭 768px이상 1023px 이하) */
+@media screen and (min-width:992px)and (max-width:1023px){
+    
+.sub1_main{
+    padding: 154px 0 154px 0;
+    background: url(../img/sub1/main.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 800px;
+}
+.sub1_main h1{
+    position: absolute;
+    left: 5%;
+    top: 80px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 4rem;
+    color: #fff;
+    text-align: center;
+}
+.sub1_m1{
+    color: #fff;
+    position: absolute;
+    top: 200px;
+    left:12%;
+    line-height: 35px;
+}
+.sub1_m2{
+    position: absolute;
+    color: #fff;
+    top: 200px;
+    left: 50%;
+    line-height: 35px;
+}
+
+
+/* header*/
+
+
+/* Daegu museum’s history */
+
+.sub1_history{
+    background-color: #e3e3e3;
+    padding: 266px 0 266px 0;
+}
+.history_title{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 4rem;
+    margin-top: 0;
+    margin-bottom: 87px;
+}
+.sub1_history h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0;
+}
+.history_1999{
+    line-height: 158px;
+}
+.history_2002, .history_2004, .history_2007, .history_2011{
+    line-height: 72px;
+}
+.history_2005, .history_2010{
+    line-height: 115px;
+}
+.history_month{
+    text-align: center;
+}
+.sub1_history li{
+    margin: 29px 0 29px 0 ;
+}
+.history_line{
+    width: 800px;
+    margin: 0 auto;
+    border-bottom: 1px solid #2e302f;
+}
+/* Daegu museum’s history */
+
+
+/* guide */
+.sub1_guide{
+    margin: 266px 0 266px 0;
+    position: relative;
+}
+
+.guide_title{
+    margin: 70px 0 40px 0;
+    width: 100%;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 2rem;
+    text-decoration: underline;
+    text-align: left;
+    color: #FFFF;
+}
+.guide_list{
+    line-height: 33px;
+    width: 1003px;
+    margin-bottom: 30px;
+    font-size: 1rem;
+    text-align: left;
+}
+.guide_list li{
+    color:#fff
+}
+.guide_click{
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 1.3rem;
+    margin: 0;
+    text-align: left;
+    color: #FFFF;
+}
+.guide_click i{
+    margin-left: 10px;
+    font-size: 1.1rem;
+    color: #FFFF;
+}
+.guide_img{
+    width: 100%;
+    max-width: 100%;
+    height: 835px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: #2e302f;
+}
+.guide_img img{
+    opacity: 0.7;
+}
+/* guide */
+
+
+/* Facility Guide */
+.sub1_Facility img{
+    max-width: 100%;
+    height: fit-content;
+    padding: 10px;
+}
+.sub1_Facility .row{
+    margin-bottom: 100px;
+}
+.sub1_Facility .row:last-child{
+    margin-bottom: 10px;
+}
+.sub1_Facility h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+.hall1{
+    width: 680px;
+    height: 590px;
+    margin: auto;
+}
+.Facility_left_title1{
+    margin-top: 0px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.Facility_left_text1{
+    font-size: 0.9rem;
+    line-height: 32px;
+    margin-left: 30px;
+}
+.Facility_right_title2{
+    margin: 30px 0px 20px 0;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: right;
+}
+.Facility_right_text2{
+    font-size: 0.9rem;
+    line-height: 32px;
+    text-align: right;
+    margin-right: 0px;
+}
+.Facility_left_title3{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+}
+.Facility_left_text3{
+    font-size: 0.9rem;
+    line-height: 32px;
+    text-align: center;
+}
+.title3_img{
+    padding-bottom: 30px;
+    width: 440px;
+    height: 580px;
+    margin: auto;
+}
+.Facility_left_title4{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+}
+.Facility_left_text4{
+    line-height: 32px;
+    font-size: 0.9rem;
+    margin: 0;
+    text-align: center;
+}
+.title4_img{
+    width: 440px;
+    height: 580px;
+    margin: auto;
+}
+.Facility_left_title5{
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+}
+.Facility_left_text5{
+    line-height: 32px;
+    font-size: 0.9rem;
+    text-align: center;
+}
+.title5_img{
+    width: 440px;
+    height: 580px;
+    margin: auto;
+}
+.Facility_right_title6{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 0px;
+}
+.Facility_right_text6{
+    line-height: 32px;
+    font-size: 0.9rem;
+    text-align: right;
+    margin-right: 0px;
+}
+
+/* Facility Guide */
+
+/* move */
+.animated-title {
+    font-size:2.7rem; 
+    font-family: 'Playfair Display', serif;
+    font-weight:bold; 
+    font-style: italic;
+    position: relative; width: 100%;
+    max-width:100%; height: auto; padding:70px 0 266px 0; 
+    overflow-x: hidden; overflow-y: hidden; 
+}
+.ani_text{
+    color: #ffff;
+    text-shadow: -1px 0 #cacaca, 0 1px #cacaca, 1px 0 #cacaca, 0 -1px #cacaca;
+}
+.animated-title .track {position: absolute; white-space: nowrap;will-change: transform;animation: marquee 60s linear infinite; }
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+@media (hover: hover) and (min-width: 700px){
+.animated-title .content {-webkit-transform: translateY(calc(100% - 8rem)); transform: translateY(calc(100% - 8rem));}
+    }
+/* move 출처: https://dbreblog.com/53 [기획하는 디자이너:티스토리] */
+
+
+.footer{
+    width: 100%;
+    overflow: hidden;
+    background-color: #e3e3e3;
+    padding-top: 127px;
+    padding-bottom: 127px;
+}
+.footer p{margin: 0;}
+.footer_text1{float: left; margin-right: 40px;}
+.footer li{margin-bottom: 16px;}
+.footer_text, .footer_tell{
+    margin-bottom: 36px;
+}
+.footer_icon{
+    font-size: 1.5rem;
+    text-align: right;
+}
+.footer_icon li a i{
+    float: right;
+    margin-left: 20px;
+}
+.footer_road{
+    width: 100%;
+    float: right;
+    text-align: right;
+    margin-top: 36px;
+}
+/* footer */
+
+
+
+
+
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* tablet2(가로폭 768px이상 1023px 이하) */
+@media screen and (min-width:768px)and (max-width:991px){
+    
+    .sub1_main{
+        padding: 154px 0 154px 0;
+        background: url(../img/sub1/main.jpg) no-repeat;
+        background-size: cover;
+        position: relative;
+        width: 100%;
+        height: 800px;
+    }
+    .sub1_main h1{
+        position: absolute;
+        left: 5%;
+        top: 80px;
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 4rem;
+        color: #fff;
+        text-align: center;
+    }
+    .sub1_m1{
+        color: #fff;
+        position: absolute;
+        top: 200px;
+        left:12%;
+        line-height: 35px;
+    }
+    .sub1_m2{
+        position: absolute;
+        color: #fff;
+        top: 200px;
+        left: 50%;
+        line-height: 35px;
+    }
+    
+    
+    /* header*/
+    
+    
+    /* Daegu museum’s history */
+    
+    .sub1_history{
+        background-color: #e3e3e3;
+        padding: 266px 0 266px 0;
+    }
+    .history_title{
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 4rem;
+        margin-top: 0;
+        margin-bottom: 87px;
+    }
+    .sub1_history h3{
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 2.5rem;
+        text-align: center;
+        margin: 0;
+    }
+    .history_1999{
+        line-height: 158px;
+    }
+    .history_2002, .history_2004, .history_2007, .history_2011{
+        line-height: 72px;
+    }
+    .history_2005, .history_2010{
+        line-height: 115px;
+    }
+    .history_month{
+        text-align: center;
+    }
+    .sub1_history li{
+        margin: 29px 0 29px 0 ;
+    }
+    .history_line{
+        width: 600px;
+        margin: auto;
+        border-bottom: 1px solid #2e302f;
+    }
+    /* Daegu museum’s history */
+    
+    
+    /* guide */
+    .sub1_guide{
+        margin: 266px 0 266px 0;
+        position: relative;
+    }
+    .guide_title{
+        margin: 83px 0 40px 0;
+        width: 100%;
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 2rem;
+        text-decoration: underline;
+        text-align: center;
+        color: #FFFF;
+    }
+    .guide_list{
+        line-height: 33px;
+        margin-bottom: 30px;
+        font-size: 1rem;
+        text-align: left;
+    }
+    .guide_list li{
+        color:#fff
+    }
+    .guide_click{
+        font-family: 'Playfair Display', serif;
+        font-weight: 600;
+        font-style: italic;
+        text-decoration: underline;
+        font-size: 1.3rem;
+        margin: 0;
+        text-align: left;
+        color: #FFFF;
+    }
+    .guide_click i{
+        margin-left: 10px;
+        font-size: 1.1rem;
+        color: #FFFF;
+    }
+    .guide_img{
+        width: 100%;
+        max-width: 100%;
+        height: 835px;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        background-color: #2e302f;
+    }
+    .guide_img img{
+        opacity: 0.7;
+    }
+    /* guide */
+    
+    
+    /* Facility Guide */
+    .sub1_Facility img{
+        max-width: 100%;
+        height: fit-content;
+    }
+    .sub1_Facility .row{
+        margin-bottom: 100px;
+    }
+    .sub1_Facility .row:last-child{
+        margin-bottom: 10px;
+    }
+    .sub1_Facility h3{
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        text-decoration: underline;
+        font-size: 2rem;
+        margin-top: 20px;
+        margin-right: 40px;
+    }
+    .hall1{
+        width: 680px;
+        height: 590px;
+        margin: auto;
+    }
+    .Facility_left_title1{
+        margin-top: 0px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+    .Facility_left_text1{
+        font-size: 1.1rem;
+        line-height: 32px;
+        margin-left: 30px;
+    }
+    .Facility_right_title2{
+        margin: 30px 0px 20px 0;
+        font-size: 1.3rem;
+        font-weight: bold;
+        text-align: right;
+    }
+    .Facility_right_text2{
+        font-size: 1.1rem;
+        line-height: 32px;
+        text-align: right;
+        margin-right: 0px;
+    }
+    .Facility_left_title3{
+        margin-top: 30px;
+        margin-bottom: 20px;
+        font-size: 1.3rem;
+        font-weight: bold;
+        text-align: center;
+    }
+    .Facility_left_text3{
+        font-size: 1.1rem;
+        line-height: 32px;
+        text-align: center;
+    }
+    .title3_img{
+        padding-bottom: 30px;
+        width: 440px;
+        height: 580px;
+        margin: auto;
+    }
+    .Facility_left_title4{
+        margin-top: 15px;
+        margin-bottom: 20px;
+        font-size: 1.3rem;
+        font-weight: bold;
+        text-align: center;
+    }
+    .Facility_left_text4{
+        line-height: 32px;
+        font-size: 1.1rem;
+        margin: 0;
+        text-align: center;
+    }
+    .title4_img{
+        width: 440px;
+        height: 580px;
+        margin: auto;
+    }
+    .Facility_left_title5{
+        margin-top: 80px;
+        margin-bottom: 20px;
+        font-size: 1.3rem;
+        font-weight: bold;
+        text-align: center;
+    }
+    .Facility_left_text5{
+        line-height: 32px;
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    .title5_img{
+        width: 440px;
+        height: 580px;
+        margin: auto;
+    }
+    .Facility_right_title6{
+        margin-top: 0px;
+        margin-bottom: 20px;
+        font-size: 1.3rem;
+        font-weight: bold;
+        text-align: right;
+        margin-right: 0px;
+    }
+    .Facility_right_text6{
+        line-height: 32px;
+        font-size: 1.1rem;
+        text-align: right;
+        margin-right: 0px;
+    }
+    
+    /* Facility Guide */
+    
+    /* move */
+    .animated-title {
+        font-size:2.7rem; 
+        font-family: 'Playfair Display', serif;
+        font-weight:bold; 
+        font-style: italic;
+        position: relative; width: 100%;
+        max-width:100%; height: auto; padding:70px 0 266px 0; 
+        overflow-x: hidden; overflow-y: hidden; 
+    }
+    .ani_text{
+        color: #ffff;
+        text-shadow: -1px 0 #cacaca, 0 1px #cacaca, 1px 0 #cacaca, 0 -1px #cacaca;
+    }
+    .animated-title .track {position: absolute; white-space: nowrap;will-change: transform;animation: marquee 60s linear infinite; }
+    @keyframes marquee {
+      from { transform: translateX(0); }
+      to { transform: translateX(-50%); }
+    }
+    @media (hover: hover) and (min-width: 700px){
+    .animated-title .content {-webkit-transform: translateY(calc(100% - 8rem)); transform: translateY(calc(100% - 8rem));}
+        }
+    /* move 출처: https://dbreblog.com/53 [기획하는 디자이너:티스토리] */
+    
+    
+    .footer{
+        width: 100%;
+        overflow: hidden;
+        background-color: #e3e3e3;
+        padding-top: 127px;
+        padding-bottom: 127px;
+    }
+    .footer p{margin: 0;}
+    .footer_text1{float: left; margin-right: 40px;}
+    .footer li{margin-bottom: 16px;}
+    .footer_text, .footer_tell{
+        margin-bottom: 36px;
+    }
+    .footer_icon{
+        font-size: 1.5rem;
+        text-align: right;
+    }
+    .footer_icon li a i{
+        float: right;
+        margin-left: 20px;
+    }
+    .footer_road{
+        width: 100%;
+        float: right;
+        text-align: right;
+        margin-top: 36px;
+    }
+    /* footer */
+    
+    
+    
+    
+    
+    }
+    /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile device(가로폭 767px 이하) */
+@media screen and (max-width:767px){
+    
+/* header*/
+.logo{
+    padding: 37px;    
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    border-bottom: 1px solid #2e302f;
+    justify-content: center;
+}
+.logo img{
+    width: 551px;
+    height: 41px;
+}
+header i{
+    float: right;
+    margin-right: 5.26%;
+    color: #2e302f;
+    font-size: 1.5rem;
+    margin-top: -61px;
+}
+
+/* ///////////////// */
+
+.sub1_main{
+    padding: 154px 0 154px 0;
+    background: url(../img/sub1/main.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 700px;
+    transition: all 0.5s;
+    overflow: hidden;
+}
+.sub1_main h1{
+    position: absolute;
+    left: 5%;
+    top: 40px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 3rem;
+    color: #fff;
+    text-align: center;
+    transition: all 0.7s;
+}
+.sub1_m1{
+    color: #fff;
+    position: absolute;
+    top: 150px;
+    left: 5%;
+    line-height: 32px;
+    transition: all 0.7s;
+}
+.sub1_m2{
+    position: absolute;
+    color: #fff;
+    top: 150px;
+    left: 47%;
+    line-height: 28px;
+    transition: all 0.7s;
+    display: none;
+}
+
+
+/* header*/
+
+
+/* Daegu museum’s history */
+
+.sub1_history{
+    background-color: #e3e3e3;
+    padding: 266px 0 266px 0;
+    transition: all 0.7s;
+}
+.history_title{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 4rem;
+    margin-top: 0;
+    margin-bottom: 87px;
+    transition: all 0.7s;
+}
+.sub1_history h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0;
+    transition: all 0.7s;
+}
+.history_1999{
+    line-height: 158px;
+}
+.history_2002, .history_2004, .history_2007, .history_2011{
+    line-height: 72px;
+}
+.history_2005, .history_2010{
+    line-height: 115px;
+}
+.history_month{
+    text-align: center;
+}
+.sub1_history li{
+    margin: 29px 0 29px 0 ;
+}
+.history_line{
+    width: 600px;
+    margin: 0 auto;
+    border-bottom: 1px solid #2e302f;
+}
+
+/* Daegu museum’s history */
+
+
+/* guide */
+.sub1_guide{
+    margin: 266px 0 266px 0;
+    position: relative;
+    text-align: center;
+    transition: all 0.5s;
+}
+.guide_title{
+    margin: 73px 0 60px 0;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 2rem;
+    text-decoration: underline;
+    color: #fff;
+    transition: all 0.5s;
+}
+.guide_list{
+    line-height: 33px;
+    margin-bottom: 30px;
+    font-size: 1rem;
+    transition: all 0.5s;
+}
+.guide_list li{
+    color: #fff;
+    transition: all 0.5s;
+}
+.guide_click{
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 1.3rem;
+    margin: 0;
+    color: #fff;
+}
+.guide_click i{
+    margin-left: 10px;
+    font-size: 1.1rem;
+    color: #2e302f;
+    color: #fff;
+}
+
+.guide_img{
+    width: 100%;
+    max-width: 100%;
+    height: 835px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: #2e302f;
+}
+.guide_img img{
+    opacity: 0.7;
+}
+/* guide */
+
+
+
+
+/* Facility Guide */
+.sub1_Facility img{
+    max-width: 100%;
+    height: fit-content;
+}
+.sub1_Facility .row{
+    margin-bottom: 100px;
+}
+.sub1_Facility .row:last-child{
+    margin-bottom: 10px;
+}
+.sub1_Facility h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+.hall1{
+    width: 680px;
+    height: 590px;
+    margin: auto;
+}
+.Facility_left_title1{
+    margin-top: 0px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.Facility_left_text1{
+    font-size: 1.1rem;
+    line-height: 32px;
+    margin-left: 30px;
+}
+.Facility_right_title2{
+    margin: 30px 30px 20px 0;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: right;
+}
+.Facility_right_text2{
+    font-size: 1.1rem;
+    line-height: 32px;
+    text-align: right;
+    margin-right: 30px;
+}
+.Facility_left_title3{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+}
+.Facility_left_text3{
+    font-size: 1.1rem;
+    line-height: 32px;
+    text-align: center;
+}
+.title3_img{
+    padding-bottom: 30px;
+    width: 440px;
+    height: 580px;
+    margin: auto;
+}
+.Facility_left_title4{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+}
+.Facility_left_text4{
+    line-height: 32px;
+    font-size: 1.1rem;
+    margin: 0;
+    text-align: center;
+}
+.title4_img{
+    width: 440px;
+    height: 580px;
+    margin: auto;
+}
+.Facility_left_title5{
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+}
+.Facility_left_text5{
+    line-height: 32px;
+    font-size: 1.1rem;
+    text-align: center;
+}
+.title5_img{
+    width: 440px;
+    height: 580px;
+    margin: auto;
+}
+.Facility_right_title6{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 30px;
+}
+.Facility_right_text6{
+    line-height: 32px;
+    font-size: 1.1rem;
+    text-align: right;
+    margin-right: 30px;
+}
+
+/* Facility Guide */
+
+/* footer */
+.footer{
+    width: 100%;
+    padding: 127px 4% 127px 4%;
+    overflow: hidden;
+    background-color: #e3e3e3;
+}
+.footer p{margin: 0;}
+.footer_text1{float: left; margin-right: 40px;}
+.footer li{margin-bottom: 16px;}
+.footer_text, .footer_tell{
+    margin-bottom: 36px;
+}
+.footer_icon{
+    font-size: 1.5rem;
+    text-align: right;
+}
+.footer_icon li a i{
+    float: right;
+    margin-left: 20px;
+}
+.footer_road{
+    width: 100%;
+    float: right;
+    text-align: right;
+    margin-top: 36px;
+}
+/* footer */
+
+
+
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile device(가로폭 480px 이하) */
+@media screen and (max-width:480px){
+
+    
+/* header*/
+.logo{
+    padding: 37px;    
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    border-bottom: 1px solid #2e302f;
+    justify-content: center;
+}
+.logo img{
+    width: 400px;
+    height: 31px;
+
+}
+
+header i{
+    float: right;
+    margin-right: 3%;
+    color: #2e302f;
+    font-size: 1rem;
+    margin-top: -54px;
+}
+
+/* ///////////////// */
+
+.sub1_main{
+    padding: 50px 0 50px 0;
+    background: url(../img/sub1/main.jpg) no-repeat;
+    background-size: cover;
+    background-position-x: -250px;
+    position: relative;
+    width: 100%;
+    height: 700px;
+    transition: all 0.7s;
+    overflow: hidden;
+}
+.sub1_main h1{
+    position: absolute;
+    top: 20px;
+    left: 5%;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    transition: all 0.7s;
+}
+.sub1_m1{
+    color: #fff;
+    position: absolute;
+    top: 100px;
+    left: 5%;
+    line-height: 30px;
+    transition: all 0.7s;
+    font-size: 0.8rem;
+}
+.sub1_m2{
+    position: absolute;
+    color: #fff;
+    top: 270px;
+    left: 15%;
+    line-height: 28px;
+    transition: all 0.7s;
+    font-size: 0.8rem;
+    display: block;
+}
+
+
+/* header*/
+
+
+/* Daegu museum’s history */
+
+.sub1_history{
+    background-color: #e3e3e3;
+    padding: 100px 0 100px 0;
+    transition: all 0.7s;
+}
+.history_title{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 50px;
+    transition: all 0.7s;
+}
+.sub1_history h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0;
+    transition: all 0.7s;
+}
+.history_1999{
+    line-height: 158px;
+}
+.history_2002, .history_2004, .history_2007, .history_2011{
+    line-height: 72px;
+}
+.history_2005, .history_2010{
+    line-height: 115px;
+}
+.history_month{
+    text-align: center;
+}
+.sub1_history li{
+    margin: 29px 0 29px 0 ;
+    font-size: 0.8rem;
+}
+.history_line{
+    width: 400px;
+    margin: auto;
+    border-bottom: 1px solid #2e302f;
+}
+/* Daegu museum’s history */
+
+
+/* guide */
+.sub1_guide{
+    margin: 100px 0 200px 0;
+    position: relative;
+    text-align: center;
+    transition: all 0.5s;
+}
+.guide_title{
+    margin: 120px 0 30px 0;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 2rem;
+    text-decoration: underline;
+    color: #fff;
+    transition: all 0.5s;
+}
+.guide_list{
+    line-height: 30px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    transition: all 0.5s;
+    margin-top: 30px;
+}
+.guide_list li{
+    color: #fff;
+    transition: all 0.5s;
+    font-size: 0.8rem;
+}
+.guide_click{
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 1.3rem;
+    margin: 0;
+    color: #fff;
+}
+.guide_click i{
+    margin-left: 10px;
+    font-size: 1.1rem;
+    color: #2e302f;
+    color: #fff;
+}
+
+.guide_img{
+    width: 100%;
+    max-width: 100%;
+    height: 835px;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: #2e302f;
+}
+.guide_img img{
+    opacity: 0.7;
+}
+/* guide */
+
+
+
+
+/* Facility Guide */
+.sub1_Facility img{
+    max-width: 100%;
+    height: fit-content;
+}
+.sub1_Facility .row{
+    margin-bottom: 50px;
+}
+.sub1_Facility .row:last-child{
+    margin-bottom: 10px;
+}
+.sub1_Facility h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+.hall1{
+    width: 680px;
+    height: 590px;
+    margin: auto;
+}
+.Facility_left_title1{
+    margin-top: 0px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.Facility_left_text1{
+    font-size: 0.8rem;
+    line-height: 28px;
+    margin-left: 30px;
+}
+.Facility_right_title2{
+    margin: 30px 30px 20px 0;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: right;
+}
+.Facility_right_text2{
+    font-size: 0.8rem;
+    line-height: 28px;
+    text-align: right;
+    margin-right: 30px;
+}
+.Facility_left_title3{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+.Facility_left_text3{
+    font-size: 0.8rem;
+    line-height: 28px;
+    text-align: center;
+}
+.title3_img{
+    padding-bottom: 30px;
+    width: 440px;
+    height: 580px;
+    margin: auto;
+}
+.Facility_left_title4{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+.Facility_left_text4{
+    line-height: 32px;
+    font-size: 0.8rem;
+    margin: 0;
+    line-height: 28px;
+    text-align: center;
+}
+.title4_img{
+    width: 440px;
+    height: 580px;
+    margin: auto;
+}
+.Facility_left_title5{
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+.Facility_left_text5{
+    line-height: 28px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+.title5_img{
+    width: 440px;
+    height: 580px;
+    margin: auto;
+}
+.Facility_right_title6{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 30px;
+}
+.Facility_right_text6{
+    line-height: 28px;
+    font-size: 0.8rem;
+    text-align: right;
+    margin-right: 30px;
+}
+
+
+
+/* Facility Guide */
+
+/* footer */
+.footer{
+    width: 100%;
+    padding: 127px 4% 127px 4%;
+    overflow: hidden;
+    background-color: #e3e3e3;
+}
+/* footer */
+
+.footer ul li, .footer p{
+    font-size: 0.7rem;
+}
+.footer i{font-size: 1.3rem;}
+
+
+
+
+
+a#MOVE_TOP_BTN {
+    position:fixed;
+    right:5%;
+    bottom:30px;
+    display:none;
+    z-index:999;
+    font-size: 3rem;
+   }
+
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daegu Art Museum</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="../css/style_sub2.css">
+    <link rel="stylesheet" href="../css/aos.css">
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="https://kit.fontawesome.com/792cf06396.js" crossorigin="anonymous"></script>
+
+    
+    
+    <script>
+        $(function() {
+                $(window).scroll(function() {
+                    if ($(this).scrollTop() > 500) {
+                        $('#MOVE_TOP_BTN').fadeIn();
+                    } else {
+                        $('#MOVE_TOP_BTN').fadeOut();
+                    }
+                });
+                
+                $("#MOVE_TOP_BTN").click(function() {
+                    $('html, body').animate({
+                        scrollTop : 0
+                    }, 400);
+                    return false;
+                });
+            });
+        </script>
+</head>
+<body>
+    <!-- header -->
+
+    <header>
+        <div class="logo aos-item" data-aos="fade-in" data-aos-duration="1000">
+            <a href="../index.html"><img src="../img/logo_final.png" alt="logo"></a>
+        </div>
+        <div class="aos-item" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="200"><a href="../archive/menu.html"><i class="fa-solid fa-bars"></i></a></div>
+        
+        <div class="sub2_main">
+            <h1 class="sub2_title1 aos-item" data-aos="fade-down" data-aos-duration="800" data-aos-delay="400">EX</h1>
+            <h1 class="sub2_title2 aos-item" data-aos="fade-down" data-aos-duration="800" data-aos-delay="550">HI</h1>
+            <h1 class="sub2_title3 aos-item" data-aos="fade-up" data-aos-duration="800" data-aos-delay="650">BITION</h1>
+        </div>
+    </header>
+    <!-- header -->
+
+    <!-- current -->
+    <section class="sub2_current">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <h3 class="current_title">Current Exhibitions</h3>
+                </div>
+
+                <div class="col-md-6 col-sm-6 col-xs-6">
+                    <img src="../img/sub2/2.jpg" alt="img2" class="aos-item" data-aos="fade-up" data-aos-duration="700" data-aos-delay="300">
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-6">
+                    <h4>2022년 소장품 기획전 “나를 만나는 계절”</h4>
+                    <p class="current_text1 aos-item" data-aos="fade-in" data-aos-duration="800" data-aos-delay="900">전시제목 : 대구미술관 소장품 기획전 “나를 만나는 계절”<br>
+                        전시기간 : 2022. 1 25 - 5. 29(125일, 개관 108일)<br>
+                        전시장소 : 대구미술관 2,3,4,5 전시실<br>
+                        참여작가 : 서세옥, 최만린, 권정호, 팀 아이텔, 이태호, 최학노, 한운성 등 38여명<br>
+                        전시내용 : 인간에 대한 고찰에서 출발하여 인간이 살아가는 삶의 여정에서 마주하는 이야기를 계절에<br>
+                        비유하고 그것을 대구미술관 소장품을 통하여 살펴보는 전시<br>
+                        전시규모 : 대구미술관 소장품 중 회화, 사진, 조각, 뉴미디어 등 93점
+                    </p>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-6 current_text2 aos-item" data-aos="fade-up" data-aos-duration="800" data-aos-delay="900">
+                    <h5>1.생명을 지니다.</h5>
+                    <p>참여작가 : 서세옥, 최만린, 최태화, 김익수, 김인배, 디트리히 클링에</p>
+                    <h5>2.일상을 관찰하다.</h5>
+                    <p>참여작가 : 지훈 스타크, 임지혜, 한나킴, 한운성, 민재영, 박진아, 김미영, 정승혜, 최성록, 김재욱</p>
+                    <h5>3.나를 바라보다.</h5>
+                    <p>참여작가 : 노정하, 이진우, 추종완, 이태호, 팀 아이텔, 정희승, 권정호, 김진, 김승영, 김창겸, 윤진영, 릴릴</p>
+                    <h5>4.세상에게 묻다.</h5>
+                    <p>참여작가 : 뮌, 이창원, 박보나, 최학노, 변종곤, 박찬민, 마이클 딘, 신기운, 진기종, 안세권, 어윈 올라프</p>
+                </div>
+                <div class="col-md-6 col-sm-6 col-sm-offset-6 col-xs-6" >
+                    <img src="../img/sub2/3.jpg" alt="img3" class="current_lastimg">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- current -->
+
+    <!-- Past Exhibitions -->
+    <section class="sub2_past">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <h3>Past Exhibitions</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                    <img src="../img/sub2/4.jpg" alt="img4" >
+                    <p class="aos-item" data-aos="fade-in" data-aos-duration="900" data-aos-delay="400">2022 어미홀 프로젝트[토끼와 평행정원]<br>
+                        2022.5.3-5.15, 대구미술관 어미홀</p>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                    <img src="../img/sub2/5.jpg" alt="img5">
+                    <p class="aos-item" data-aos="fade-in" data-aos-duration="900" data-aos-delay="600">대구미술관 개관 10주년 기념 해외교류전[모던라이프]<br>
+                        2021.10.19-3.27, 대구미술관 1전시실, 어미홀</p>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                    <img src="../img/sub2/6.jpg" alt="img6">
+                    <p class="aos-item" data-aos="fade-in" data-aos-duration="900" data-aos-delay="800">제 21회 이인성미술상 수상전[강요배:카네이션-마음이 몸이 될 때]<br>
+                        2021.10.13-1.9, 2,3전시실/ 선큰가든</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Past Exhibitions -->
+
+    <!-- Upcoming Exhibitions -->
+    <div class="sub2_upcoming">
+        <h3>Upcoming Exhibitions</h3>
+        <div class="aos-item" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300"><img src="../img/sub2/7.jpg" alt="img7"></div>
+        <div class="aos-item" data-aos="fade-up" data-aos-duration="800" data-aos-delay="600"><img src="../img/sub2/8.jpg" alt="img8"></div> 
+        
+    </div>
+    <!-- Upcoming Exhibitions -->
+
+
+
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-6">
+                    <ul class="footer_text">
+                        <li class="footer_text1"><a href="#">이용약관</a></li>
+                        <li class="footer_text2"><a href="#">개인정보처리방침 및 행정서비스헌장</a></li>
+                        <li class="footer_text2">대구광역시 수성구 미술관로 40(삼덕동)</li>
+                    </ul>
+                    <ul class="footer_tell">
+                        <li><b>T</b>+82 053 803 7900</li>
+                        <li><b>F</b>+82 053 803 7859</li>
+                    </ul>
+                    <p>ⓒDaegu Museum of Art. All Rights reserved.</p>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-6 pull-right">
+                    <ul class="footer_icon">
+                        <li><a href="http://pf.kakao.com/_xbuYuK"><i class="fa-solid fa-comment"></i></a></li>
+                        <li><a href="http://www.instagram.com/daeguartmuseum"><i class="fa-brands fa-instagram-square"></i></a></li>
+                        <li><a href="http://www.facebook.com/damuseum"><i class="fa-brands fa-facebook-square"></i></a></li>
+                        <li><a href="http://blog.naver.com/damuseum"><i class="fa-brands fa-blogger"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCkfRXhh7ib_bOzUmDNFWghg/featured"><i class="fa-brands fa-youtube-square"></i></a></li>
+                    </ul>
+                    <ul class="footer_road">
+                        <li><a href="#"><b>Mailing service</b></a></li>
+                        <li><a href="#"><b>오시는 길</b></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+
+
+
+    <a id="MOVE_TOP_BTN" href="#"><i class="fa-solid fa-circle-up"></i></a>
+
+    
+    <!-- scroll top button -->
+    <!-- <a style="display:scroll;position:fixed;bottom:30px;right:40px;" class="up_btn" href="#" title="맨위로"><i class="fa-solid fa-circle-up"></i></a> -->
+    <!-- scroll top button -->
+
+
+
+
+
+    <!-- motion script -->
+    <script src="../js/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+    </script>
+
+    <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.11/require.min.js"></script>
+    <script>
+      requirejs.config({
+          baseUrl: '../dist',
+      });
+
+      require(['aos'], function(AOS){
+          AOS.init({
+              easing: 'ease-in-out-sine'
+          });
+      });
+    </script> -->
+</body>
+</html>

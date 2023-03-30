@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daegu Art Museum</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="../css/style_sub4.css">
+    <link rel="stylesheet" href="../css/aos.css">
+    <link rel="stylesheet" href="../css/lightslider.css">
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/lightslider.js"></script>
+    <script src="https://kit.fontawesome.com/792cf06396.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    
+
+    <style>
+
+
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
+
+
+<script>
+  $(function() {
+          $(window).scroll(function() {
+              if ($(this).scrollTop() > 500) {
+                  $('#MOVE_TOP_BTN').fadeIn();
+              } else {
+                  $('#MOVE_TOP_BTN').fadeOut();
+              }
+          });
+          
+          $("#MOVE_TOP_BTN").click(function() {
+              $('html, body').animate({
+                  scrollTop : 0
+              }, 400);
+              return false;
+          });
+      });
+  </script>
+</head>
+
+<body>
+    <!-- header -->
+
+    <header>
+        <div class="logo aos-item" data-aos="fade-in" data-aos-duration="1000">
+            <a href="../index.html"><img src="../img/logo_final.png" alt="logo"></a>
+        </div>
+        <div class="aos-item" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="200"><a href="../archive/menu.html"><i class="fa-solid fa-bars"></i></a></div>
+        
+        <div class="sub4_main">
+            <h1 class="aos-item" data-aos="fade-down" data-aos-duration="700">COL</h1>
+            <h2 class="aos-item" data-aos="fade-down" data-aos-duration="700" data-aos-delay="300">LEC</h2>
+            <h3 class="aos-item" data-aos="fade-down" data-aos-duration="700" data-aos-delay="500">TION</h3>
+        </div>
+    </header>
+    <!-- header -->
+
+    <!-- collection -->
+    <section class="sub4_collection">
+      <div class="container">
+        <div class="row collect_all">
+          <div class="col-md-4 col-sm-4 col-xs-4">
+            <h3>COLLEC<br>TION</h3>
+            <img src="../img/sub4/collection_text.png" alt="img1" class="coll_text aos-item"data-aos="fade-in" data-aos-duration="800">
+            <div class="line aos-item"data-aos="fade-in" data-aos-duration="800" data-aos-delay="200"></div>
+            <p class="coll_text_mini aos-item"data-aos="fade-in" data-aos-duration="800" data-aos-delay="200">Click And Drag</p>
+          </div>
+            <!-- slider -->
+          <div class="swiper mySwiper collect_slider" >
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="../img/sub4/2.jpg" alt="img2"></div>
+              <div class="swiper-slide"><img src="../img/sub4/3.jpg" alt="img3"></div>
+              <div class="swiper-slide"><img src="../img/sub4/4.jpg" alt="img4"></div>
+              <div class="swiper-slide"><img src="../img/sub4/4_1.jpg" alt="img4_1"></div>
+              <div class="swiper-slide"><img src="../img/sub4/4-2.jpg" alt="img4_2"></div>
+              <div class="swiper-slide"><img src="../img/sub4/4-3.jpg" alt="img4_3"></div>
+              <div class="swiper-slide"><img src="../img/sub4/4-4.jpg" alt="img4_4"></div>
+              <div class="swiper-slide"><img src="../img/sub4/4-5.jpg" alt="img4_5"></div>
+              <div class="swiper-slide"><img src="../img/sub4/4-6.jpg" alt="img4_6"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- collection -->
+
+    <!-- lee Gun hee -->
+    <section class="sub4_leegunhee">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12" >
+                    <h3>Lee gun-hee Collection</h3>
+                </div>
+            </div>
+            <div class="sub4_all row">
+                <div class="sub4_b col-md-4 col-sm-4 col-xs-4">
+                    <img src="../img/sub4/5.jpg" alt="img5" class="all1">
+                    <h4 class="aos-item" data-aos="fade-up" data-aos-duration="700" >문학진</h4>
+                    <p class="aos-item" data-aos="fade-up" data-aos-duration="700" >[달, 여인, 의자], 1988, oil on canvas,<br>
+                        130.3cm*130.3cm</p>
+                </div>
+                <div class="sub4_c col-md-4 col-sm-4 col-xs-4">
+                    <h4 class="aos-item" data-aos="fade-down" data-aos-duration="700">변종하</h4>
+                    <p class="sub4_text2 aos-item" data-aos="fade-down" data-aos-duration="700">[오리가 있는 풍경], 1976, oil on cloth<br>
+                        85.7cm*85.7cm</p>
+                    <img src="../img/sub4/6.jpg" alt="img6" class="all2">
+                    
+                </div>
+                <div class="sub4_d col-md-4 col-sm-4 col-xs-4">
+                    <img src="../img/sub4/7.jpg" alt="img" class="all3">
+                    <h4 class="aos-item" data-aos="fade-up" data-aos-duration="700" >유영국</h4>
+                    <p class="aos-item" data-aos="fade-up" data-aos-duration="700" >[작품], 1973, oil on canvas<br>
+                        133cm*133cm</p>
+                </div>
+            </div>
+        </div>
+        <div class="sub4_left aos-item" data-aos="fade-down" data-aos-duration="800">
+            <img src="../img/sub4/8.jpg" alt="">
+            <p>서동진 [자화상], 1924, mixed media on paper, 33cm*24cm</p>
+        </div>
+        <div class="sub4_right aos-item" data-aos="fade-up" data-aos-duration="800">
+            <img src="../img/sub4/9.jpg" alt="">
+            <p>이인성 [노란 옷을 입은 여인상], 1934, color on paper, 75cm*60cm</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="sub4_last col-md-7 col-sm-7 col-xs-7" >
+                    <img src="../img/sub4/10.jpg" alt="">
+                </div>
+                <div class="sub4_final col-md-5 col-sm-5 col-xs-5 aos-item" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+                    <h4>이인성 [풍경]</h4>
+                    <h5>oil on canvas_44.5cm*51.5cm</h5>
+                    <p>이 작품은 황금빛 들판 쪽에 우뚝 솟은 푸른 산, <br>
+                        그 사이의 서너 채의 집과 파란 하늘의 흰색 구름 등을 <br>
+                        표현해 조용하고 서정적 풍경을 묘사하였습니다. <br>
+                        비교적 차분한 색채와 필치는 조선 향토색의 <br>
+                        정서와 이미지를 보여줍니다. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- lee Gun hee -->
+
+
+        <!-- footer -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 col-xs-6">
+                        <ul class="footer_text">
+                            <li class="footer_text1"><a href="#">이용약관</a></li>
+                            <li class="footer_text2"><a href="#">개인정보처리방침 및 행정서비스헌장</a></li>
+                            <li class="footer_text2">대구광역시 수성구 미술관로 40(삼덕동)</li>
+                        </ul>
+                        <ul class="footer_tell">
+                            <li><b>T</b>+82 053 803 7900</li>
+                            <li><b>F</b>+82 053 803 7859</li>
+                        </ul>
+                        <p>ⓒDaegu Museum of Art. All Rights reserved.</p>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-6 pull-right">
+                      <ul class="footer_icon">
+                        <li><a href="http://pf.kakao.com/_xbuYuK"><i class="fa-solid fa-comment"></i></a></li>
+                        <li><a href="http://www.instagram.com/daeguartmuseum"><i class="fa-brands fa-instagram-square"></i></a></li>
+                        <li><a href="http://www.facebook.com/damuseum"><i class="fa-brands fa-facebook-square"></i></a></li>
+                        <li><a href="http://blog.naver.com/damuseum"><i class="fa-brands fa-blogger"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCkfRXhh7ib_bOzUmDNFWghg/featured"><i class="fa-brands fa-youtube-square"></i></a></li>
+                    </ul>
+                        <ul class="footer_road">
+                            <li><a href="#"><b>Mailing service</b></a></li>
+                            <li><a href="#"><b>오시는 길</b></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+
+
+
+
+
+
+        <a id="MOVE_TOP_BTN" href="#"><i class="fa-solid fa-circle-up"></i></a>
+
+    
+        <!-- scroll top button -->
+        <!-- <a style="display:scroll;position:fixed;bottom:30px;right:40px;" class="up_btn" href="#" title="맨위로"><i class="fa-solid fa-circle-up"></i></a> -->
+        <!-- scroll top button -->
+
+
+
+        <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+
+
+        
+            <!-- motion script -->
+    <script src="../js/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+    </script>
+
+    <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.11/require.min.js"></script>
+    <script>
+      requirejs.config({
+          baseUrl: '../dist',
+      });
+
+      require(['aos'], function(AOS){
+          AOS.init({
+              easing: 'ease-in-out-sine'
+          });
+      });
+    </script> -->
+</body>
+</html>

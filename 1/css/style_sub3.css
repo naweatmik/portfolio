@@ -1,0 +1,1084 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* 헤드 font-family: 'Playfair Display', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+/* 본문 kr font-family: 'Noto Sans KR', sans-serif; */
+
+@font-face {
+  font-family: 'PlayfairDisplay-Italic-VariableFont_wght';
+  src: url('PlayfairDisplay-Italic-VariableFont_wght.eot');
+  src: url('PlayfairDisplay-Italic-VariableFont_wght.eot?#iefix') format('embedded-opentype'),
+       url('PlayfairDisplay-Italic-VariableFont_wght.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PlayfairDisplay-Italic';
+  src: url('PlayfairDisplay-Italic.svg#PlayfairDisplay-Italic') format('svg'),
+       url('PlayfairDisplay-Italic.ttf') format('truetype'),
+       url('PlayfairDisplay-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PlayfairDisplay-Regular';
+  src: url('PlayfairDisplay-Regular.svg#PlayfairDisplay-Regular') format('svg'),
+       url('PlayfairDisplay-Regular.ttf') format('truetype'),
+       url('PlayfairDisplay-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PlayfairDisplay-VariableFont_wght';
+  src: url('PlayfairDisplay-VariableFont_wght.eot');
+  src: url('PlayfairDisplay-VariableFont_wght.eot?#iefix') format('embedded-opentype'),
+       url('PlayfairDisplay-VariableFont_wght.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+
+@font-face {
+  font-family: 'NotoSansKR-Thin-Alphabetic';
+  src: url('NotoSansKR-Thin-Alphabetic.eot');
+  src: url('NotoSansKR-Thin-Alphabetic.eot?#iefix') format('embedded-opentype'),
+       url('NotoSansKR-Thin-Alphabetic.svg#NotoSansKR-Thin-Alphabetic') format('svg'),
+       url('NotoSansKR-Thin-Alphabetic.ttf') format('truetype'),
+       url('NotoSansKR-Thin-Alphabetic.woff') format('woff'),
+       url('NotoSansKR-Thin-Alphabetic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSansKR-Regular-Alphabetic';
+  src: url('NotoSansKR-Regular-Alphabetic.eot');
+  src: url('NotoSansKR-Regular-Alphabetic.eot?#iefix') format('embedded-opentype'),
+       url('NotoSansKR-Regular-Alphabetic.svg#NotoSansKR-Regular-Alphabetic') format('svg'),
+       url('NotoSansKR-Regular-Alphabetic.ttf') format('truetype'),
+       url('NotoSansKR-Regular-Alphabetic.woff') format('woff'),
+       url('NotoSansKR-Regular-Alphabetic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSansKR-Medium-Alphabetic';
+  src: url('NotoSansKR-Medium-Alphabetic.eot');
+  src: url('NotoSansKR-Medium-Alphabetic.eot?#iefix') format('embedded-opentype'),
+       url('NotoSansKR-Medium-Alphabetic.svg#NotoSansKR-Medium-Alphabetic') format('svg'),
+       url('NotoSansKR-Medium-Alphabetic.ttf') format('truetype'),
+       url('NotoSansKR-Medium-Alphabetic.woff') format('woff'),
+       url('NotoSansKR-Medium-Alphabetic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSansKR-Light-Alphabetic';
+  src: url('NotoSansKR-Light-Alphabetic.eot');
+  src: url('NotoSansKR-Light-Alphabetic.eot?#iefix') format('embedded-opentype'),
+       url('NotoSansKR-Light-Alphabetic.svg#NotoSansKR-Light-Alphabetic') format('svg'),
+       url('NotoSansKR-Light-Alphabetic.ttf') format('truetype'),
+       url('NotoSansKR-Light-Alphabetic.woff') format('woff'),
+       url('NotoSansKR-Light-Alphabetic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSansKR-Bold-Alphabetic';
+  src: url('NotoSansKR-Bold-Alphabetic.eot');
+  src: url('NotoSansKR-Bold-Alphabetic.eot?#iefix') format('embedded-opentype'),
+       url('NotoSansKR-Bold-Alphabetic.svg#NotoSansKR-Bold-Alphabetic') format('svg'),
+       url('NotoSansKR-Bold-Alphabetic.ttf') format('truetype'),
+       url('NotoSansKR-Bold-Alphabetic.woff') format('woff'),
+       url('NotoSansKR-Bold-Alphabetic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSansKR-Black-Alphabetic';
+  src: url('NotoSansKR-Black-Alphabetic.eot');
+  src: url('NotoSansKR-Black-Alphabetic.eot?#iefix') format('embedded-opentype'),
+       url('NotoSansKR-Black-Alphabetic.svg#NotoSansKR-Black-Alphabetic') format('svg'),
+       url('NotoSansKR-Black-Alphabetic.ttf') format('truetype'),
+       url('NotoSansKR-Black-Alphabetic.woff') format('woff'),
+       url('NotoSansKR-Black-Alphabetic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+*{padding: 0; margin: 0; color: #2e302f; max-width: cover;}
+ul,li,ol{list-style: none;}
+img{display: block;}
+html{font-size: 15px;}
+/* 1-15, 1.1=17, 1.3=20, 2-30,2.5-37, 3-45, 4-60,8-120, 12-180, 13-195, 13.3 */
+a{text-decoration: none; color: inherit;}
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+/* set */
+
+a#MOVE_TOP_BTN {
+    position:fixed;
+    right:2%;
+    bottom:50px;
+    display:none;
+    z-index:999;
+    font-size: 4rem;
+   }
+
+
+/* header*/
+.logo{
+    padding: 37px;    
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    border-bottom: 1px solid #2e302f;
+    justify-content: center;
+}
+.logo img{
+    width: 551px;
+    height: 41px;
+}
+header i{
+    float: right;
+    margin-right: 5.26%;
+    color: #2e302f;
+    font-size: 1.5rem;
+    margin-top: -61px;
+}
+/* header*/
+
+/* lecture */
+.lecture_top1, .lecture_top2{
+    position: relative;
+}
+
+.sub3_main{
+    position: absolute;
+    left: 57.89%;  /*1100px*/
+    top: 10%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+}
+.sub3_main h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.sub3_main h5{
+    font-weight: bold;
+    margin: 0;
+}
+.sub3_main p{
+    line-height: 32px;
+}
+.sub3_main2{
+    position: absolute;
+    left: 00%;
+    top: 10vh;
+    width: 30%;
+}
+.sub3_main2 h5{
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: right;
+}
+.sub3_main2 p{
+    line-height: 36px;
+    text-align: right;
+}
+.lecture_top1 img{
+    max-width: 100%;
+    width: 68.42%;/*1300px*/
+}
+.lecture_top2 img{
+    position: absolute;
+    top: -168px;
+    right: 0;
+    max-width: 100%;
+}
+
+/* lecture */
+
+/* lee in sung */
+.sub3_leeinsung{
+    margin-top: 730px;
+}
+.sub3_leeinsung h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+}
+.sub3_leeinsung h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+.winner_img{
+    margin-top: -57px;
+}
+.winner_img img{margin-bottom: 36px;}
+
+.leeinsung_text{
+    margin: 266px 0 0 0;
+}
+.leeinsung_text p{
+    margin-top: 155px;
+    margin-bottom: 88px;
+    line-height: 35px;
+}
+.leeinsung_text_line{
+    width: 800px;
+    height: 1px;
+    background-color: #2e302f;
+}
+.leeinsung_text2{
+    margin-top: 50px;
+    margin-bottom: 266px;
+}
+
+.leeinsung_text2 p{
+    line-height: 35px;
+    text-align: right;
+    margin-right: 40px;
+    margin-top: -10px;
+}
+/* lee in sung */
+
+
+
+
+/* footer */
+.footer{
+    width: 100%;
+    overflow: hidden;
+    background-color: #e3e3e3;
+    padding-top: 127px;
+    padding-bottom: 127px;
+}
+.footer p{margin: 0;}
+.footer_text1{float: left; margin-right: 40px;}
+.footer li{margin-bottom: 16px;}
+.footer_text, .footer_tell{
+    margin-bottom: 36px;
+}
+.footer_icon{
+    font-size: 1.5rem;
+    text-align: right;
+}
+.footer_icon li a i{
+    float: right;
+    margin-left: 20px;
+}
+.footer_road{
+    width: 100%;
+    float: right;
+    text-align: right;
+    margin-top: 36px;
+}
+/* footer */
+
+/* up_btm */
+.up_btn{
+    font-size: 3.5rem;
+}
+/* up_btm */
+
+
+
+
+
+
+
+
+/* 반응형 */
+/*pc desktop ( 가로폭 1024이상 )1920 1025 */
+@media screen and (min-width:1024px){
+    
+
+/* header*/
+.logo{
+    padding: 37px;    
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    border-bottom: 1px solid #2e302f;
+    justify-content: center;
+}
+.logo img{
+    width: 551px;
+    height: 41px;
+}
+header i{
+    float: right;
+    margin-right: 5.26%;
+    color: #2e302f;
+    font-size: 1.5rem;
+    margin-top: -61px;
+}
+/* header*/
+
+
+/* lecture */
+.lecture_top1, .lecture_top2{
+    position: relative;
+    transition: all 0.7s;
+}
+.sub3_main{
+    position: absolute;
+    left: 57.89%;  /*1100px*/
+    top: 10%;
+    transition: all 0.7s;
+}
+.sub3_main h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-bottom: 20px;
+    transition: all 0.7s;
+}
+.sub3_main h5{
+    font-weight: bold;
+    transition: all 0.7s;
+}
+.sub3_main p{
+    line-height: 32px;
+    transition: all 0.7s;
+}
+.sub3_main2{
+    position: absolute;
+    left: 0px;
+    top: 187px;
+    width: 30%;
+    transition: all 0.7s;
+}
+.sub3_main2 h5{
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: right;
+    transition: all 0.7s;
+}
+.sub3_main2 p{
+    line-height: 36px;
+    text-align: right;
+    transition: all 0.7s;
+}
+.lecture_top2 img{
+    position: absolute;
+    top: -10vh;
+    right: 0;
+    transition: all 0.7s;
+    width: 68.42%;/*1300px*/
+}
+.lecture_top1 img, .lecture_top2 img{
+    max-width: 100%;
+}
+/* lecture */
+
+/* lee in sung */
+.sub3_leeinsung{
+    margin-top: 730px;
+    transition: all 0.7s;
+}
+.sub3_leeinsung h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    transition: all 0.7s;
+}
+.sub3_leeinsung h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: -30px;
+    margin-bottom: 30px;
+    transition: all 0.7s;
+}
+
+.winner_img{
+    margin-top: -57px;
+    transition: all 0.7s;
+}
+.winner_img img{
+    margin-bottom: 36px;
+    transition: all 0.7s;
+    max-width: 100%;
+
+}
+
+.leeinsung_text{
+    margin: 266px 0 0 0;
+    transition: all 0.7s;
+}
+.leeinsung_text p{
+    margin-top: 155px;
+    margin-bottom: 88px;
+    line-height: 35px;
+    transition: all 0.7s;
+}
+.leeinsung_text_line{
+    width: 800px;
+    height: 1px;
+    background-color: #2e302f;
+    transition: all 0.7s;
+}
+.leeinsung_text img{
+    max-width: 100%;
+    transition: all 0.7s;
+}
+.leeinsung_text2{
+    margin-top: 50px;
+    margin-bottom: 266px;
+    transition: all 0.7s;
+}
+.leeinsung_text2 img{
+    max-width: 100%;
+    transition: all 0.7s;
+}
+.leeinsung_text2 p{
+    line-height: 35px;
+    text-align: right;
+    margin-right: 40px;
+    margin-top: -10px;
+    transition: all 0.7s;
+}
+/* lee in sung */
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+
+
+
+
+
+
+/* tablet(가로폭 768px이상 1023px 이하) */
+@media screen and (min-width:768px)and (max-width:1023px){
+    /* header*/
+.logo{
+    padding: 37px;    
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    border-bottom: 1px solid #2e302f;
+    justify-content: center;
+}
+.logo img{
+    width: 551px;
+    height: 41px;
+}
+header i{
+    float: right;
+    margin-right: 5.26%;
+    color: #2e302f;
+    font-size: 1.5rem;
+    margin-top: -61px;
+}
+/* header*/
+
+
+/* lecture */
+.sub3_lecture img{
+    max-width: 50%;
+    transition: all 0.7s;
+}
+.lecture_top1, .lecture_top2{
+    position: relative;
+}
+.sub3_main{
+    position: absolute;
+    left: 51%;
+    top: 50px;
+    transition: all 0.7s;
+}
+.sub3_main h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-bottom: 20px;
+    transition: all 0.7s;
+}
+.sub3_main h5{
+    font-weight: bold;
+    transition: all 0.7s;
+}
+.sub3_main p{
+    line-height: 32px;
+    transition: all 0.7s;
+}
+.sub3_main2{
+    position: absolute;
+    left: 140px;
+    top: 150px;
+    transition: all 0.7s;
+}
+.sub3_main2 h5{
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: right;
+    transition: all 0.7s;
+    margin: 0;
+}
+.sub3_main2 p{
+    line-height: 34px;
+    text-align: right;
+    top: 0;
+    transition: all 0.7s;
+}
+.lecture_top2 img{
+    position: absolute;
+    top: 150px;
+    right: 0;
+    transition: all 0.7s;
+}
+.lec_text1, .lec_text2{display: none;}
+/* lecture */
+
+/* lee in sung */
+.sub3_leeinsung{
+    margin-top: 730px;
+    transition: all 0.7s;
+}
+.sub3_leeinsung h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    transition: all 0.7s;
+}
+.sub3_leeinsung h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: -30px;
+    margin-bottom: 30px;
+    transition: all 0.7s;
+}
+.sub3_leeinsung img{
+    max-width: 100%;
+    transition: all 0.7s;
+}
+.winner_img{
+    margin-top: -57px;
+    transition: all 0.7s;
+}
+.winner_img img{
+    max-width: 100%;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    transition: all 0.7s;
+}
+.winner_img p{
+    margin-left: 20px;
+    transition: all 0.7s;
+}
+
+.leeinsung_text{
+    margin: 266px 0 0 0;
+    transition: all 0.7s;
+}
+.leeinsung_text img{
+    max-width: 100%;
+    transition: all 0.7s;
+}
+.leeinsung_text p{
+    margin-top: 0px;
+    margin-bottom: 88px;
+    padding-left: 30px;
+    line-height: 33px;
+    transition: all 0.7s;
+}
+.leeinsung_text_line{
+    width: 800px;
+    height: 1px;
+    background-color: #2e302f;
+    transition: all 0.7s;
+}
+.leeinsung_text2{
+    margin-top: 50px;
+    margin-bottom: 266px;
+    transition: all 0.7s;
+}
+.leeinsung_text2 img{
+    max-width: 100%;
+    transition: all 0.7s;
+}
+
+.leeinsung_text2 p{
+    line-height: 32px;
+    text-align: right;
+    margin-right: 40px;
+    margin-top: -10px;
+    transition: all 0.7s;
+}
+/* lee in sung */
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+
+
+
+/* mobile device(가로폭 767px 이하) */
+@media screen and (max-width:767px){
+    /* header*/
+.logo{
+    padding: 37px;    
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    border-bottom: 1px solid #2e302f;
+    justify-content: center;
+}
+.logo img{
+    width: 551px;
+    height: 41px;
+}
+header i{
+    float: right;
+    margin-right: 5.26%;
+    color: #2e302f;
+    font-size: 1.5rem;
+    margin-top: -61px;
+}
+/* header*/
+
+
+/* lecture */
+.sub3_lecture img{
+    max-width: 100%;
+    transition: all 0.7s;
+    width: 100%;
+}
+.lecture_top1, .lecture_top2{
+    position: relative;
+}
+.sub3_main{
+    position: absolute;
+    left: 2%;
+    top: 100%;
+    margin: 0;
+    text-align: left;
+    transition: all 0.7s;
+}
+.sub3_main h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-bottom: 20px;
+    transition: all 0.7s;
+}
+.sub3_main h5{
+    font-weight: bold;
+    transition: all 0.7s;
+}
+.sub3_main p{
+    line-height: 32px;
+    transition: all 0.7s;
+}
+.sub3_main2{
+    position: absolute;
+    right: 5%;
+    top: 500px;
+    transition: all 0.7s;
+    display: none;
+}
+.sub3_main2 h5{
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: right;
+    transition: all 0.7s;
+    margin-top: 350px;
+}
+.sub3_main2 p{
+    line-height: 34px;
+    text-align: right;
+    margin-top: 20px;
+    transition: all 0.7s;
+}
+.lecture_top2 img{
+    position: absolute;
+    top: 480px;
+    right: 0;
+    transition: all 0.7s;
+}
+/* lecture */
+
+/* lee in sung */
+.sub3_leeinsung{
+    margin-top: 150%;
+    transition: all 0.7s;
+}
+.sub3_leeinsung h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    transition: all 0.7s;
+}
+.sub3_leeinsung h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: -30px;
+    margin-bottom: 30px;
+    transition: all 0.7s;
+}
+.sub3_leeinsung img{
+    max-width: 100%;
+    transition: all 0.7s;
+}
+.winner_img{
+    margin-top: -57px;
+    transition: all 0.7s;
+}
+.winner_img img{
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    transition: all 0.7s;
+}
+
+.winner_img p{
+    margin-left: 20px;
+    transition: all 0.7s;
+}
+
+
+
+.leeinsung_text{
+    margin: 266px 0 0 0;
+    transition: all 0.7s;
+}
+.leeinsung_text img{
+    max-width: 100%;
+    width: 560px;
+    height: 529px;
+    margin: auto;
+}
+.leeinsung_text p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0 40px 0 40px;
+    line-height: 33px;
+    transition: all 0.7s;
+}
+.leeinsung_text_line{
+    width: 90%;
+    height: 1px;
+    margin: auto;
+    background-color: #2e302f;
+    transition: all 0.7s;
+}
+.leeinsung_text2{
+    margin-top: 50px;
+    margin-bottom: 266px;
+    transition: all 0.7s;
+}
+.leeinsung_text2 img{
+    max-width: 100%;
+    transition: all 0.7s;
+}
+
+.leeinsung_text2 p{
+    line-height: 32px;
+    text-align: left;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding: 0 60px 0 60px;
+    transition: all 0.7s;
+    margin-bottom: 40px;
+}
+/* lee in sung */
+
+/* footer */
+.footer{
+    width: 100%;
+    padding: 127px 4% 127px 4%;
+    overflow: hidden;
+    background-color: #e3e3e3;
+}
+.footer p{margin: 0;}
+.footer_text1{float: left; margin-right: 40px;}
+.footer li{margin-bottom: 16px;}
+.footer_text, .footer_tell{
+    margin-bottom: 36px;
+}
+.footer_icon{
+    font-size: 1.5rem;
+    text-align: right;
+}
+.footer_icon li a i{
+    float: right;
+    margin-left: 20px;
+}
+.footer_road{
+    width: 100%;
+    float: right;
+    text-align: right;
+    margin-top: 36px;
+}
+/* footer */
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+
+
+
+/* mobile device(가로폭 480px 이하) */
+@media screen and (max-width:480px){
+     /* header*/
+.logo{
+    padding: 37px;    
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    border-bottom: 1px solid #2e302f;
+    justify-content: center;
+}
+.logo img{
+    width: 400px;
+    height: 31px;
+
+}
+
+header i{
+    float: right;
+    margin-right: 3%;
+    color: #2e302f;
+    font-size: 1rem;
+    margin-top: -54px;
+}
+/* header*/
+
+
+/* lecture */
+.sub3_lecture img{
+    max-width: 100%;
+    transition: all 0.7s;
+    width: 100%;
+}
+.lecture_top1, .lecture_top2{
+    position: relative;
+}
+.sub3_main{
+    position: absolute;
+    left: 2%;
+    top: 100%;
+    margin: 0;
+    text-align: left;
+    transition: all 0.7s;
+}
+.sub3_main h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-bottom: 20px;
+    transition: all 0.7s;
+}
+.sub3_main h5{
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: all 0.7s;
+}
+.sub3_main p{
+    line-height: 28px;
+    font-size: 0.9rem;
+    transition: all 0.7s;
+}
+.sub3_main2{
+    position: absolute;
+    right: 5%;
+    top: 500px;
+    transition: all 0.7s;
+    display: none;
+}
+.sub3_main2 h5{
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: right;
+    transition: all 0.7s;
+    margin-top: 350px;
+}
+.sub3_main2 p{
+    line-height: 34px;
+    text-align: right;
+    margin-top: 20px;
+    transition: all 0.7s;
+}
+.lecture_top2 img{
+    position: absolute;
+    top: 480px;
+    right: 0;
+    transition: all 0.7s;
+}
+/* lecture */
+
+/* lee in sung */
+.sub3_leeinsung{
+    margin-top: 160%;
+    transition: all 0.7s;
+}
+.sub3_leeinsung h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    transition: all 0.7s;
+}
+.sub3_leeinsung h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: -30px;
+    margin-bottom: 30px;
+    transition: all 0.7s;
+}
+.sub3_leeinsung img{
+    max-width: 100%;
+    transition: all 0.7s;
+}
+.winner_img{
+    margin-top: -57px;
+    transition: all 0.7s;
+}
+.winner_img img{
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    transition: all 0.7s;
+}
+
+.winner_img p{
+    margin-left: 20px;
+    transition: all 0.7s;
+}
+
+
+
+.leeinsung_text{
+    margin: 100px 0 0 0;
+    transition: all 0.7s;
+}
+.leeinsung_text img{
+    max-width: 100%;
+    width: 100%;
+    height: fit-content;
+    margin: auto;
+}
+.leeinsung_text p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0 40px 0 40px;
+    line-height: 28px;
+    font-size: 0.8rem;
+    transition: all 0.7s;
+}
+.leeinsung_text_line{
+    width: 90%;
+    height: 1px;
+    margin: auto;
+    background-color: #2e302f;
+    transition: all 0.7s;
+}
+.leeinsung_text2{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    transition: all 0.7s;
+}
+.leeinsung_text2 img{
+    max-width: 100%;
+    width: 100%;
+    height: fit-content;
+    transition: all 0.7s;
+}
+
+.leeinsung_text2 p{
+    line-height: 28px;
+    text-align: left;
+    font-size: 0.8rem;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding: 0 60px 0 60px;
+    transition: all 0.7s;
+    margin-bottom: 40px;
+}
+/* lee in sung */
+
+/* footer */
+.footer{
+    width: 100%;
+    padding: 127px 4% 127px 4%;
+    overflow: hidden;
+    background-color: #e3e3e3;
+}
+/* footer */
+
+.footer ul li, .footer p{
+    font-size: 0.7rem;
+}
+.footer i{font-size: 1.3rem;}
+
+
+
+a#MOVE_TOP_BTN {
+    position:fixed;
+    right:5%;
+    bottom:30px;
+    display:none;
+    z-index:999;
+    font-size: 3rem;
+   }
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
