@@ -1,0 +1,688 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.3/gsap.min.js"></script>
+    <script src="https://kit.fontawesome.com/266aa2c76b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+    
+    
+    <!-- Swiper Slide CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+    <!-- Swiper Slide styles -->
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      .swiper {
+        width: 100%;
+        height: 90%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center; 
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .swiper {
+        margin-left: auto;
+        margin-right: auto;
+      }
+    </style>
+</head>
+
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-angle-up"></i></button>
+
+    <!--header-->
+    <header class="main-tool-bar">
+        <div>
+            <a href="index.html">
+            <div class="logo_img">
+                <img src="img/logo.png" alt="">
+                <img src="img/logo_b.png" alt="">
+            </div>
+            </a>
+            
+            <nav>
+                <ul>
+                    <li><a href="sub01.html" class="cool-link">COMPANY</a></li>
+                    <li><a href="sub02.html" class="cool-link">GAME</a></li>
+                    <li><a href="sub03.html" class="cool-link">NEWS</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <script>
+        $(function(){
+            $("header").on('mouseover',function(){
+                $("header a").css({color:'#000',fontWeight:'bolder'});
+                $(".logo_img img:nth-child(2)").css({opacity:'1'});
+            })
+            .on('mouseout',function(){
+                $("header a").css({color:'#fff',fontWeight:'normal'});
+                $(".logo_img img:nth-child(2)").css({opacity:'0'});
+            });
+
+
+
+        });
+    </script>
+
+    <!--//header-->
+
+    <div class="back">
+        <div class="stick"></div>
+        <div class="stick"></div>
+        <div class="stick"></div>
+        <div class="stick"></div>
+        <div class="stick"></div>
+        <div class="stick"></div>
+        <div class="stick"></div>
+        <div class="stick"></div>
+        <div class="stick"></div>
+        <div class="stick"></div>
+        <div class="stick"></div>
+        <div class="stick"></div>
+        <div class="stick"></div>
+    </div>
+
+    <!--main-->
+    
+    <section id="main">
+        <video autoplay loop muted class="main_video">
+            <source src="video/main.mp4" type="video/mp4">
+        </video>
+
+        
+        <div class="parenthesis">
+            <a href="sub02.html">
+                <span class="main_text"></span>
+            </a>
+        </div>
+
+        <a href="#section1" class="btn"><span></span>Scroll</a>
+        
+    </section>
+
+    <script src="https://unpkg.com/typeit@8.4.0/dist/index.umd.js"></script>
+    <script>
+        new TypeIt(".main_text", {
+            strings: ["Stunning", "Breathetaking","Creation"],
+            speed: 50,
+            waitUntilVisible: true,
+        }).go();
+    </script>
+
+    
+    <!--//main-->
+
+    
+
+    <!--section1-->
+
+    
+    <section id="section1">
+        <div class="s1_title">
+            <p data-aos="zoom-in" data-aos-duration="500" data-aos-easing="linear">게임의 명가</p>
+            <h3 data-aos="zoom-in" data-aos-duration="500" data-aos-easing="linear">베데스다</h3>
+        </div>
+
+        <div class="s1_slide"  data-aos-duration="1200" data-aos-easing="linear">
+            <div class="wrapper">
+                <ul class="highway-lane">
+                    <li class="s1_slide_img">
+                        <img src="img/g1.jpg" alt="">
+                        <div class="s1_slide_span">
+                            <span><!--오버레이--></span>
+                            <h2>악스 파탈라스</h2>
+                            <p>Metacritic: 89/100</p>
+                        </div>    
+                    </li>
+
+                    <li class="s1_slide_img">
+                        <img src="img/g2.jpg" alt="">
+                        <div class="s1_slide_span">
+                            <span><!--오버레이--></span>
+                            <h2>디스아너드</h2>
+                            <p>Metacritic: 91/100</p>
+                        </div>
+                    </li>
+
+                    <li class="s1_slide_img">
+                        <img src="img/g3.jpg" alt="">
+                        <div class="s1_slide_span">
+                            <span><!--오버레이--></span>
+                            <h2>둠 2017</h2>
+                            <p>Metacritic: 85/100</p>
+                        </div>
+                    </li>
+
+                    <li class="s1_slide_img">
+                        <img src="img/g4.jpg" alt="">
+                        <div class="s1_slide_span">
+                            <span><!--오버레이--></span>
+                            <h2>엘더스크롤<br>모로윈드</h2>
+                            <p>Metacritic: 89/100</p>
+                        </div>
+                    </li>
+
+                    <li class="s1_slide_img">
+                        <img src="img/g5.jpg" alt="">
+                        <div class="s1_slide_span">
+                            <span><!--오버레이--></span>
+                            <h2>디 이블 위딘</h2>
+                            <p>Metacritic: 87/100</p>
+                        </div>
+                    </li>
+
+                    <li class="s1_slide_img">
+                        <img src="img/g6.jpg" alt="">
+                        <div class="s1_slide_span">
+                            <span><!--오버레이--></span>
+                            <h2>폴아웃 3</h2>
+                            <p>Metacritic: 93/100</p>
+                        </div>
+                    </li>
+
+                    <li class="s1_slide_img">
+                        <img src="img/g7.jpg" alt="">
+                        <div class="s1_slide_span">
+                            <span><!--오버레이--></span>
+                            <h2>프레이</h2>
+                            <p>Metacritic: 82/100</p>
+                        </div>
+                    </li>
+
+                    <li class="s1_slide_img">
+                        <img src="img/g8.jpg" alt="">
+                        <div class="s1_slide_span">
+                            <span><!--오버레이--></span>
+                            <h2>퀘이크</h2>
+                            <p>Metacritic: 94/100</p>
+                        </div>
+                    </li>
+
+                    <li class="s1_slide_img">
+                        <img src="img/g9.jpg" alt="">
+                        <div class="s1_slide_span">
+                            <span><!--오버레이--></span>
+                            <h2>레이지</h2>
+                            <p>Metacritic: 82/100</p>
+                        </div>
+                    </li>
+
+                    <li class="s1_slide_img">
+                        <img src="img/g10.jpg" alt="">
+                        <div class="s1_slide_span">
+                            <span><!--오버레이--></span>
+                            <h2>울펜슈타인</h2>
+                            <p>Metacritic: 89/100</p>
+                        </div>
+                    </li>
+
+                    <li class="s1_slide_img">
+                        <img src="img/g1.jpg" alt="">
+                        <div class="s1_slide_span">
+                            <span><!--오버레이--></span>
+                            <h2>악스 파탈라스</h2>
+                            <p>Metacritic: 89/100</p>
+                        </div>    
+                    </li>
+
+                    <li class="s1_slide_img">
+                        <img src="img/g2.jpg" alt="">
+                        <div class="s1_slide_span">
+                            <span><!--오버레이--></span>
+                            <h2>디스아너드</h2>
+                            <p>Metacritic: 91/100</p>
+                        </div>
+                    </li>
+
+                    <li class="s1_slide_img">
+                        <img src="img/g3.jpg" alt="">
+                        <div class="s1_slide_span">
+                            <span><!--오버레이--></span>
+                            <h2>둠 2017</h2>
+                            <p>Metacritic: 85/100</p>
+                        </div>
+                    </li>
+
+                    <li class="s1_slide_img">
+                        <img src="img/g4.jpg" alt="">
+                        <div class="s1_slide_span">
+                            <span><!--오버레이--></span>
+                            <h2>엘더스크롤<br>모로윈드</h2>
+                            <p>Metacritic: 89/100</p>
+                        </div>
+                    </li>
+
+                    <li class="s1_slide_img">
+                        <img src="img/g5.jpg" alt="">
+                        <div class="s1_slide_span">
+                            <span><!--오버레이--></span>
+                            <h2>디 이블 위딘</h2>
+                            <p>Metacritic: 87/100</p>
+                        </div>
+                    </li>
+
+                    <li class="s1_slide_img">
+                        <img src="img/g6.jpg" alt="">
+                        <div class="s1_slide_span">
+                            <span><!--오버레이--></span>
+                            <h2>폴아웃 3</h2>
+                            <p>Metacritic: 93/100</p>
+                        </div>
+                    </li>
+
+                    <li class="s1_slide_img">
+                        <img src="img/g7.jpg" alt="">
+                        <div class="s1_slide_span">
+                            <span><!--오버레이--></span>
+                            <h2>프레이</h2>
+                            <p>Metacritic: 82/100</p>
+                        </div>
+                    </li>
+
+                    <li class="s1_slide_img">
+                        <img src="img/g8.jpg" alt="">
+                        <div class="s1_slide_span">
+                            <span><!--오버레이--></span>
+                            <h2>퀘이크</h2>
+                            <p>Metacritic: 94/100</p>
+                        </div>
+                    </li>
+
+                    <li class="s1_slide_img">
+                        <img src="img/g9.jpg" alt="">
+                        <div class="s1_slide_span">
+                            <span><!--오버레이--></span>
+                            <h2>레이지</h2>
+                            <p>Metacritic: 82/100</p>
+                        </div>
+                    </li>
+
+                    <li class="s1_slide_img">
+                        <img src="img/g10.jpg" alt="">
+                        <div class="s1_slide_span">
+                            <span><!--오버레이--></span>
+                            <h2>울펜슈타인</h2>
+                            <p>Metacritic: 89/100</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <script>
+        $(function(){
+            $(".s1_slide_img").on('mouseover',function(){
+                $(this).find(".s1_slide_span").stop(true).animate({opacity:'1'},200);
+            })
+            .on('mouseout',function(){
+                $(this).find(".s1_slide_span").stop(true).animate({opacity:'0'},200);
+            });
+                
+        });
+    </script>
+
+    <script src="js/aos.js"></script>
+    <script>
+    AOS.init({
+        easing: 'ease-in-out-sine'
+    });
+    </script>
+
+    <!--//section1-->
+
+    <!--section2-->
+    <section id="section2">
+        <div class="s2_title">
+            <ul>
+                <li class="s22" data-aos="fade-right"><span>TECH</span></li>
+                <li class="s22" data-aos="fade-right"><span>BUSINESS</span></li>
+                <li class="s22" data-aos="fade-right"><span>GAME</span></li>
+            </ul>
+        </div>
+
+        <script>
+            $(function(){
+                $(".s22:nth-child(1)").on('mouseover',function(){
+                    $(".tech").stop(true).animate({opacity:'1'},500);
+                    $(".business").stop(true).animate({opacity:'0'},500);
+                    $(".game").stop(true).animate({opacity:'0'},500);
+                });
+                $(".s22:nth-child(2)").on('mouseover',function(){
+                    $(".tech").stop(true).animate({opacity:'0'},500);
+                    $(".business").stop(true).animate({opacity:'1'},500);
+                    $(".game").stop(true).animate({opacity:'0'},500);
+                });
+                $(".s22:nth-child(3)").on('mouseover',function(){
+                    $(".tech").stop(true).animate({opacity:'0'},500);
+                    $(".business").stop(true).animate({opacity:'0'},500);
+                    $(".game").stop(true).animate({opacity:'1'},500);
+                });
+
+                $(".s22:nth-child(1)").on('mouseover',function(){
+                    $(".s22:nth-child(1)").css({color:'#fff',textShadow: '-4px 0px rgb(0, 0, 0), 0px 4px rgb(0, 0, 0), 4px 0px rgb(0, 0, 0), 0px -4px rgb(0, 0, 0)'});
+                    $(".s22:nth-child(2)").css({color:'#000',textShadow: 'none'});
+                    $(".s22:nth-child(3)").css({color:'#000',textShadow: 'none'});
+                })
+
+                $(".s22:nth-child(2)").on('mouseover',function(){
+                    $(".s22:nth-child(1)").css({color:'#000',textShadow: 'none'});
+                    $(".s22:nth-child(2)").css({color:'#fff',textShadow: '-4px 0px rgb(0, 0, 0), 0px 4px rgb(0, 0, 0), 4px 0px rgb(0, 0, 0), 0px -4px rgb(0, 0, 0)'});
+                    $(".s22:nth-child(3)").css({color:'#000',textShadow: 'none'});
+                });
+
+                $(".s22:nth-child(3)").on('mouseover',function(){
+                    $(".s22:nth-child(1)").css({color:'#000',textShadow: 'none'});
+                    $(".s22:nth-child(2)").css({color:'#000',textShadow: 'none'});
+                    $(".s22:nth-child(3)").css({color:'#fff',textShadow: '-4px 0px rgb(0, 0, 0), 0px 4px rgb(0, 0, 0), 4px 0px rgb(0, 0, 0), 0px -4px rgb(0, 0, 0)'});
+                });
+            });
+        </script>
+        
+
+        <div class="s2_select">
+            <div>
+                <div class="select_img">
+                    <div class="left_top" data-aos="fade-down-right" data-aos-anchor-placement="bottom-center">
+                        <img src="img/tech1.png" alt="" class="tech">
+                        <img src="img/business1.png" alt="" class="business">
+                        <img src="img/game1.png" alt="" class="game">
+                    </div>
+                    <div class="left_bottom" data-aos="fade-up-right" data-aos-anchor-placement="bottom-center">
+                        <img src="img/tech2.png" alt="" class="tech">
+                        <img src="img/business2.png" alt="" class="business">
+                        <img src="img/game2.png" alt="" class="game">
+                    </div>
+                    <div class="right_top" data-aos="fade-down-left" data-aos-anchor-placement="bottom-center">
+                        <img src="img/tech3.png" alt="" class="tech">
+                        <img src="img/business3.png" alt="" class="business">
+                        <img src="img/game3.png" alt="" class="game">
+                    </div>
+                </div>
+                
+                <div class="select_text" data-aos="fade-left">
+                    <p class="tech">
+                        경쟁력 있는 IP 개발<br>
+                        다양한 문화 콘텐츠 개척<br>
+                        시장을 선도하는 기술력
+                    </p>
+                    <p class="business">
+                        잠재력 높은 스타트업과<br>
+                        게임 개발자를 발견하여<br>
+                        지원하고 성장시키는 파트너
+                    </p>
+                    <p class="game">
+                        경쟁력 있는 게임 퀄리티와<br>
+                        최고의 서비스로<br>
+                        팬들에게 즐거움을 선사
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!--//section2-->
+
+    <!--section3-->
+    <section id="section3">
+        <div class="s3_title">
+            <p data-aos="zoom-in" data-aos-duration="500" data-aos-easing="linear">멈추지 않는 성장</p>
+            <h3 data-aos="zoom-in" data-aos-duration="500" data-aos-easing="linear">"BEYOND THE NEW GROUND"</h3>
+        </div>
+
+        <div class="s3_box">
+            <div class="box">
+                <a href="sub01.html" target="_blank">
+                    <div class="box_img bi1" data-aos="fade-down" data-aos-duration="500" data-aos-easing="linear"data-aos-delay="300">
+                        <img src="img/b1.jpg" alt="">
+                        <span><!--오버레이--></span>
+                        <h4>어워드<br>수상</h4>
+
+                        <div class="box_text">
+                            <span><!--색깔--></span>
+                            <p>2021 더 게임 어워드<br>‘최고의 게임상’ 수상</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="box">
+                <a href="sub01.html" target="_blank">
+                    <div class="box_img bi2" data-aos="fade-up" data-aos-duration="500" data-aos-easing="linear"data-aos-delay="300">
+                        <img src="img/b2.jpg" alt="">
+                        <span><!--오버레이--></span>
+                        <h4>마이크로<br>소프트<br>기술협력</h4>
+
+                        <div class="box_text">
+                            <span><!--색깔--></span>
+                            <p>서로의 비전과<br>아이디어를 공유</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="box">
+                <a href="sub01.html" target="_blank">
+                    <div class="box_img bi3" data-aos="fade-down" data-aos-duration="500" data-aos-easing="linear"data-aos-delay="300">
+                        <img src="img/b3.jpg" alt="">
+                        <span><!--오버레이--></span>
+                        <h4>계속되는<br>엔진 개발</h4>
+
+                        <div class="box_text">
+                            <span><!--색깔--></span>
+                            <p>시대에 뒤쳐지지 않는<br>최신 기술들 도입</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="box">
+                <a href="sub01.html" target="_blank">
+                    <div class="box_img bi4" data-aos="fade-up" data-aos-duration="500" data-aos-easing="linear"data-aos-delay="300">
+                        <img src="img/b4.jpg" alt="">
+                        <span><!--오버레이--></span>
+                        <h4>대규모<br>인재 영입</h4>
+
+                        <div class="box_text">
+                            <span><!--색깔--></span>
+                            <p>대규모<br> 인원 확충을 통한<br>기술 발전 </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/jquery-ui.min.js"></script>
+
+    <script>
+        $(function(){
+            $(".box:nth-child(1)").on('mouseover',function(){
+                $(".box:nth-child(1) .box_text").stop(true).animate({opacity:'1'},500,'easeOutQuart');
+                $(".box:nth-child(1) .box_text span").css({background: 'rgb(63,114,175)',
+background: 'linear-gradient(0deg, rgba(63,114,175,1) 0%, rgba(255,255,255,0) 100%)'});
+            })
+            .on('mouseout',function(){
+                $(".box:nth-child(1) .box_text").stop(true).animate({opacity:'0'},500,'easeOutQuart');
+            });
+
+            $(".box:nth-child(2)").on('mouseover',function(){
+                $(".box:nth-child(2) .box_text").stop(true).animate({opacity:'1'},500,'easeOutQuart');
+                $(".box:nth-child(2) .box_text span").css({background: 'linear-gradient(0deg, rgba(55,55,55,1) 0%, rgba(255,255,255,0) 100%)'});
+});
+            })
+            .on('mouseout',function(){
+                $(".box:nth-child(2) .box_text").stop(true).animate({opacity:'0'},500,'easeOutQuart');
+            });
+
+            $(".box:nth-child(3)").on('mouseover',function(){
+                $(".box:nth-child(3) .box_text").stop(true).animate({opacity:'1'},500,'easeOutQuart');
+                $(".box:nth-child(3) .box_text span").css({background: 'rgb(63,114,175)',
+background: 'linear-gradient(0deg, rgba(63,114,175,1) 0%, rgba(255,255,255,0) 100%)'});
+            })
+            .on('mouseout',function(){
+                $(".box:nth-child(3) .box_text").stop(true).animate({opacity:'0'},500,'easeOutQuart');
+            });
+
+            $(".box:nth-child(4)").on('mouseover',function(){
+                $(".box:nth-child(4) .box_text").stop(true).animate({opacity:'1'},500,'easeOutQuart');
+                $(".box:nth-child(4) .box_text span").css({background: 'linear-gradient(0deg, rgba(155,155,155,1) 0%, rgba(255,255,255,0) 100%)'});
+            })
+            .on('mouseout',function(){
+                $(".box:nth-child(4) .box_text").stop(true).animate({opacity:'0'},500,'easeOutQuart');
+            });
+
+           
+    </script>
+    <!--//section3-->
+
+    <!--slide-->
+        <!-- Swiper -->
+            <section id="slide">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="img/s1.jpg" alt="">
+                                <div class="slider_text">
+                                    <span class="first" data-aos="fade-left">폴아웃: 뉴 베가스</span><br>
+                                    <span class="line" data-aos="fade-left"><!--왼쪽줄--></span><span class="second" data-aos="fade-left">리마스터 버전 공식 발표</span><span class="line" data-aos="fade-left"><!--오른쪽줄--></span><br>
+                                    <p class="third" data-aos="fade-left">#폴아웃  #아포칼립스  #리마스터  #RPG</p>
+                                </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/s2.jpg" alt="">
+                                <div class="slider_text">
+                                    <span class="first" data-aos="fade-left">스타필드 정식발매</span><br>
+                                    <span class="line" data-aos="fade-left"><!--왼쪽줄--></span><span class="second" data-aos="fade-left">2022. 11. 11</span><span class="line" data-aos="fade-left"><!--오른쪽줄--></span><br>
+                                    <p class="third" data-aos="fade-left">#스타필드  #SF  #우주여행  #외계인</p>
+                                </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/s3.jpg" alt="">
+                                <div class="slider_text">
+                                    <span class="first" data-aos="fade-left">베데스다 쇼케이스</span><br>
+                                    <span class="line" data-aos="fade-left"><!--왼쪽줄--></span><span class="second" data-aos="fade-left">2022 하반기 개최</span><span class="line" data-aos="fade-left"><!--오른쪽줄--></span><br>
+                                    <p class="third" data-aos="fade-left">#베데스다  #BE3  #신작발표  #이벤트</p>
+                                </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/s4.jpg" alt="">
+                                <div class="slider_text">
+                                    <span class="first" data-aos="fade-left">2022 공개채용</span><br>
+                                    <span class="line" data-aos="fade-left"><!--왼쪽줄--></span><span class="second" data-aos="fade-left">역대 최대규모 인력채용</span><span class="line" data-aos="fade-left"><!--오른쪽줄--></span><br>
+                                    <p class="third" data-aos="fade-left">#베데스다  #공채  #기술직  #역대급</p>
+                                </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/s5.png" alt="">
+                                <div class="slider_text">
+                                    <span class="first" data-aos="fade-left">엘더스크롤 V: 스카이림</span><br>
+                                    <span class="line" data-aos="fade-left"><!--왼쪽줄--></span><span class="second" data-aos="fade-left">애니버서리 에디션 발매</span><span class="line" data-aos="fade-left"><!--오른쪽줄--></span><br>
+                                    <p class="third" data-aos="fade-left">#판타지  #드래곤  #탐험  #마법</p>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+    
+        <!-- Swiper JS -->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            });
+        </script>
+    <!--//slide-->
+
+
+    <!--footer-->
+    <footer>
+        <div class="footer">
+            <div class="f_icon">
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-google"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+            </div>
+
+            <div class="hr"></div>
+
+            <div class="f_menu">
+                <a href="index.html"><img src="img/logo.png" alt=""></a>
+                
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Legal</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!--//footer-->
+
+    <!-- partial -->
+    <script src='https://assets.codepen.io/16327/gsap-latest-beta.min.js'></script>
+    <script src='https://assets.codepen.io/16327/ScrollTrigger.min.js?v=40'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/ScrollToPlugin.min.js'></script>
+    <script  src="js/index.js"></script>
+</body>
+</html>
