@@ -1,0 +1,303 @@
+@media screen and (max-width: 1676px) {
+  /* s4 디지털 전시회 */
+  .s4 .section-title-ver2{ width: 40%; }
+  .s4 .section-title-ver2>h2>a{ font-size: 3.5rem; }
+
+  /* s5 공지 이벤트 */
+  .s5>.row{ display: flex; flex-direction: column; }
+  .s5>.row>div:nth-child(1){ width: 100%; order: 2; }
+  .s5 .section-title-ver2{ width: 100%; margin-bottom: 40px; order: 1; }
+
+}
+
+@media screen and (max-width: 1500px) {
+  /* bg-logo : 배경 로고 */
+  .bg-logo{ top: 6000px;}
+
+  /* s1 현재 진행 중인 전시회 */
+  .s1 .contents .contents-img{ margin-bottom: 25px; }
+  .s1 .contents .contents-text>.contents-title{ flex-direction: column; margin-bottom: 15px;}
+  .s1 .contents .contents-text>.contents-title>h3{ text-align: center; }
+  .s1 .contents .contents-text>.contents-title>p{ margin-top: 10px; text-align: center; }
+
+  /* footer famsite slide */
+  #familySite-slide>.familySite-wrap>.famsite-arrow-next{ right: 21px; }
+  #familySite-slide>.familySite-wrap>.famsite-stop{ right: -19px; }
+}
+
+
+
+@media screen and (max-width: 1400px) {
+
+  /* nav 메뉴 */
+  #nav>.nav-inbox>.ul-nav>li>a{ font-size: 1.7rem; }
+  #nav>.nav-inbox>.ul-nav>li>a>span{ font-size: 1.5rem; }
+  /* logo 로고 */
+  #nav>.nav-inbox>a{ font-size: 4rem; }
+
+  /* header 예약 */
+  header{ height: 180px; }
+  header>.header-inbox>.left-booking>h3{ width: 490px; margin-bottom: 10px; }
+  header>.header-inbox>.left-booking>h3>a:nth-child(1){ font-size: 4.8rem; }
+  header>.header-inbox>.left-booking>h3>a:nth-child(2){ font-size: 4.5rem; font-weight: 600; }
+  header>.header-inbox>.right-booking>button{ font-size: 1.5rem; }
+
+  /* main slide 메인 슬라이드 */
+  /* main-slide-arrow 메인 슬라이드 화살표 */
+  main>.main-inbox>.main-slide>.main-slide-prev{ left: -50px; }
+  main>.main-inbox>.main-slide>.main-slide-next{ right: -50px; }
+
+  /* section */
+  .container{ width: 72%; }
+
+  /* s2 미술관 소개*/
+  .s2{ height: 600px; }
+  .s2>.museum-text{ padding: 110px 90px; }
+  .s2>.museum-text h2{ font-size: 4rem; line-height: 5.9rem; }
+  .s2>.museum-text h2>b{ font-size: 5rem; }
+
+  /* s4 디지털 전시회 */
+  .s4{ height: 375px; }
+  .s4 .swiper.videoSlide{ width: 1260px; }
+  .s4 .swiper>.swiper-wrapper>.swiper-slide p{ width: 75%; }
+
+}
+
+@media screen and (max-width: 1300px) {
+
+  /* bg-logo : 배경 로고 */
+  .bg-logo{ display: none; }
+
+  /* main slide 메인 슬라이드 */
+  main{ height: 500px; }
+  /* 01 */
+  main>.main-inbox>.main-slide .main-slide-item1 .text{ bottom: 45px; }
+  main>.main-inbox>.main-slide .main-slide-item1 .text>h2{ font-size: 5rem; }
+  /* 02 */
+  main>.main-inbox>.main-slide .main-slide-item2 .text{ left: 40px; }
+  main>.main-inbox>.main-slide .main-slide-item2 .text>h2{ font-size: 3rem; }
+  main>.main-inbox>.main-slide .main-slide-item2 .text>h2::first-letter{ font-size: 4rem; }
+  /* 03 */
+  main>.main-inbox>.main-slide .main-slide-item3 .text{ width: 350px; height: 370px; padding: 0 50px; }
+  main>.main-inbox>.main-slide .main-slide-item3 .text>h2{ margin-top: 70px; font-size: 4.5rem; }
+  main>.main-inbox>.main-slide .main-slide-item3 .text>p:nth-of-type(1){ margin-top: 50px; }
+  /* main-slide-arrow */
+  main>.main-inbox>.main-slide>.main-arrow>i{ width: 40px; height: 40px; }
+  main>.main-inbox>.main-slide>.main-slide-prev{ left: -40px; }
+  main>.main-inbox>.main-slide>.main-slide-next{ right: -40px; }
+
+  /* s3 소장품 */
+  .s3 .collection-wrap>.left-collection{ width: calc(100% - 50% - 7.5px); margin-right: 7.5px; }
+  .s3 .collection-wrap>.right-collection{ width: calc(100% - 50% - 7.5px); margin-left: 7.5px; }
+  .s3 .collection-wrap>.right-collection>.collection-items{ height: calc( (100%/3) - 10px ); }
+  
+}
+
+@media screen and (max-width: 1200px) {
+
+  /* nav 메뉴 */
+  #nav>.nav-inbox>.ul-nav>li>a{ font-size: 1.6rem; }
+  #nav>.nav-inbox>.ul-nav>li>a>span{ font-size: 1.4rem; }
+  #nav>.nav-inbox>.left-nav>li{ margin-right: 1.3vw; }
+  #nav>.nav-inbox>.right-nav>li{ margin-left: 1.3vw; }
+  /* nav logo 로고 */
+  #nav>.nav-inbox>a{ font-size: 3.8rem; }
+
+  /* header 예약 */
+  header>.header-inbox>.right-booking>button{ height: 40px; padding: 0 4vw; font-size: 1.4rem; }
+
+  /* s2 미술관 소개*/
+  .s2{ height: 600px; }
+  .s2>.museum-text{ padding: 90px 60px; }
+  .s2>.museum-text h2{ font-size: 4rem; line-height: 5.9rem; }
+  .s2>.museum-text h2>b{ font-size: 5rem; }
+
+  /* s3 소장 */
+  section .section-title-ver1{ padding: 15px 0;  }
+  section .section-title-ver1>h2>a{ font-size: 2.1rem; }
+  section .section-title-ver1>h4>a{ font-size: 1.6rem; }
+
+  /* s4 디지털 전시회 */
+  .s4{ height: 500.5px; }
+  .s4 .section-title-ver2{ width: 100%; margin-bottom: 40px; }
+  .s4 .swiper.videoSlide{ position: relative; width: 1260px; margin-left: 0; padding-left: 15px; padding-right: 15px; }
+
+  /* footer famsite slide */
+  #familySite-slide>.familySite-wrap>.famsite-arrow-next{ right: 1px; }
+  #familySite-slide>.familySite-wrap>.famsite-stop{ right: -39px; }
+
+}
+
+
+@media screen and (max-width: 1000px) {
+
+  /* nav */
+  #nav>.nav-inbox>.ul-nav{ display: none; }
+  #nav>.nav-inbox>.mobile-ham{ display: block; }
+
+  /* header 예약 */
+  header{ height: 230px; }
+  header>.header-inbox{ padding: 0 30px; flex-direction: column; justify-content: center;}
+  header>.header-inbox>.left-booking>h3{ width: 100%; margin-bottom: -3px; }
+  header>.header-inbox>.left-booking>h3>a{ display: block; width: 100%; text-align: center; }
+  header>.header-inbox>.left-booking>h3>a:nth-child(1){ font-size: 3.8rem; }
+  header>.header-inbox>.left-booking>h3>a:nth-child(2){ font-size: 3.5rem; }
+  header>.header-inbox>.left-booking>p{ text-align: center; }
+  header>.header-inbox>.right-booking{ justify-content: center; padding-top: 33px; padding-bottom: 0; }
+  header>.header-inbox>.right-booking>button{ width: 170px; }
+
+  /* main slide 메인 슬라이드 */
+  main>.main-inbox>.main-slide .main-slide-item1{ background: url(../img/mobile-slide01.jpg) no-repeat center center; background-size: cover; }
+  main>.main-inbox>.main-slide .main-slide-item2{ background: url(../img/mobile-slide02.png) no-repeat center center, linear-gradient( to right, #000 50%, #fff 50% ); background-size: contain; }
+  main>.main-inbox>.main-slide .main-slide-item3{ background: url(../img/mobile-slide03.jpg) no-repeat center center; background-size: cover; }
+  /* 02 */
+  main>.main-inbox>.main-slide .main-slide-item2 .text{ display: none; }
+  /* 03 */
+  main>.main-inbox>.main-slide .main-slide-item3 .text{ width: 100%; height: 100%; right: 50%; transform: translate(50%, 50%); background: #20202046;}
+  main>.main-inbox>.main-slide .main-slide-item3 .text>h2{ margin-top: 8vw; font-size: 3.5rem; }
+  main>.main-inbox>.main-slide .main-slide-item3 .text>h2>small{  color: #f05156; }
+  main>.main-inbox>.main-slide .main-slide-item3 .text>p{ color: #fff; text-align: left; }
+
+
+  /* center-line */
+  .center-line{ height: 70px; margin: 50px auto; }
+
+  /* section */
+  /* s2 미술관 소개*/
+  .s2{ height: 400px; }
+  .s2>.museum-text{ padding: 60px 45px; }
+  .s2>.museum-text h2{ font-size: 2.5rem; line-height: 4rem; }
+  .s2>.museum-text h2>b{ font-size: 3.5rem; }
+  .s2>.museum-text p{ font-size: 1.3rem; }
+  .s2>.museum-text p>.text-logo{ font-size: 1.3rem; }
+
+
+  /* s3 소장 */
+  .s3 .collection-wrap>.left-collection{ display: none; }
+  .s3 .collection-wrap>.right-collection{ width: 100%; height: 65vw; margin-left: 0;}
+
+
+}
+
+
+@media screen and (max-width: 991px) {
+
+  /* section */
+  .container{ width: 65%; }
+  /* s1 현재 진행 중인 전시회 */
+  .s1 .contents{ margin-bottom: 0px; }
+  .s1 .right-contents{ border: 0; margin-bottom: 60px; }
+  .s1 .left-contents{ display: none; }
+  .s1 .contents .contents-img{ margin-top: 60px; }
+  .s1 .contents .contents-text>p{ display: none; }
+  .s1 .contents .contents-text>.contents-title{ margin-bottom: 0; }
+
+  /* footer */
+  footer .container{ width: 90%; }
+  footer .footer-top h2{ font-size: 4.5rem; }
+  footer .footer-top p{ font-weight: 300; }
+  footer .footer-top h2,
+  footer .footer-top p{ text-align: center; }
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+  /* header 예약 */
+  header>.header-inbox>.left-booking>h3>a:nth-child(1){ font-size: 3.5rem; }
+  header>.header-inbox>.left-booking>h3>a:nth-child(2){ font-size: 3rem; }
+
+  /* main slide 메인 슬라이드 */
+  main{ margin-top: 40px; }
+  /* 01 */
+  main>.main-inbox>.main-slide .main-slide-item1{ background: url(../img/mobile-slide01-1.jpg) no-repeat center center; background-size: cover; }
+  main>.main-inbox>.main-slide .main-slide-item1 .text{ bottom: 47%; transform: translate(-50%, 50%); }
+  main>.main-inbox>.main-slide .main-slide-item1 .text>h6{ margin-bottom: 10px; font-size: 1.8rem; letter-spacing: 3px; }
+  main>.main-inbox>.main-slide .main-slide-item1 .text>h2{ font-size: 3rem; letter-spacing: 6px;}
+  /* 03 */
+  main>.main-inbox>.main-slide .main-slide-item3{ background: url(../img/mobile-slide03-1.jpg) no-repeat center center; background-size: cover; }
+  main>.main-inbox>.main-slide .main-slide-item3 .text{ display: flex; flex-direction: column; justify-content: flex-end; padding: 60px; }
+  main>.main-inbox>.main-slide .main-slide-item3 .text>p:nth-of-type(1){ margin-top: 0px; margin: 10px 0;}
+
+  /* main slide : 메인 슬라이드 */
+  /* main-slide-arrow */
+  main>.main-inbox>.main-slide>.main-slide-prev,
+  main>.main-inbox>.main-slide>.main-slide-next{ display: none; }
+
+  /* section */
+  .container{ width: 89.333%; }
+  
+  /* s2 미술관 소개*/
+  .s2{ height: 800px; grid-template-columns: 1fr; grid-template-rows: 0.7fr 0.7fr; }
+  .s2 .museum{ border-left: 0; border-top: 0;}
+  .s2 .museum-img{ border-top: 1px solid #000;}
+
+  /* s3 소장 */
+  .s3 .collection-wrap{ padding: 0; margin-top: 25px;}
+  .s3 .collection-wrap>.right-collection{ height: 95vw; }
+  .s4 .swiper.videoSlide{ width: 1041px; }
+  .s4 .swiper>.swiper-wrapper>.swiper-slide p{ font-size: 1.4rem; }
+
+  /* s5 공지 이벤트 */
+  .s5 .noticeEvent li>a>.con-title{ font-size: 1.5rem; }
+
+  /* footer famsite slide */
+  #familySite-slide>.familySite-wrap{ width: 80%; }
+  #familySite-slide>.familySite-wrap>.famsite{ margin-right: 0; }
+  #familySite-slide>.familySite-wrap>.famsite-arrow-prev{ left: -25px; }
+  #familySite-slide>.familySite-wrap>.famsite-arrow-next{ right: -26px; }
+  #familySite-slide>.familySite-wrap>.famsite-stop{ display: none; }
+
+  /* footer */
+  footer .footer-top h2,
+  footer .footer-top p{ display: none; }
+  footer .footer-bottom{ margin: 0; }
+  footer .footer-bottom.footer-menu{ flex-direction: column; margin-top: 50px; }
+  footer .footer-bottom.footer-menu>.footer-menu{ display: flex; }
+  footer .footer-bottom.footer-menu>.sns-menu{ display: flex; margin-top: 10px; }
+  footer .footer-bottom.footer-menu>.footer-menu>li,
+  footer .footer-bottom.footer-menu>.sns-menu>li{ margin-right: 20px; }
+
+  /* top-btn */
+  #top-btn{ right: 30px; bottom: 30px; }
+
+}
+
+
+@media screen and (max-width: 499px) {
+  /* nav logo 로고 */
+  #nav>.nav-inbox>a{ font-size: 3.5rem; }
+
+  /* header 예약 */
+  header>.header-inbox>.left-booking>h3>a:nth-child(1){ font-size: 7vw; }
+  header>.header-inbox>.left-booking>h3>a:nth-child(2){ font-size: 7vw; }
+  header>.header-inbox>.right-booking{ padding-top: 22px; }
+  header>.header-inbox>.right-booking>button{ font-size: 1.4rem; }
+
+  /* main slide 메인 슬라이드 */
+  /* 01 */
+  main>.main-inbox>.main-slide .main-slide-item1 .text>h2{ font-size: 3rem; }
+  /* 03 */
+  main>.main-inbox>.main-slide .main-slide-item3 .text>h2{ font-size: 2.5rem; }
+  main>.main-inbox>.main-slide .main-slide-item3 .text>h2>small{ font-size: 1.8rem; }
+
+  /* s4 디지털 전시회 */
+  .s4 .swiper.videoSlide{ width: 819px; }
+
+
+  /* s5 공지 이벤트 */
+  .s5 .noticeEvent li>a>small{ display: none; }
+
+
+  /* footer */
+  footer .footer-bottom.footer-menu{ flex-direction: row; }
+  footer .footer-bottom.footer-menu>.footer-menu{ display: block; }
+  footer .footer-bottom.footer-menu>.sns-menu{ display: block; margin-top: 0px; }
+
+
+
+  
+
+}
+
