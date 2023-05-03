@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gai Han</title>
+
+  <!-- style -->
+  <link rel="stylesheet" href="./css/style.css" type="text/css">
+  <!-- //style -->
+
+  <!-- favicon -->
+  <link rel="icon" type="image/png" href="./img/op2.png">
+  <!-- //favicon -->
+
+  <!-- script -->
+  <script src="./js/gsap.min.js" defer></script>
+  <script src="./js/ScrollTrigger.min.js" defer></script>
+  <script src="./js/ScrollToPlugin.min.js" defer></script>
+  <script src="./js/Flip.min.js" defer></script>
+  <script src="./js/main.js" defer></script>
+  <!-- //script -->
+
+</head>
+
+<body>
+  <!-- first page -->
+  <section id="first-page" class="page">
+    <h1>
+      <span class="firstname">gai</span>
+      <span class="lastname">han</span>
+    </h1>
+
+    <div id="intro">
+      <div class="description">
+        An aspiring designer currently based in Daegu, South Korea.
+      </div>
+      <div class="description">
+        Third culture kid--Thailand born South Korean, Netherlands-trained.
+      </div>
+      <div class="description">
+        Passionate about artistic & creative direction, design, and digital experiences.
+      </div>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="#second-page">about</a></li>
+        <li><a href="#third-page">skills</a></li>
+        <li><a href="#fourth-page">works</a></li>
+        <li><a href="#fifth-page">contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="decor">
+      <svg height="25vw" width="25vw">
+        <ellipse cx="20%" cy="50%" rx="3vw" ry="40%" style="fill:none; stroke:black; stroke-width: 1" />
+        <ellipse cx="30%" cy="50%" rx="3vw" ry="40%" style="fill:none; stroke:black; stroke-width: 1" />
+        <ellipse cx="40%" cy="50%" rx="3vw" ry="40%" style="fill:none; stroke:black; stroke-width: 1" />
+        <ellipse cx="50%" cy="50%" rx="3vw" ry="40%" style="fill:none; stroke:black; stroke-width: 1" />
+        <ellipse cx="60%" cy="50%" rx="3vw" ry="40%" style="fill:none; stroke:black; stroke-width: 1" />
+        <ellipse cx="70%" cy="50%" rx="3vw" ry="40%" style="fill:none; stroke:black; stroke-width: 1" />
+        <ellipse cx="80%" cy="50%" rx="3vw" ry="40%" style="fill:none; stroke:black; stroke-width: 1" />
+        <ellipse cx="90%" cy="50%" rx="3vw" ry="40%" style="fill:none; stroke:black; stroke-width: 1" />
+        <ellipse cx="100%" cy="50%" rx="3vw" ry="40%" style="fill:none; stroke:black; stroke-width: 1" />
+        <ellipse cx="110%" cy="50%" rx="3vw" ry="40%" style="fill:none; stroke:black; stroke-width: 1" />
+        <ellipse cx="120%" cy="50%" rx="3vw" ry="40%" style="fill:none; stroke:black; stroke-width: 1" />
+        <ellipse cx="130%" cy="50%" rx="3vw" ry="40%" style="fill:none; stroke:black; stroke-width: 1" />
+        <ellipse cx="140%" cy="50%" rx="3vw" ry="40%" style="fill:none; stroke:black; stroke-width: 1" />
+        <ellipse cx="150%" cy="50%" rx="3vw" ry="40%" style="fill:none; stroke:black; stroke-width: 1" />
+        <ellipse cx="160%" cy="50%" rx="3vw" ry="40%" style="fill:none; stroke:black; stroke-width: 1" />
+        <ellipse cx="170%" cy="50%" rx="3vw" ry="40%" style="fill:none; stroke:black; stroke-width: 1" />
+        <ellipse cx="180%" cy="50%" rx="3vw" ry="40%" style="fill:none; stroke:black; stroke-width: 1" />
+        <ellipse cx="190%" cy="50%" rx="3vw" ry="40%" style="fill:none; stroke:black; stroke-width: 1" />
+        <ellipse cx="200%" cy="50%" rx="3vw" ry="40%" style="fill:none; stroke:black; stroke-width: 1" />
+        <ellipse cx="210%" cy="50%" rx="3vw" ry="40%" style="fill:none; stroke:black; stroke-width: 1" />
+      </svg>
+    </div>
+
+    <div class="cursor"></div>
+  </section>
+  <!-- //first page -->
+
+
+  <!-- first transition page -->
+  <div id="transition">
+    <div class="line line1"></div>
+    <div class="line line2"></div>
+    <div class="line line3"></div>
+    <div class="line line4"></div>
+    <div class="line line5"></div>
+    <div class="line line6"></div>
+    <div class="line line7"></div>
+    <div class="line line8"></div>
+    <div class="line line9"></div>
+    <div class="line line10"></div>
+    <div class="line line11"></div>
+    <div class="line line12"></div>
+    <div class="line line13"></div>
+    <div class="line line14"></div>
+    <div class="line line15"></div>
+  </div>
+  <!-- //first transition page -->
+
+
+  <!-- second page: about me -->
+  <section id="second-page" class="page">
+    <h2 class="hidden">About me</h2>
+
+    <div class="horizontal-wrap">
+      <!-- first box -->
+      <div class="box box1">
+        <div class="content-wrap">
+          <div class="box1-title">
+            <p>Hi there! Here's a little bit about me ☻</p>
+            <p>Hi there! Here's a little bit about me ☻</p>
+            <p>Hi there! Here's a little bit about me ☻</p>
+            <p>Hi there! Here's a little bit about me ☻</p>
+          </div>
+
+          <div class="greetings-wrap">
+            <div class="kor-wrap">
+              <div class="kor">안녕하세요!</div>
+            </div>
+
+            <div class="eng-wrap">
+              <div class="eng">Hello!</div>
+            </div>
+
+            <div class="dutch-wrap">
+              <div class="dutch">Hoi!</div>
+            </div>
+
+            <div class="thai-wrap">
+              <div class="thai">สวัสดีค่ะ!</div>
+            </div>
+          </div>
+
+          <div class="box1-text">
+            <p>
+              Having always been inclined to the creative industry, my background spans across different
+              creative sectors starting from the contemporary art scene to digital marketing, content
+              creation, and most recently, design. Wanting to experiment with my creative capacities, I
+              have been
+              delving into the world of web design and learning how to conceptualize, create prototypes,
+              and code
+              -- all of which I still find challenging but exciting and rewarding as my designs come to
+              life. I have a lot to learn and along way to go but I am thrilled to go down this path!
+            </p>
+          </div>
+
+          <!-- dots -->
+          <div class="dot dot1"></div>
+          <div class="dot dot2"></div>
+          <div class="dot dot3"></div>
+          <div class="dot dot4"></div>
+          <!-- //dots -->
+        </div>
+      </div>
+      <!-- //first box -->
+
+      <!-- second box -->
+      <div class="box box2">
+        <div class="content-wrap">
+
+          <div class="columns">
+            <div class="col1">
+              <div class="education">
+                <p class="edu-title">education</p>
+
+                <div class="school-wrap">
+                  <p class="school">Erasmus University Rotterdam</p>
+                  <div class="degree">
+                    <p>Master of Arts--Media & Business</p>
+                    <p>2021-22</p>
+                  </div>
+                  <div class="degree">
+                    <p>Bachelor of Arts--Arts & Culture Studies</p>
+                    <p>2018-21</p>
+                  </div>
+                </div>
+
+                <div class="school-wrap">
+                  <p class="school">Seoul National University</p>
+                  <div class="degree">
+                    <p>Study abroad--Media Studies</p>
+                    <p>2020-21</p>
+                  </div>
+                </div>
+
+                <div class="school-wrap">
+                  <p class="school">Nakornpayap International School</p>
+                  <div class="degree">
+                    <p>American High School Diploma</p>
+                    <p>2008-18</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="decor-circles1">
+                <div class="ball1 ball1-1"></div>
+                <div class="ball1 ball1-2"></div>
+                <div class="ball1 ball1-3"></div>
+                <div class="ball1 ball1-4"></div>
+              </div>
+
+            </div>
+
+            <div class="col2">
+              <div class="acp">
+                <p>
+                  Being an <span>Adobe Certified Professional</span>, I am proficient in utilizing
+                  various Adobe Creative Cloud applications - especially Illustrator and Photoshop.
+                </p>
+              </div>
+
+              <div class="photography">
+                <p>I like photography!</p>
+                <a href="https://www.instagram.com/someokaypics/" target="_blank">Instagram:
+                  @someokaypics</a>
+              </div>
+
+              <div class="baby">
+                <img src="./img/baby.png" alt="baby picture of me in sunglasses">
+                <p>2000's baby!</p>
+              </div>
+            </div>
+
+            <div class="col3">
+              <div class="decor-circles">
+                <div class="ball ball1"></div>
+                <div class="ball ball2"></div>
+                <div class="ball ball3"></div>
+                <div class="ball ball4"></div>
+              </div>
+
+              <div class="whatelse">
+                <p class="we-title">what else...</p>
+                <p>
+                  First off, I am trilingual--I speak English, Korean, and Thai. I am
+                  recognized for being organized, diligent, collaborative, and open-minded. As an
+                  aspiring creative, I spend a lot of time browsing through Pinterest, learning how to
+                  use Javascript Libraries, and experimenting with CSS.
+                </p>
+                <p>
+                  Other than that, I like going to art exhibitions, watching movies, and drinking iced
+                  latte (even in winter, like an ordinary Korean).
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- dots -->
+          <div class="dot dot1"></div>
+          <div class="dot dot2"></div>
+          <div class="dot dot3"></div>
+          <div class="dot dot4"></div>
+          <!-- //dots -->
+        </div>
+      </div>
+      <!-- //second box -->
+
+
+      <!-- third box -->
+      <div class="box box3">
+        <div class="content-wrap">
+          <p>
+            you can also find me here!<br>
+            <span>
+              (click on the cards to shuffle)
+            </span>
+          </p>
+
+          <div class="cards-wrapper">
+
+            <div class="card1 hidden">
+              <div class="card-content"></div>
+            </div>
+
+            <div class="card1">
+              <div class="card-content">
+                <a href="./GaiHan_Resum.pdf" target="_blank" class="card-title">resumé</a>
+                <a href="./GaiHan_Resum.pdf" target="_blank" class="arrow">
+                  <img src="./img/whitearrow.png" alt="white arrow">
+                </a>
+              </div>
+            </div>
+
+            <div class="card1">
+              <div class="card-content">
+                <a href="./GaiHan_CoverLetter.pdf" target="_blank" class="card-title">personal<br>
+                  statement</a>
+                <a href="./GaiHan_CoverLetter.pdf" target="_blank" class="arrow"><img src="./img/blackarrow.png"
+                    alt="black arrow"></a>
+              </div>
+            </div>
+
+            <div class="card1">
+              <div class="card-content">
+                <a href="https://www.linkedin.com/in/gai-han/" target="_blank" class="card-title">linkedin</a>
+                <a href="https://www.linkedin.com/in/gai-han/" target="_blank" class="arrow"><img
+                    src="./img/whitearrow.png" alt="white arrow"></a>
+              </div>
+            </div>
+
+            <div class="card1">
+              <div class="card-content">
+                <a href="https://github.com/gaia0a" target="_blank" class="card-title">github</a>
+                <a href="https://github.com/gaia0a" target="_blank" class="arrow"><img src="./img/blackarrow.png"
+                    alt="black arrow"></a>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- dots -->
+          <div class="dot dot1"></div>
+          <div class="dot dot2"></div>
+          <div class="dot dot3"></div>
+          <div class="dot dot4"></div>
+          <!-- //dots -->
+        </div>
+      </div>
+      <!-- //third box -->
+
+    </div>
+  </section>
+  <!-- //second page: about me -->
+
+
+  <!-- second transition page -->
+  <div id="transition2">
+    <div class="movingball">
+      Here are the tools I can use!
+    </div>
+  </div>
+  <!-- //second transition page -->
+
+
+  <!-- third page: skills -->
+  <section id="third-page" class="thirdpage">
+    <h2>Skills</h2>
+
+    <div class="versions">
+      <input type="checkbox" id="switch">
+      <label for="switch">v1 v2</label>
+    </div>
+
+    <div class="skills-v1 skills-v2">
+
+      <div class="skill-wrap">
+        <div class="skill skill1">HTML/CSS</div>
+        <div class="skill-level skill1-level">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle">
+            <div class="half"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-wrap">
+        <div class="skill skill2">Responsive<br> Design</div>
+        <div class="skill-level skill2-level">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+      </div>
+
+      <div class="skill-wrap">
+        <div class="skill skill3">Javascript</div>
+        <div class="skill-level skill3-level">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+      </div>
+
+      <div class="skill-wrap">
+        <div class="skill skill4">JQuery</div>
+        <div class="skill-level skill4-level">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+      </div>
+
+      <div class="skill-wrap">
+        <div class="skill skill5">GSAP</div>
+        <div class="skill-level skill5-level">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+      </div>
+
+      <div class="skill-wrap">
+        <div class="skill skill6">Sass</div>
+        <div class="skill-level skill6-level">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+      </div>
+
+      <div class="skill-wrap">
+        <div class="skill skill7">React</div>
+        <div class="skill-level skill7-level">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+      </div>
+
+      <div class="skill-wrap">
+        <div class="skill skill8">Vue.js</div>
+        <div class="skill-level skill8-level">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+      </div>
+
+      <div class="skill-wrap">
+        <div class="skill skill9">Next.js</div>
+        <div class="skill-level skill9-level">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+      </div>
+
+      <div class="skill-wrap">
+        <div class="skill skill10">Figma</div>
+        <div class="skill-level skill10-level">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+      </div>
+
+      <div class="skill-wrap">
+        <div class="skill skill11">Adobe XD</div>
+        <div class="skill-level skill11-level">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle">
+            <div class="half"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-wrap">
+        <div class="skill skill12">Illustrator</div>
+        <div class="skill-level skill12-level">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+      </div>
+
+      <div class="skill-wrap">
+        <div class="skill skill13">Photoshop</div>
+        <div class="skill-level skill13-level">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle">
+            <div class="half"></div>
+          </div>
+          <div class="circle"></div>
+        </div>
+      </div>
+
+      <div class="skill-wrap">
+        <div class="skill skill14">Final Cut Pro</div>
+        <div class="skill-level skill14-level">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+      </div>
+
+      <div class="skill-wrap">
+        <div class="skill skill15">After Effects</div>
+        <div class="skill-level skill15-level">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- //third page: skills -->
+
+
+  <!-- fourth page: works -->
+  <section id="fourth-page" class="page">
+
+    <!-- fourth page part 1 -->
+    <div id="fourth-page-1">
+      <div class="contents-wrap">
+        <div class=row1>
+          <div class="works-title">
+            <h2>works</h2>
+          </div>
+
+          <div class="name">
+            <p>© Gai Han</p>
+          </div>
+
+          <div class="byme">
+            <p>Planned, designed, & developed by me.</p>
+          </div>
+        </div>
+
+        <div class="row2">
+          <div class="process">
+            <div class="p-flex">
+              <div class="direction">
+                <p>Direction</p>
+                <p>Have a clear theme, set design goals, curate elements to achieve such goals.</p>
+              </div>
+
+              <div class="twoarrows">
+                <img src="./img/whitearrow2.png" alt="white arrow">
+                <img src="./img/blackarrow3.png" alt="black arrow">
+              </div>
+
+              <div class="prototype">
+                <p>Prototype</p>
+                <p>
+                  Create a detailed prototype for different screen resolutions including interactivity
+                  and transitions.
+                </p>
+              </div>
+
+              <div class="twoarrows">
+                <img src="./img/whitearrow2.png" alt="white arrow">
+                <img src="./img/blackarrow3.png" alt="black arrow">
+              </div>
+
+              <div class="development">
+                <p>Development</p>
+                <p>Write a meaningful HTML and get validated, add CSS elements, focus on responsiveness,
+                  and finally, add Javascript movements.</p>
+              </div>
+            </div>
+
+            <!-- dots -->
+            <div class="dot dot1"></div>
+            <div class="dot dot2"></div>
+            <div class="dot dot3"></div>
+            <div class="dot dot4"></div>
+            <!-- //dots -->
+          </div>
+
+          <div class="circles">
+            <div class="circle1">
+              <div class="circle2">
+                <div class="circle3">
+                  <div class="circle4">
+                    <div class="circle5">
+                      <div class="circle6"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="bottom-quote">
+          <p>In the game since November, 2022.</p>
+        </div>
+
+      </div>
+    </div>
+    <!-- //fourth page part 1 -->
+
+    <!-- fourth page part 2 -->
+    <div id="fourth-page-2" class="page">
+      <h2>My Work</h2>
+
+      <div id="card-wrap">
+        <div class="card card1">
+          <p>01.</p>
+          <a href="https://gaia0a.github.io/sample-design-moia" class="link" target="_blank">
+            <img src="./img/blackarrow.png" alt="blackarrow">
+          </a>
+          <a href="https://gaia0a.github.io/sample-design-moia" target="_blank">
+            <div class="frame-img">
+              <div class="rect1">
+                <div class="rect2">
+                  <div class="rect3">
+                    <div class="rect4"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <div class="text-wrap">
+            <p>
+              This website is a demonstration of a fictitious modern art museum, featuring a
+              minimalist
+              design that prioritizes readability, navigation, and responsiveness.
+            </p>
+            <p class="mobile">
+              Sample design for a fictitious modern art museum.
+            </p>
+          </div>
+        </div>
+
+        <div class="card card2">
+          <p>02.</p>
+          <a href="https://gaia0a.github.io/sample-design-interior-store/" class="link" target="_blank">
+            <img src="./img/blackarrow.png" alt="black arrow">
+          </a>
+          <div class="img-wrap">
+            <a href="https://gaia0a.github.io/sample-design-interior-store/" target="_blank">
+              <img src="./img/sculpture.png" alt="image of a sculture">
+            </a>
+          </div>
+          <div class="text-wrap">
+            <p>
+              This website is a demonstration of a fictitious interior shop, where I placed emphasis
+              on
+              creating a distinct retro theme and incorporating unique layouts.
+            </p>
+            <p class="mobile">
+              Sample design for a fictitious interior shop.
+            </p>
+          </div>
+        </div>
+
+        <div class="card card3">
+          <p>03.</p>
+          <a href="https://jaab3j.github.io/jaabves/" class="link" target="_blank">
+            <img src="./img/blackarrow.png" alt="black arrow">
+          </a>
+          <div class="img-wrap">
+            <a href="https://jaab3j.github.io/jaabves/" target="_blank">
+              <img src="./img/blueprint.png" alt="architecture blueprint">
+            </a>
+          </div>
+          <div class="text-wrap">
+            <p>
+              This is a portfolio website for my childhood friend Jaab, who has a range of interesting
+              experiences. We aimed to develop a space that effectively
+              showcases all of his talents and works in a cohesive manner.
+            </p>
+            <p class="mobile">
+              Portfolio website for a childhood friend.
+            </p>
+          </div>
+        </div>
+
+        <div class="card card4">
+          <p>04.</p>
+          <a href="#" class="link" target="_blank">
+            <img src="./img/blackarrow.png" alt="black arrow">
+          </a>
+          <div class="img-wrap">
+            <img src="./img/camera.png" alt="camera focus">
+          </div>
+          <div class="text-wrap">
+            <p>
+              This is a personal project I undertook to exhibit my photography. With this website, I
+              prioritized crafting a layout that effectively showcases my photos while also ensuring
+              the
+              site is responsive across devices.
+            </p>
+            <p class="mobile">
+              Personal project for my photography.
+            </p>
+          </div>
+        </div>
+
+        <div class="card card5">
+          <p>05.</p>
+          <a href="#" class="link" target="_blank">
+            <img src="./img/blackarrow.png" alt="black arrow">
+          </a>
+          <div class="img-wrap">
+            <!-- img -->
+          </div>
+          <div class="text-wrap">
+            <p>
+              This is a project......
+            </p>
+            <p class="mobile">
+              Sample design for a fictitious modern art museum.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="available-on">
+        <p>all available on <a href="https://github.com/gaia0a" target="_blank">github!</a></p>
+      </div>
+
+      <!-- dots -->
+      <div class="dot dot1"></div>
+      <div class="dot dot2"></div>
+      <div class="dot dot3"></div>
+      <div class="dot dot4"></div>
+      <!-- //dots -->
+
+    </div>
+    <!-- //fourth page part 2 -->
+
+  </section>
+  <!-- //fourth page: works -->
+
+  <!-- fifth page: contact info -->
+  <section id="fifth-page" class="page">
+    <h2>Contact<br> Info.</h2>
+
+    <div class="paper-wrap">
+      <div class="contact-me">
+        <p>I'm open to work!</p>
+        <p class="long-p">Feel free to reach out to me via email or find me on LinkedIn.</p>
+
+        <div class="email">
+          <p>Email:</p>
+          <p>hangai2000@gmail.com</p>
+        </div>
+
+        <div class="linkedin">
+          <p>LinkedIn:</p>
+          <a href="https://www.linkedin.com/in/gai-han/" target="_blank">Gai Han</a>
+        </div>
+      </div>
+
+      <div class="svg-wrap">
+        <svg width="400" height="500" class="front">
+          <polygon
+            points="0,0 400,0 400,500 360,480 340,470 320,490 300,420 280,500 250,500 230,470 180,460 150,500 130,440 115,470 0,500"
+            style="fill:#fff; stroke:#000; stroke-width:1" />
+        </svg>
+
+        <svg width="400" height="500" class="back">
+          <polygon points="0,0 400,0 400,500 330,400 0,400" style="fill:#fff; stroke:#000; stroke-width:1" />
+        </svg>
+
+        <svg width="400" height="500" class="backback">
+          <polygon points="0,0 400,0 400,500 330,400 0,400" style="fill:#fff; stroke:#000; stroke-width:1" />
+        </svg>
+
+        <svg width="400" height="500" class="backbackback">
+          <polygon points="0,0 400,0 400,500 330,400 0,400" style="fill:#fff; stroke:#000; stroke-width:1" />
+        </svg>
+      </div>
+    </div>
+
+    <div class="scroll-top">
+      <button type="button">
+        <img src="./img/blackarrow2.png" alt="arrow">
+      </button>
+      <p>Scroll to top</p>
+    </div>
+
+  </section>
+  <!-- //fifth page: contact info -->
+
+  <!-- sixth page -->
+  <section id="sixth-page" class="page">
+    <h2 class="hidden">Final page</h2>
+
+    <div class="thankyou">
+      <p>Thank you for visiting!</p>
+      <p>감사합니다!</p>
+      <p>Bedankt!</p>
+      <p>ขอบคุณค่ะ!</p>
+    </div>
+
+    <canvas id="particles"></canvas>
+
+    <div class="bottom">
+      <p>This portfolio website was designed, written, & developed by me.</p>
+      <p>© Gai Han 2023</p>
+    </div>
+  </section>
+  <!-- //sixth page -->
+
+</body>
+
+</html>
