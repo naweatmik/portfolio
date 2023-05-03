@@ -1,0 +1,1103 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lexend", sans-serif;
+  transition: 0.5s;
+}
+html {
+  font-size: 15px;
+}
+li {
+  list-style: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+body {
+  background-color: #fefcf3;
+  color: #2d2d2d;
+}
+header {
+  width: 100%;
+  height: 10vh;
+  background-color: #fefcf3;
+  border-bottom: 2px solid #2d2d2d;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+header .container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container .logo {
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 2.7rem;
+  color: #000;
+  flex: 1 1 15%;
+}
+header .container nav {
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex: 1 1 85%;
+}
+header .container nav ul {
+  display: flex;
+  margin-bottom: 0;
+}
+header .container nav ul li {
+  margin: 0 1.5vw;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+header .container .home {
+  display: block;
+  border: none;
+  background-color: transparent;
+  font-size: 2rem;
+  display: none;
+}
+header .container nav form {
+  width: 166px;
+  height: 40px;
+  overflow: hidden;
+  border: 1px solid #2d2d2d;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+}
+header .container nav form input[type="text"] {
+  outline: none;
+  border: none;
+  width: 126px;
+  height: 100%;
+  padding-left: 1rem;
+  background-color: transparent;
+  color: #2d2d2d;
+}
+header .container nav form button {
+  display: block;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 30px;
+}
+
+.hammenu {
+  position: fixed;
+  top: 0;
+  right: -500px;
+  z-index: 999;
+  width: 35vw;
+  height: 100%;
+  background-color: #fefcf3;
+  border-left: 2px solid #2d2d2d;
+  display: none;
+}
+.hammenu .closee {
+  display: block;
+  position: absolute;
+  border: none;
+  background-color: transparent;
+  font-size: 2rem;
+  top: 20px;
+  right: 20px;
+  opacity: 0.5;
+}
+.hammenu .closee:hover {
+  opacity: 1;
+}
+.hammenu ul {
+  margin-top: 100px;
+}
+.hammenu ul li {
+  padding-left: 20px;
+  line-height: 50px;
+  font-size: 1.2rem;
+}
+.hameopen {
+  display: block;
+  right: 0px;
+}
+
+main {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  top: 10vh;
+}
+main .title {
+  width: 70%;
+  height: 100px;
+  margin: 100px auto;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+}
+main .title h2 {
+  font-size: 3.8rem;
+  font-weight: 800;
+  line-height: 100px;
+  position: relative;
+  z-index: 10;
+}
+main .title h2 span {
+  font-size: 2rem;
+  font-weight: 600;
+}
+main .title .c1 {
+  position: absolute;
+  top: 0;
+  left: 15%;
+}
+main .title .c2 {
+  position: absolute;
+  bottom: 0;
+  right: 10%;
+}
+main .bgbox {
+  width: 100%;
+  height: 40vw;
+  position: relative;
+}
+main .bgbox p {
+  color: #ff5018;
+  font-size: 17vw;
+  font-weight: 700;
+  letter-spacing: -15px;
+  position: absolute;
+  top: -10%;
+  left: 10%;
+}
+main .bgbox .bgimg {
+  width: 100%;
+  height: fit-content;
+  position: absolute;
+  z-index: 3;
+  bottom: 0;
+}
+main .bgbox .bgimg .bgimg-inner {
+  width: 100%;
+  height: 30vw;
+  white-space: nowrap;
+  overflow: hidden;
+  display: flex;
+}
+main .bgbox .bgimg .bgimg-inner img {
+  animation-name: bg;
+  animation-duration: 40s;
+  animation-iteration-count: infinite;
+  transform: translateX(0);
+  transition-timing-function: linear;
+  max-height: 80%;
+}
+@keyframes bg {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.section01 {
+  width: 100%;
+  height: 30vw;
+  margin-top: 7vw;
+  margin-bottom: 5vw;
+}
+.section01 .container {
+  height: 70vw;
+  background-image: url(../img/map.png);
+  background-repeat: no-repeat;
+  background-size: 35%;
+  background-position: right top;
+}
+.section01 .container > p {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-fill-color: transparent;
+}
+.section01 .container > h2 {
+  font-size: 3.7vw;
+  font-weight: 700;
+}
+.section01 .container .coordinate {
+  margin: 5vw 0;
+}
+.section01 .container .coordinate p {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.section01 .container .coordinate p span {
+  color: #ff5018;
+}
+.section01 .container .row {
+  margin-top: 7vw;
+}
+.section01 .container .row .arrow {
+  display: flex;
+  align-items: center;
+  align-self: flex-end;
+}
+.section01 .container .row .col-3 a {
+  display: block;
+  width: fit-content;
+  height: fit-content;
+}
+
+.section02 {
+  width: 100%;
+  height: auto;
+  margin-top: 15vw;
+  margin-bottom: 5vw;
+}
+.section02 .container .title {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5vw;
+}
+.section02 .container h2 {
+  font-size: 3.7vw;
+  font-weight: 600;
+}
+.section02 .container span {
+  display: block;
+  width: 20%;
+  height: 1px;
+  background-color: #2d2d2d;
+}
+.section02 .container .row {
+  margin-top: 3vw;
+}
+.section02 .container .row .box h4 {
+  margin-bottom: 1vw;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.section02 .container .row .box figure {
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  margin-bottom: 1vw;
+}
+
+.section03 {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-top: 15vw;
+  margin-bottom: 5vw;
+}
+.section03 .container .title {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5vw;
+}
+.section03 .container h2 {
+  font-size: 3.7vw;
+  font-weight: 600;
+}
+.section03 .container span {
+  display: block;
+  width: 20%;
+  height: 1px;
+  background-color: #2d2d2d;
+}
+.section03 .container .slide {
+  width: 300%;
+  display: grid;
+  transform: translateX(-36%);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2 1fr);
+}
+.section03 .container .slide .item {
+  width: 90%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.section03 .container .slide .item figure {
+  height: fit-content;
+  width: 50%;
+}
+.section03 .container .slide .item figure img {
+  margin: auto;
+}
+.section03 .container .slide .item .text {
+  width: 40%;
+  height: auto;
+}
+.section03 .container .slide .item .text h4 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2vw;
+}
+.section03 .container .slide .item .text p {
+  width: 100%;
+  height: auto;
+  margin-bottom: 3vw;
+  line-height: 2rem;
+}
+.section03 .container .slide .item .text p:last-of-type {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.section04 {
+  width: 100%;
+  height: auto;
+  margin-top: 15vw;
+  margin-bottom: 5vw;
+}
+.section04 .container {
+  position: relative;
+}
+.section04 .container .title {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5vw;
+}
+.section04 .container h2 {
+  font-size: 3.7vw;
+  font-weight: 600;
+}
+.section04 .container span {
+  display: block;
+  width: 20%;
+  height: 1px;
+  background-color: #2d2d2d;
+}
+.section04 .container .row {
+  margin-bottom: 3vw;
+}
+.section04 .container .row .col-4 figure {
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+}
+.section04 .container .row .col-7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.section04 .container .row .col-7 h4 {
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+.section04 .container .row .col-7 .abox {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  margin-top: -3vw;
+}
+.section04 .container .row .col-7 .abox a {
+  display: block;
+  padding: 7px 15px;
+  border: 1px solid #2d2d2d;
+  border-radius: 40px;
+}
+.section04 .container .row .col-7 .abox a:not(:last-child) {
+  margin-right: 1vw;
+}
+.section04 .container .row .col-7 p {
+  line-height: 1.5rem;
+  margin-bottom: 0;
+}
+.section04 .container .morebtn {
+  position: absolute;
+  right: 0;
+  display: flex;
+  align-items: center;
+}
+.section04 .container .morebtn a {
+  display: block;
+  margin-left: 5px;
+}
+
+.section05 {
+  width: 100%;
+  height: auto;
+  margin-top: 15vw;
+  margin-bottom: 5vw;
+  background-image: url(../img/mobg.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  padding-bottom: 5vw;
+  background-size: 100%;
+}
+
+.section05 .container .title {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5vw;
+}
+.section05 .container h2 {
+  font-size: 3.7vw;
+  font-weight: 600;
+}
+.section05 .container .title span {
+  display: block;
+  width: 20%;
+  height: 1px;
+  background-color: #2d2d2d;
+}
+.section05 .container .atitle {
+  display: flex;
+}
+.section05 .container .atitle a {
+  display: block;
+  border: 1px solid #2d2d2d;
+  padding: 7px 15px;
+  border-radius: 40px;
+}
+.section05 .container .atitle a:not(:last-child) {
+  margin-right: 1vw;
+}
+.section05 .container .row {
+  margin-top: 5vw;
+}
+.section05 .container .row .bike h5 {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 4vw;
+  font-weight: 900;
+  line-height: 3.5vw;
+  margin-top: -1vw;
+  -webkit-text-stroke: 1px #2d2d2d;
+  -webkit-text-fill-color: transparent;
+}
+.section05 .container .row .bike h5 span {
+  -webkit-text-stroke: 1px transparent;
+  -webkit-text-fill-color: #ff5018;
+}
+
+.section05 .container .row .arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section05 .container .morebtn {
+  display: flex;
+  align-items: center;
+}
+.section05 .container .morebtn a {
+  display: block;
+  margin-left: 5px;
+}
+
+.section05 .container .row:last-of-type {
+  margin-top: 2vw;
+  margin-bottom: 5vw;
+}
+
+footer {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  background-color: #000;
+  margin-top: 15vw;
+  position: relative;
+}
+footer .container {
+  position: relative;
+  height: 100%;
+}
+footer .container .ftitle {
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+  margin-top: 3vw;
+}
+footer .container .ftitle .flogo h1 {
+  color: #fefcf3;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 3rem;
+}
+footer .container .ftitle .flogo h1 span {
+  font-size: 2rem;
+  display: block;
+  letter-spacing: 0.4vw;
+}
+footer .container .ftitle .flogo p {
+  color: #fefcf3;
+  font-size: 1.1rem;
+  letter-spacing: 0.5vw;
+}
+footer .container .ftitle .icon {
+  display: flex;
+  justify-content: space-evenly;
+}
+footer .container .ftitle .icon a {
+  width: fit-content;
+  height: fit-content;
+  display: block;
+  margin: 0 1vw;
+}
+footer .container .ftitle .icon a img {
+  margin: auto;
+}
+
+footer .container .fnav {
+  position: absolute;
+  bottom: 10vw;
+}
+footer .container .fnav ul {
+  display: flex;
+  color: #fefcf3;
+}
+footer .container .fnav ul li {
+  margin-right: 3vw;
+  font-size: 1rem;
+}
+footer .container .fnav ul li:last-child {
+  margin-right: 0;
+}
+
+.topbtn {
+  position: fixed;
+  background-color: #fff;
+  color: #2d2d2d;
+  border: none;
+  right: 12%;
+  bottom: 12%;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  font-size: 2rem;
+  font-weight: 900;
+  display: none;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  header .container .logo {
+    font-size: 2.2rem;
+    line-height: 2.2rem;
+  }
+
+  header .container nav ul li {
+    font-size: 0.9rem;
+  }
+
+  header .container nav form {
+    width: 126px;
+    height: 25px;
+    overflow: hidden;
+    border: 1px solid #2d2d2d;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+  }
+
+  header .container nav form input[type="text"] {
+    outline: none;
+    border: none;
+    width: 94px;
+    height: 100%;
+    padding-left: 1rem;
+    background-color: transparent;
+    color: #2d2d2d;
+    font-size: 0.8rem;
+  }
+
+  header .container nav form button {
+    display: block;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 25px;
+    font-size: 0.9rem;
+  }
+
+  main .title {
+    width: 70%;
+  }
+  main .title h2 {
+    font-size: 3.2rem;
+  }
+
+  main .title .c1 {
+    position: absolute;
+    top: 0;
+    left: -5%;
+  }
+  main .title .c2 {
+    position: absolute;
+    bottom: 0;
+    right: -10%;
+  }
+
+  main .bgbox p {
+    top: -10%;
+  }
+  main .bgbox .bgimg .bgimg-inner img {
+    max-height: 70%;
+  }
+  .section05 .container .atitle a {
+    display: block;
+    border: 1px solid #2d2d2d;
+    padding: 5px 12px;
+    border-radius: 40px;
+  }
+
+  .section05 .container .row p {
+    font-size: 0.8rem;
+  }
+  .section04 .container .row .col-7 h4 {
+    font-size: 1.2rem;
+  }
+  .section04 .container .row .col-7 .abox {
+    margin-top: -1.5vw;
+  }
+  .section04 .container .row .col-7 .abox a {
+    padding: 4px 10px;
+    border-radius: 30px;
+    font-size: 0.8rem;
+  }
+  .section04 .container .row .col-7 p {
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+  }
+
+  .section01 {
+    height: 40vw;
+    margin-top: 10vw;
+  }
+  .section01 .container .row .col-4 p {
+    font-size: 0.9rem;
+  }
+
+  footer .container .ftitle .icon a {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  header {
+    height: 12vw;
+  }
+  header .container .logo {
+    font-size: 2rem;
+    line-height: 2.2rem;
+  }
+
+  header .container nav ul li {
+    font-size: 0.8rem;
+  }
+
+  header .container nav form {
+    display: none;
+  }
+  main .title {
+    width: 80%;
+  }
+  main .title h2 {
+    font-size: 2.3rem;
+  }
+  main .title .c1 {
+    position: absolute;
+    top: 0;
+    left: 0%;
+  }
+  main .title .c2 {
+    position: absolute;
+    bottom: 0;
+    right: 0%;
+  }
+  main .bgbox p {
+    top: -5%;
+  }
+  main .bgbox .bgimg .bgimg-inner img {
+    max-height: 70%;
+  }
+  .section01 {
+    margin-top: 10vw;
+    height: 50vw;
+  }
+  .section01 .container .row p {
+    font-size: 0.9rem;
+  }
+  .section02 .container .row .box p {
+    font-size: 0.9rem;
+  }
+  .section03 .container .slide .item .text h4 {
+    font-size: 1.5rem;
+  }
+  .section04 .container .morebtn {
+    font-size: 1rem;
+  }
+  .section03 .container .slide .item .text p {
+    font-size: 0.7rem;
+    line-height: 1.3rem;
+  }
+  .section05 {
+    padding-bottom: 10vw;
+  }
+  .section05 .container .atitle a {
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+  }
+  .section05 .container .arrow .morebtn {
+    font-size: 1rem;
+  }
+  .section05 .container .row p {
+    font-size: 0.7rem;
+  }
+
+  .section04 .container .row .col-7 h4 {
+    font-size: 1rem;
+  }
+  .section04 .container .row .col-7 .abox {
+    height: 30px;
+  }
+  .section04 .container .row .col-7 .abox a {
+    padding: 3px 10px;
+    font-size: 0.7rem;
+  }
+
+  .section04 .container .row .col-7 p {
+    font-size: 0.7rem;
+    line-height: 1.3rem;
+  }
+
+  footer .container .ftitle .flogo h1 {
+    font-size: 2.7rem;
+    line-height: 3rem;
+  }
+  footer .container .ftitle .flogo h1 span {
+    font-size: 1.5rem;
+  }
+
+  footer .container .ftitle .icon a {
+    width: 20%;
+    height: fit-content;
+  }
+
+  footer .container .fnav ul li {
+    font-size: 0.8rem;
+  }
+  main .bgbox p {
+    letter-spacing: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  header .container .home {
+    display: block;
+    color: #2d2d2d;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  header .container .logo {
+    font-size: 1.7rem;
+    line-height: 2rem;
+  }
+
+  header .container nav ul {
+    display: none;
+  }
+  header .container nav form {
+    display: none;
+  }
+  main .title {
+    width: 100%;
+  }
+  main .title h2 {
+    font-size: 2rem;
+  }
+  main .title h2 span {
+    font-size: 1.2rem;
+  }
+  main .title .c1 {
+    top: 0;
+    left: 0%;
+  }
+  main .title .c2 {
+    right: 0%;
+  }
+  .section01 {
+    margin-top: 15vw;
+    height: 55vw;
+  }
+  .section01 .container > p {
+    font-size: 2rem;
+  }
+  .section01 .container .row .col-5 {
+    height: 180px;
+    overflow: hidden;
+  }
+  .section01 .container .row .arrow {
+    justify-content: flex-end;
+    flex-direction: column;
+  }
+  .section01 .container .row .col-4 p {
+    font-size: 0.7rem;
+  }
+  .section01 .container .row .col-3 p {
+    font-size: 0.7rem;
+  }
+  .section02 {
+    margin-top: 25vw;
+  }
+  .section02 .container .row .box h4 {
+    font-size: 1rem;
+  }
+  .section02 .container .row .box p {
+    font-size: 0.8rem;
+  }
+
+  .section03 .container .slide .item .text h4 {
+    font-size: 1.2rem;
+  }
+  .section03 .container .slide .item .text p {
+    font-size: 0.5rem;
+    line-height: 0.8rem;
+  }
+  .section05 .container .row .col-3 p {
+    font-size: 0.5rem;
+  }
+  .section05 .container .morebtn {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+  }
+  .section04 .container .morebtn {
+    font-size: 0.8rem;
+  }
+  main .bgbox p {
+    letter-spacing: 0;
+  }
+  .section01 .container {
+    background-size: 45%;
+  }
+  .section04 .container .row .col-7 h4 {
+    font-size: 0.9rem;
+  }
+  .section04 .container .row .col-7 .abox a {
+    padding: 4px 10px;
+    border-radius: 30px;
+    font-size: 0.8rem;
+  }
+  .section05 {
+    padding-bottom: 10vw;
+  }
+  .section05 .container .row:last-of-type {
+    margin-bottom: 6vh;
+  }
+  .section05 .container .row .bike h5 {
+    font-size: 5vw;
+    line-height: 5vw;
+  }
+  .section05 .container .row .col-3 p {
+    font-size: 0.75rem;
+  }
+  .section04 .container .row .col-7 p {
+    display: none;
+  }
+  footer .container .ftitle .flogo h1 {
+    font-size: 2rem;
+    line-height: 2.3rem;
+  }
+  footer {
+    margin-top: 20vw;
+    height: 50vw;
+    min-height: 400px;
+  }
+  footer .container .ftitle .flogo h1 span {
+    font-size: 1.5rem;
+  }
+  footer .container .ftitle .icon a {
+    width: 15%;
+    height: fit-content;
+  }
+  footer .container .ftitle .flogo p {
+    font-size: 1rem;
+  }
+  footer .container .fnav ul li {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  header .container .logo {
+    font-size: 1.7rem;
+    line-height: 2rem;
+  }
+  header .container nav ul {
+    display: none;
+  }
+  header .container nav form {
+    display: none;
+  }
+  main .title {
+    width: 100%;
+    margin: 50px auto;
+  }
+  main .bgbox p {
+    font-size: 25vw;
+    top: -30%;
+  }
+  main .title .c1 {
+    left: 0;
+    max-width: 20%;
+  }
+  main .title .c2 {
+    right: 0%;
+    max-width: 20%;
+  }
+  main .title h2 {
+    font-size: 6vw;
+  }
+  main .title h2 span {
+    font-size: 4vw;
+  }
+  main .bgbox p {
+    letter-spacing: 0;
+  }
+  main .bgbox .bgimg .bgimg-inner img {
+    max-height: 70%;
+  }
+  .hammenu {
+    width: 45vw;
+  }
+  .section01 {
+    margin-top: 25vw;
+    height: 75vw;
+  }
+  .section01 .container {
+    background-size: 65%;
+  }
+  .section01 .container > p {
+    font-size: 2rem;
+  }
+  .section01 .container > h2 {
+    font-size: 8vw;
+  }
+  .section01 .container .row .arrow {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .section01 .container .row .arrow p {
+    font-size: 0.8rem;
+  }
+  .section02 {
+    margin-top: 25vw;
+  }
+  .section02 .container .title {
+    margin-bottom: 10vw;
+  }
+  .section02 .container h2 {
+    font-size: 5vw;
+  }
+  .section02 .container .row .box p {
+    font-size: 0.8rem;
+  }
+  .section03 .container .title {
+    margin-bottom: 10vw;
+  }
+  .section03 .container h2 {
+    font-size: 5vw;
+  }
+  .section03 .container .slide .item .text h4 {
+    font-size: 1.4rem;
+    margin-bottom: 10vw;
+  }
+  .section03 .container .slide .item .text p {
+    display: none;
+  }
+  .section03 .container .slide .item .text p:last-of-type {
+    font-size: 0.8rem;
+    line-height: 1rem;
+  }
+  .section05 .container .title {
+    margin-bottom: 10vw;
+  }
+  .section05 .container .row p {
+    font-size: 0.8rem;
+    line-height: 1rem;
+  }
+  .section05 .container .atitle {
+    display: none;
+  }
+
+  .section05 .container h2 {
+    font-size: 4vw;
+  }
+  .section05 .container .row .bike h5 {
+    font-size: 15vw;
+    line-height: 15vw;
+  }
+  .section04 .container .title {
+    margin-bottom: 10vw;
+  }
+  .section04 .container h2 {
+    font-size: 4vw;
+  }
+  .section04 .container .row .col-7 p {
+    display: none;
+  }
+  .section04 .container .row .col-7 h4 {
+    font-size: 0.9rem;
+  }
+  .section04 .container .morebtn a {
+    width: 20%;
+  }
+  footer {
+    margin-top: 20vw;
+    height: 70vw;
+    min-height: 400px;
+  }
+  footer .container .ftitle .flogo h1 {
+    font-size: 2rem;
+    line-height: 2.3rem;
+  }
+  footer .container .ftitle .flogo h1 span {
+    font-size: 1.5rem;
+  }
+  footer .container .ftitle .flogo p {
+    font-size: 0.7rem;
+  }
+  footer .container .ftitle .icon a {
+    width: 15%;
+    height: fit-content;
+  }
+  footer .container .fnav ul {
+    flex-direction: column;
+  }
+  footer .container .fnav ul li {
+    font-size: 0.5rem;
+    margin: 2vw 0;
+  }
+
+  .section04 .container .row .col-7 .abox a {
+    display: none;
+  }
+}
