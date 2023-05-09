@@ -304,6 +304,10 @@ nav .ul-wrap ul li {
     display: flex;
     line-height: 21px;
 }
+currentexhibition #moreinfo .moreinfo-wrap dl dt{
+    display:block;
+    width:5vw;
+}
 
 .currentexhibition #moreinfo .support dd a {
     display: block;
