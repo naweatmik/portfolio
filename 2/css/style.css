@@ -1,0 +1,1826 @@
+/* font */
+@font-face {
+    font-family: 'Inter';
+    src: url(../font/Inter-VariableFont_slnt\,wght.ttf) format('truetype');
+}
+/* font */
+
+
+/* 초기화 */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    display: block;
+}
+/* //초기화 */
+
+
+/* hidden */
+.hidden {
+    position: absolute;
+    margin-left: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+}
+/* //hidden */
+
+
+/* slick slider */
+.slider {
+    width: 100%;
+    margin: 20px auto;
+}
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+
+.slick-slide {
+    transition: all ease-in-out .3s;
+}
+
+.slick-current {
+    opacity: 1;
+}
+/* //slick slider */
+
+
+/* scrollbar */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: #e7e7e7;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #000;
+    border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #727272;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+/* //scrollbar */
+
+
+/* header */
+header {
+    width: 100%;
+}
+
+header .top {
+    width: 90%;
+    padding: 30px 0;
+    box-sizing: border-box;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .top h1 a {
+    font-size: 40px;
+    font-weight: 800;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+header .top a {
+    font-size: 30px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+header .top a i {
+    font-size: 30px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+/* opened menu */
+nav {
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.88);
+    position: absolute;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 98;
+
+    display: none;
+}
+
+nav .close {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2rem;
+    color: #fff;
+    margin: 3rem;
+}
+
+nav .ul-wrap {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+nav .ul-wrap .main-li {
+    width: 20%;
+    font-weight: 800;
+    font-size: 2rem;
+    text-align: center;
+}
+
+nav .ul-wrap ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+nav .ul-wrap>li {
+    width: 20%;
+    position: relative;
+}
+
+nav .ul-wrap>li::after {
+    content: '';
+    display: inline-block;
+    width: 1px;
+    position: absolute;
+    top: -19%;
+    right: 0;
+    height: 135%;
+    background-color: #fff;
+}
+
+nav .ul-wrap>li:last-child::after {
+    display: none;
+}
+
+nav .ul-wrap ul li {
+    margin: 2rem 0;
+}
+/* //opened menu */
+/* //header */
+
+
+/* section 1: current exhibition */
+.currentexhibition #moreinfo::before {
+    content: '';
+    display: block;
+    margin: 4vw 0;
+    width: 50%;
+    height: 0.5px;
+    background-color: #000;
+    float: right;
+}
+
+.currentexhibition #moreinfo::after {
+    content: '';
+    display: block;
+    margin: 4vw 0;
+    width: 50%;
+    height: 0.5px;
+    background-color: #000;
+}
+
+.currentexhibition figure {
+    width: 70%;
+    overflow: hidden;
+}
+
+.currentexhibition figure img {
+    width: 100%;
+    transition: 0.5s;
+}
+
+.currentexhibition figure figcaption p {
+    text-align: center;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+
+.currentexhibition .maintitle {
+    position: absolute;
+}
+/* current exhibition title */
+
+.currentexhibition .maintitle dt {
+    font-size: 7vw;
+    font-weight: 800;
+    left: 0;
+    transition: 0.5s;
+}
+
+.currentexhibition .maintitle dd {
+    font-size: 1.2vw;
+    padding-bottom: 1vw;
+
+}
+
+.currentexhibition .maintitle .exhibit-info1 {
+    font-style: italic;
+    padding-bottom: 0.3vw;
+}
+
+.currentexhibition .booking {
+    display: block;
+    width: 10vw;
+    height: 2.5vw;
+    line-height: 2.5vw;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+/* //current exhibition title */
+
+/* current exhibition more info */
+.currentexhibition #moreinfo .moreinfo-wrap {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.currentexhibition #moreinfo .moreinfo-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    margin-right: 5vw;
+}
+
+.currentexhibition #moreinfo .artists {
+    display: flex;
+}
+
+.currentexhibition #moreinfo .artists dd a {
+    display: block;
+    margin-bottom: 2px;
+}
+
+.currentexhibition #moreinfo .description {
+    width: 50%;
+    display: flex;
+    line-height: 21px;
+}
+
+.currentexhibition #moreinfo .support dd a {
+    display: block;
+    margin-bottom: 2px;
+}
+
+.currentexhibition #moreinfo .moreinfo-wrap dl dt{
+    display: block;
+    width: 50px;
+}
+
+.currentexhibition #moreinfo .support {
+    display: flex;
+}
+/* //current exhibition more info */
+/* //section 1: current exhibition */
+
+
+/* section 2: events */
+.events h2 {
+    font-size: 3.5vw;
+    font-weight: 800;
+    margin-left: 6%;
+    transition: 0.5s;
+}
+
+.events::after {
+    content: '';
+    display: block;
+    margin: 8vw 0;
+    width: 50%;
+    height: 0.5px;
+    background-color: #000;
+}
+
+.events .slider figure figcaption {
+    font-weight: 800;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin: 1.5vh 0;
+}
+
+.events .slider figure img{
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.events>a {
+    position: absolute;
+    right: 3%;
+    font-size: 1.5vw;
+    margin-top: 2vw;
+    width: 10em;
+    padding-bottom: 20px;
+    text-align: right;
+    display: flex;
+    background: url(../img/arrow.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: bottom;
+}
+
+.events .slider p {
+    line-height: 21px;
+}
+/* //section 2: events */
+
+
+/* section 3: collection */
+.collection {
+    width: 100%;
+}
+
+.collection .collectioncontent-wrap {
+    display: flex;
+}
+
+.collection::after {
+    content: '';
+    display: block;
+    margin-top: 8vw;
+    width: 50%;
+    height: 0.5px;
+    background-color: #000;
+    margin-left: 50%;
+}
+
+.collection h2 {
+    font-size: 3.5vw;
+    font-weight: 800;
+    margin-left: 6%;
+    margin-bottom: 2vw;
+    transition: 0.5s;
+}
+
+/* collection img gallery grid */
+.figure-wrap {
+    width: 45%;
+    margin: 1vw;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 1rem;
+    row-gap: 3rem;
+}
+
+.figure-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.figure-wrap figcaption {
+    text-align: center;
+    font-size: 0.85rem;
+    margin-top: 5px;
+}
+
+.figure-wrap .f1 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.figure-wrap .f2 {
+    grid-column-start: 5;
+    grid-column-end: 15;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.figure-wrap .f3 {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+.figure-wrap .f4 {
+    grid-column-start: 6;
+    grid-column-end: 11;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+.figure-wrap .f5 {
+    grid-column-start: 11;
+    grid-column-end: 15;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+.figure-wrap .f6 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 7;
+}
+
+.figure-wrap .f7 {
+    grid-column-start: 5;
+    grid-column-end: 11;
+    grid-row-start: 5;
+    grid-row-end: 7;
+}
+
+.figure-wrap .f8 {
+    grid-column-start: 11;
+    grid-column-end: 15;
+    grid-row-start: 5;
+    grid-row-end: 7;
+}
+/* //collection img gallery grid */
+
+/* text about collection */
+.collection dl {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 50px;
+    position: relative;
+}
+
+.collection dl dt {
+    font-weight: 800;
+    font-size: 3vw;
+    text-align: right;
+    position: absolute;
+}
+
+.collection dl dt span {
+    font-size: 7vw;
+}
+
+.collection dl dd {
+    width: 80%;
+    line-height: 22px;
+    position: absolute;
+    top: 40%;
+}
+
+.collection dl .see-all {
+    margin-top: 40vw;
+    width: 10em;
+    font-size: 1.5vw;
+    padding-bottom: 20px;
+    text-align: right;
+    display: flex;
+    background: url(../img/arrow.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: bottom;
+}
+/* //text about collection */
+/* //section 3: collection */
+
+
+/* section 4: news & reads */
+.news-reads {
+    width: 100%;
+}
+
+.news-reads h2 {
+    font-size: 3.5vw;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 7vw;
+    margin-bottom: 3vw;
+    transition: 0.5s;
+}
+
+.news-reads ul li a {
+    width: 100%;
+    overflow: hidden;
+}
+
+.news-reads ul li a .news {
+    display: flex;
+    white-space: nowrap;
+    border-bottom: 0.75px solid #000;
+}
+
+.news-reads ul li a .news1 {
+    border-top: 0.75px solid #000;
+}
+
+.news .news-img {
+    width: 10%;
+    height: 8vw;
+    margin: 0 0.3vw;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.news .news-img img {
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    z-index: 99;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.news .news-txt .headline {
+    font-size: 3vw;
+    font-weight: 700;
+    padding-top: 1.3vw;
+}
+
+.news .news-txt .news-descript {
+    font-size: 1.3vw;
+}
+
+.news .news-txt {
+    width: 90%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/* text animation */
+.news .news-txt-1 .news-txt-wrap {
+    animation-name: aaa;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes aaa {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-40%);
+    }
+}
+
+
+.news .news-txt-2 .news-txt-wrap {
+    animation-name: bbb;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+
+}
+
+@keyframes bbb {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-40%);
+    }
+}
+
+
+.news .news-txt-3 .news-txt-wrap {
+    animation-name: ccc;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes ccc {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-40%);
+    }
+}
+
+
+.news .news-txt-4 .news-txt-wrap {
+    animation-name: ddd;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+
+}
+
+@keyframes ddd {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-40%);
+    }
+}
+
+/* //text animation */
+
+.news-reads .more-pub {
+    position: absolute;
+    right: 0;
+    width: 10em;
+    padding-bottom: 20px;
+    font-size: 1.5vw;
+    display: flex;
+    margin: 2em;
+    background: url(../img/arrow.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: bottom;
+}
+/* //section 4: news & reads */
+
+
+/* section 5: location */
+.location {
+    width: 100%;
+    margin-top: 20vw;
+    display: flex;
+    margin-bottom: 15vw;
+}
+
+.location-wrap {
+    width: 50%;
+    padding: 0 5vw;
+    padding-bottom: 10vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.location .location-wrap h2 {
+    font-size: 3.5vw;
+    font-weight: 800;
+    transition: 0.5s;
+}
+
+.location .location-wrap dt {
+    font-size: 2vw;
+    font-weight: 700;
+}
+
+.location .location-wrap dd {
+    font-size: 1.5vw;
+    margin-top: 0.5vw;
+}
+
+.location .location-wrap>a {
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+    font-size: 2vw;
+    font-weight: 700;
+    width: 10em;
+    padding-bottom: 20px;
+    display: flex;
+    background: url(../img/arrow.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: bottom;
+}
+
+.location .location-wrap .left {
+    text-align: left;
+}
+
+.location .location-wrap .right {
+    text-align: right;
+}
+
+.location img {
+    width: 50%;
+}
+/* //section 5: location */
+
+
+/* section 6: discover more */
+.discovermore {
+    width: 100%;
+}
+
+.discovermore h2 {
+    text-align: center;
+    font-size: 3.5vw;
+    font-weight: 800;
+    margin-bottom: 5vh;
+    transition: 0.5s;
+}
+
+.discovermore a {
+    font-size: 1.5rem;
+}
+
+/* discover more grid */
+.discover-wrap {
+    width: 90%;
+    margin: 1vw auto;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2rem;
+    row-gap: 2rem;
+    align-items: end;
+}
+
+.discover-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.discover-wrap .discover-element-1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.discover-wrap .discover-element-2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.discover-wrap .discover-element-3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.discover-wrap .discover-element-4 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.discover-wrap .discover-element-5 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.discover-wrap .discover-element-6 {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+/* //discover more grid */
+
+.discover-wrap .discover-element-6 ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.discover-wrap .discover-element-6 ul li a {
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+
+.discover-wrap .discover-element>a {
+    font-size: 1.5vw;
+    align-items: flex-end;
+    width: 10em;
+    display: flex;
+    padding-bottom: 20px;
+    background: url(../img/arrow.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: bottom;
+}
+
+.discovermore::after {
+    content: '';
+    display: block;
+    margin-top: 7vw;
+    width: 50%;
+    height: 0.5px;
+    background-color: #000;
+}
+/* //section 6: discover more */
+
+
+/* footer */
+footer {
+    width: 100%;
+    padding: 2vw 5vw;
+}
+
+footer>a {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+footer .socialmedia {
+    float: right;
+}
+
+footer .socialmedia .socialmediaicons {
+    font-size: 2.5vw;
+    margin-right: 1vw;
+    margin-top: 1vw;
+}
+
+footer .final-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7vw;
+}
+
+footer .final-info ul {
+    display: flex;
+}
+
+footer ul li {
+    margin-right: 1vw;
+}
+
+footer .final-info .copyright {
+    text-align: right;
+}
+/* //footer */
+
+
+
+
+/* 반응형 */
+
+/* 1023 이상 1200 이하 */
+@media screen and (min-width:1023px) and (max-width:1200px) {
+
+    /* header */
+    header .top {
+        width: 100%;
+        padding: 30px;
+    }
+
+    header .top h1 a {
+        font-size: 30px;
+    }
+
+    header .top a {
+        font-size: 20px;
+    }
+
+    header .top a i {
+        font-size: 20px;
+    }
+
+    /* opened nav */
+    nav .ul-wrap .main-li {
+        font-size: 1.5rem;
+    }
+
+    nav .ul-wrap>li {
+        font-size: 0.85rem;
+    }
+
+    nav .ul-wrap>li::after {
+        top: -27%;
+        height: 145%;
+    }
+
+    nav .ul-wrap ul {
+        margin-top: 1.5rem;
+    }
+
+    nav .ul-wrap ul li {
+        margin: 1.5rem 0;
+    }
+
+    /* current exhibition */
+    .currentexhibition figure figcaption {
+        font-size: 0.85rem;
+    }
+
+    .currentexhibition .maintitle dt {
+        font-size: 6vw;
+    }
+
+    .currentexhibition #moreinfo::before {
+        margin-top: 8vw;
+    }
+
+    .currentexhibition #moreinfo::after {
+        margin-bottom: 8vw;
+    }
+
+    .currentexhibition #moreinfo .artists dd a {
+        font-size: 0.85rem;
+    }
+
+    .currentexhibition #moreinfo .description {
+        font-size: 0.85rem;
+    }
+
+    .currentexhibition #moreinfo .support dd a {
+        font-size: 0.85rem;
+    }
+
+    /* events */
+    .events h2 {
+        margin-left: 2vw;
+    }
+
+    .events .slider p {
+        font-size: 0.85rem;
+    }
+
+    .events>a {
+        padding-bottom: 10px;
+    }
+
+    .events::after {
+        margin: 10vw 0;
+    }
+
+    /* collection */
+    .collection h2 {
+        margin-left: 2vw;
+    }
+
+    .collection dl .see-all {
+        padding-bottom: 10px;
+    }
+
+    .collection::after {
+        margin-bottom: 10vw;
+    }
+
+    .figure-wrap {
+        width: 55%;
+    }
+
+    /* news & reads */
+    .news-reads .more-pub {
+        padding-bottom: 10px;
+    }
+
+    /* location */
+    .location .location-wrap>a {
+        padding-bottom: 10px;
+    }
+
+    /* footer */
+    footer ul li {
+        font-size: 0.85rem;
+    }
+}
+
+/* 768 이상 1023 이하 */
+@media screen and (min-width:768px) and (max-width:1022px) {
+
+    /* header */
+    header .top {
+        width: 100%;
+        padding: 20px;
+    }
+
+    header .top h1 a {
+        font-size: 20px;
+    }
+
+    header .top a {
+        font-size: 18px;
+    }
+
+    header .top a i {
+        font-size: 18px;
+    }
+
+    /* opened nav */
+    nav {
+        padding: 20px;
+    }
+
+    nav .ul-wrap .main-li {
+        font-size: 1rem;
+    }
+
+    nav .ul-wrap>li {
+        font-size: 0.7rem;
+    }
+
+    nav .ul-wrap>li::after {
+        top: -20%;
+        height: 133%;
+    }
+
+    nav .ul-wrap ul {
+        margin-top: 1.5rem;
+    }
+
+    nav .ul-wrap ul li {
+        margin: 1.5rem 0;
+    }
+
+    /* current exhibition */
+    .currentexhibition figure figcaption {
+        font-size: 0.75rem;
+    }
+
+    .currentexhibition #moreinfo::before {
+        margin-top: 8vw;
+    }
+
+    .currentexhibition #moreinfo::after {
+        margin-bottom: 8vw;
+    }
+
+    .currentexhibition #moreinfo .artists dd a {
+        font-size: 0.8rem;
+    }
+
+    .currentexhibition #moreinfo .description {
+        font-size: 0.8rem;
+    }
+
+    .currentexhibition #moreinfo .support dd a {
+        font-size: 0.8rem;
+    }
+
+
+    /* events */
+    .events h2 {
+        margin-left: 2vw;
+    }
+
+    .events .slider p {
+        font-size: 0.85rem;
+    }
+
+    .events>a {
+        font-size: 1.3vw;
+        padding-bottom: 6px;
+    }
+
+    .events .slider figure figcaption {
+        font-size: 2vw;
+    }
+
+    .events::after {
+        margin: 12vw 0;
+    }
+
+    /* collection */
+    .collection h2 {
+        margin-left: 2vw;
+    }
+
+    .collection dl dd {
+        width: 90%;
+        font-size: 0.85rem;
+        top: 35%;
+    }
+
+    .figure-wrap {
+        width: 50%;
+    }
+
+    .collection dl .see-all {
+        margin-top: 50vw;
+        padding-bottom: 5px;
+    }
+
+    .figure-wrap figcaption {
+        font-size: 0.75rem;
+    }
+
+    /* news & reads */
+    .news-reads .more-pub {
+        padding-bottom: 5px;
+    }
+
+    /* location */
+    .location .location-wrap>a {
+        padding-bottom: 5px;
+    }
+
+    /* footer */
+    footer .socialmedia {
+        font-size: 1.3vw;
+    }
+
+    footer ul li {
+        font-size: 1.3vw;
+    }
+
+    footer .final-info .copyright {
+        font-size: 1.3vw;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .currentexhibition .maintitle {
+        width: 20%;
+        top: 25vw;
+        right: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+}
+
+/* 767 이하 */
+@media screen and (max-width:767px) {
+
+    /* header */
+    header .top {
+        width: 100%;
+        padding: 3vw;
+    }
+
+    header .top h1 a {
+        font-size: 20px;
+    }
+
+    header .top a {
+        font-size: 18px;
+    }
+
+    header .top a i {
+        font-size: 18px;
+    }
+
+    /* opened nav */
+    nav {
+        padding: 20px;
+    }
+
+    nav .ul-wrap {
+        display: inline-block;
+        margin-top: 5vw;
+    }
+
+    nav .ul-wrap>li::after {
+        display: none;
+    }
+
+    nav .ul-wrap .main-li {
+        width: auto;
+        font-size: 2vw;
+        text-align: left;
+        margin-left: 10vw;
+    }
+
+    nav .ul-wrap>li {
+        width: auto;
+        display: flex;
+        height: 17vw;
+    }
+
+    nav .ul-wrap ul {
+        flex-direction: row;
+        align-items: flex-start;
+        margin: 0 5vw;
+        position: absolute;
+        left: 25vw;
+    }
+
+    nav .ul-wrap ul li {
+        margin: 0 3vw;
+        font-size: 1.5vw;
+    }
+
+    /* current exhibition */
+    .currentexhibition {
+        position: relative;
+    }
+
+    .currentexhibition .maintitle {
+        width: 90%;
+        height: 25vw;
+        top: 60vw;
+        left: 10%;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .currentexhibition figure {
+        width: 100%;
+    }
+
+    .currentexhibition .maintitle dd {
+        position: absolute;
+        left: 60%;
+    }
+
+    .currentexhibition .maintitle dd.exhibit-info1 {
+        top: 50%;
+    }
+
+    .currentexhibition .maintitle dd.exhibit-info2 {
+        top: 60%;
+    }
+
+    .currentexhibition .maintitle dd.exhibit-info3 {
+        top: 75%;
+    }
+
+    .currentexhibition .booking {
+        width: 15vw;
+        height: 3vw;
+        line-height: 3vw;
+    }
+
+    .currentexhibition figure figcaption {
+        display: none;
+    }
+
+    .currentexhibition #moreinfo::before {
+        margin-top: 20vw;
+    }
+
+    .currentexhibition #moreinfo::after {
+        margin-bottom: 10vw;
+    }
+
+    .currentexhibition #moreinfo .artists dd a {
+        font-size: 1rem;
+    }
+
+    .currentexhibition #moreinfo .description {
+        display: none;
+    }
+
+    .currentexhibition #moreinfo .support dd a {
+        font-size: 1rem;
+    }
+
+    .currentexhibition #moreinfo .moreinfo-title {
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+
+    .currentexhibition #moreinfo .moreinfo-wrap {
+        width: 90%;
+        height: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .currentexhibition #moreinfo .artists dt{
+        margin-right: 3vw;
+    }
+    .currentexhibition #moreinfo .support dt{
+        margin-right: 3vw;
+    }
+
+    /* events */
+    .events h2 {
+        margin-left: 2.5vw;
+    }
+
+    .events .slider p {
+        font-size: 0.75rem;
+        line-height: 17px;
+    }
+
+    .events>a {
+        font-size: 0.85rem;
+        background: none;
+        width: 10vw;
+    }
+
+    .events .slider figure figcaption {
+        font-size: 1rem;
+    }
+
+    .events::after {
+        margin: 10vw 0;
+    }
+
+    /* collection */
+    .collection h2 {
+        margin-left: 2.5vw;
+    }
+    .collection .collectioncontent-wrap {
+        display: block;
+    }
+    .figure-wrap {
+        width: 95%;
+        margin: auto;
+    }
+    .collection dl dd {
+        display: none;
+    }
+    .collection dl {
+        position: relative;
+        flex-direction: row;
+        width: 90%;
+        height: 10vw;
+        margin: 8vw auto;
+    }
+    .collection dl dt{
+        position: absolute;
+        text-align: left;
+        top: 30%;
+    }
+    .collection dl .see-all{
+        font-size: 0.85rem;
+        background: none;
+        width: 9vw;
+        position: absolute;
+        margin-top: 15vw;
+        right: 0;
+    }
+    .figure-wrap figcaption {
+        font-size: 0.75rem;
+    }
+
+    .collection::after {
+        margin-top: 15vw;
+    }
+
+
+    /* news & reads */
+    .news-reads h2 {
+        margin-top: 10vw;
+    }
+
+    .news-reads .more-pub {
+        background: none;
+        text-align: right;
+        width: 18vw;
+        font-size: 0.85rem;
+    }
+
+    .news .news-img{
+        display: none;
+    }
+    .news .news-txt{
+        width: 100%;
+        height: 10vw;
+    }
+    .news .news-txt .headline{
+        padding-top: 2vw;
+    }
+    .news .news-txt .news-descript{
+        font-size: 2vw;
+        padding-bottom: 2vw;
+    }
+
+    /* location */
+    .location .location-wrap>a {
+        padding-bottom: 5px;
+    }
+
+    /* discover more */
+    .discover-wrap {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .discover-wrap .discover-element-1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    .discover-wrap .discover-element-2 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    .discover-wrap .discover-element-3 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    .discover-wrap .discover-element-4 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    .discover-wrap .discover-element-5 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    .discover-wrap .discover-element-6 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    .discovermore::after {
+        margin-top: 10vw;
+        margin-bottom: 2vw;
+    }
+
+    .discover-wrap img {
+        margin-top: 15px;
+    }
+
+    .discover-wrap .discover-element>a {
+        width: 15em;
+        padding-bottom: 10px;
+    }
+
+    /* footer */
+    footer>a {
+        font-size: 1rem;
+    }
+
+    footer .socialmedia {
+        font-size: 0.8rem;
+    }
+
+    footer ul li {
+        display: none;
+    }
+
+    footer .final-info .copyright {
+        font-size: 0.8rem;
+    }
+
+}
+
+
+/* 400 이하 */
+@media screen and (max-width:480px) {
+
+    /* header */
+    header .top {
+        padding: 4vw;
+    }
+
+    header .top h1 a {
+        font-size: 1rem;
+    }
+
+    header .top a {
+        font-size: 1rem;
+    }
+
+    header .top a i {
+        font-size: 1rem;
+    }
+
+    /* slider */
+    .slick-slide {
+        margin: 0 10px;
+    }
+
+    /* opened nav */
+
+    nav .ul-wrap .main-li{
+        font-size: 1rem;
+        width: 15%;
+        margin-left: 3vw;
+    }
+    nav .close{
+        margin: 10vw;
+        font-size: 1rem;
+    }
+    nav .ul-wrap>li {
+        height: 25vw;
+    }
+    nav .ul-wrap ul{
+        left: 25vw;
+    }
+    nav .ul-wrap ul li{
+        margin: 0 2vw;
+        font-size: 12px;
+    }
+
+    /* current exhibition */
+    .currentexhibition .maintitle dd {
+        left: 50%;
+        font-size: 11px;
+    }
+    .currentexhibition .maintitle dd.exhibit-info1 {
+        top: 50%;
+    }
+    .currentexhibition .maintitle dd.exhibit-info2 {
+        display: none;
+    }
+    .currentexhibition .maintitle dd.exhibit-info3 {
+        top: 68%;
+    }
+    .currentexhibition #moreinfo .moreinfo-wrap {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .currentexhibition .booking {
+        width: 80px;
+        height: 20px;
+        line-height: 20px;
+    }
+    .currentexhibition #moreinfo .artists dd a{
+        font-size: 12px;
+        padding-left: 15px;
+    }
+    .currentexhibition #moreinfo .support dd a{
+        font-size: 12px;
+        padding-left: 15px;
+    }
+    .currentexhibition #moreinfo .moreinfo-title{
+        font-size: 16px;
+    }
+
+    /* events */
+    .events h2 {
+        margin-left: 3vw;
+        font-size: 5vw;
+    }
+
+    .events .slider p {
+        font-size: 0.7rem;
+        line-height: 15px;
+    }
+
+    .events .slider figure figcaption {
+        font-size: 0.85rem;
+    }
+
+    .events>a {
+        font-size: 3vw;
+        background: none;
+        width: 10vw;
+    }
+    .events::after{
+        margin: 15vw 0;
+    }
+
+    /* collection */
+    .collection h2 {
+        font-size: 5vw;
+    }
+    .collection dl dt{
+        font-size: 4vw;
+    }
+    .collection dl .see-all {
+        font-size: 3vw;
+        background: none;
+        width: 20vw;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .figure-wrap figcaption {
+        font-size: 0.5rem;
+        margin-top: 2px;
+    }
+    .collection::after{
+        margin-top: 20vw;
+    }
+
+    /* news & reads */
+    .news-reads .more-pub {
+        background: none;
+        text-align: right;
+        width: 15vw;
+        font-size: 3vw;
+    }
+
+    /* location */
+    .location {
+        position: relative;
+        box-sizing: border-box;
+    }
+
+    .location img {
+        width: 100%;
+        filter: brightness(40%);
+        transition: 0.5s;
+    }
+
+    .location-wrap {
+        width: 100%;
+        height: 90%;
+        position: absolute;
+        padding: 10vw;
+        z-index: 99;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .location .location-wrap h2 {
+        font-size: 4vw;
+    }
+
+    .location .location-wrap dt {
+        font-size: 3.5vw;
+    }
+
+    .location .location-wrap dd {
+        font-size: 2.5vw;
+    }
+
+    .location .location-wrap>a {
+        position: absolute;
+        bottom: 5%;
+        font-size: 3.5vw;
+        background: url(../img/arow2.png);
+        width: 10em;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position-y: bottom;
+    }
+
+    /* discover more */
+    .discover-wrap {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .discover-wrap .discover-element-1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    .discover-wrap .discover-element-2 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    .discover-wrap .discover-element-3 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    .discover-wrap .discover-element-4 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    .discover-wrap .discover-element-5 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    .discover-wrap .discover-element-6 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    .discover-wrap .discover-element>a {
+        font-size: 2.5vw;
+        width: 40vw;
+    }
+
+    .discover-wrap .discover-element-6 ul li a {
+        font-size: 3vw;
+    }
+
+    /* footer */
+    footer {
+        padding-top: 5vw;
+        padding-bottom: 10vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer>a {
+        display: none;
+    }
+
+    footer .socialmedia {
+        float: left;
+        text-align: center;
+    }
+
+    footer .final-info .copyright {
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
+}
+
+
+@media screen and (max-width:350px) {
+
+    /* opened nav */
+    nav .ul-wrap .main-li{
+        margin-left: 2vw;
+        width: 20%;
+        font-size: 12px;
+    }
+    nav .ul-wrap ul{
+        left: 25vw;
+    }
+    nav .ul-wrap ul li{
+        margin: 0 1.5vw;
+        font-size: 10px;
+    }
+
+    /* current exhibition */
+    .currentexhibition .maintitle dd.exhibit-info1 {
+        top: 40%;
+    }
+    .currentexhibition .maintitle dd.exhibit-info3 {
+        top: 63%;
+    }
+    .currentexhibition #moreinfo .moreinfo-title{
+        font-size: 1rem;
+    }
+    .currentexhibition #moreinfo .artists dd a{
+        font-size: 13px;
+        padding-left: 5px;
+    }
+    .currentexhibition #moreinfo .support dd a{
+        font-size: 13px;
+        padding-left: 5px;
+    }
+
+    /* news & reads */
+    .news-reads .more-pub{
+        width: 25vw;
+    }
+    .news .news-txt .headline{
+        padding-top: 1vw;
+    }
+    .news .news-txt .news-descript{
+        padding-bottom: 1vw;
+    }
+
+}
