@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/protfolio/Aesop/static/css/main.d3adde48.css",
+    "main.js": "/protfolio/Aesop/static/js/main.1092b4ae.js",
+    "static/js/787.30ee5c8a.chunk.js": "/protfolio/Aesop/static/js/787.30ee5c8a.chunk.js",
+    "static/media/bg.jpg": "/protfolio/Aesop/static/media/bg.82c11da8f654e3191360.jpg",
+    "index.html": "/protfolio/Aesop/index.html",
+    "main.d3adde48.css.map": "/protfolio/Aesop/static/css/main.d3adde48.css.map",
+    "main.1092b4ae.js.map": "/protfolio/Aesop/static/js/main.1092b4ae.js.map",
+    "787.30ee5c8a.chunk.js.map": "/protfolio/Aesop/static/js/787.30ee5c8a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3adde48.css",
+    "static/js/main.1092b4ae.js"
+  ]
+}
