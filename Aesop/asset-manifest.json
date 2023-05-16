@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/portfolio/Aesop/static/css/main.5cd4b60e.css",
+    "main.js": "/portfolio/Aesop/static/js/main.e2e7594c.js",
+    "static/js/787.30ee5c8a.chunk.js": "/portfolio/Aesop/static/js/787.30ee5c8a.chunk.js",
+    "static/media/bg.jpg": "/portfolio/Aesop/static/media/bg.82c11da8f654e3191360.jpg",
+    "index.html": "/portfolio/Aesop/index.html",
+    "main.5cd4b60e.css.map": "/portfolio/Aesop/static/css/main.5cd4b60e.css.map",
+    "main.e2e7594c.js.map": "/portfolio/Aesop/static/js/main.e2e7594c.js.map",
+    "787.30ee5c8a.chunk.js.map": "/portfolio/Aesop/static/js/787.30ee5c8a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5cd4b60e.css",
+    "static/js/main.e2e7594c.js"
+  ]
+}
