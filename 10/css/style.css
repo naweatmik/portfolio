@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Serif+KR:wght@300;400;500;600;700;900&display=swap');
+
+/*  
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Noto Serif KR', serif;
+*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition:all .1s;
+}
+
+html {
+  font-size: 15px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+figure {
+  width: fit-content;
+  height: fit-content;
+}
+
+body {
+  background-color: #fcfaf2;
+  color: #2d2d2d;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 120px;
+  background-color: #fcfaf2;
+  border-bottom: 1px solid #2d2d2d;
+}
+
+header .headerInner {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .headerInner h1 {
+  font-size: 0;
+}
+
+header .headerInner ul {
+  display: flex;
+}
+
+header .headerInner ul li {
+  margin: 0 2.3rem;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+header .ham{
+  display: none;
+}
+nav{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fcfaf2;
+  z-index: 999;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+nav h1{
+  font-size: 0;
+  margin: 5vh 0;
+}
+nav .closse{
+  align-self: flex-end;
+  margin-right: 5vw;
+  width: 50px;
+  height: 50px;
+  font-size: 3rem;
+  line-height: 50px;
+  color: #2d2d2d;
+  text-align: center;
+  cursor: pointer;
+}
+nav ul{
+  margin-top: 10vh;
+}
+nav ul li{
+  font-size: 5rem;
+  margin-bottom: 3rem;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+}
+#slide {
+  width: 100%;
+  overflow: visible;
+  position: relative;
+}
+
+#slide .tiText {
+  font-size: 8vw;
+  font-family: 'Noto Serif KR', serif;
+  font-weight: 700;
+  position: absolute;
+  right: 3vw;
+  bottom: -4vw;
+  z-index: 1;
+  line-height: 10vw;
+}
+
+#section {
+  width: 100%;
+  margin: 10vh 0;
+  margin-top: 20vh;
+}
+
+#section .whanki1 {
+  margin-bottom: 15vh;
+}
+
+#section .whanki1 .pt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#section .whanki1 .col-12 h4 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+#section .whanki1 .col-12 h4 span {
+  display: block;
+  font-size: 1.67rem;
+  color: #ccc;
+  font-weight: 100;
+  margin-top: .5rem;
+}
+
+#section .whanki1 .pt p {
+  line-height: 2rem;
+}
+
+#section .whanki2 h2 {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 2.7rem;
+  font-weight: 700;
+  margin-bottom: 3vw;
+}
+
+#section .whanki2 .textBox {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#section .whanki2 .textBox ul {
+  margin-bottom: 3vw;
+}
+
+#section .whanki2 .textBox ul li {
+  font-size: 1.2rem;
+  line-height: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+#section .whanki2 .textBox p {
+  line-height: 1.8rem;
+}
+
+#section02 {
+  margin: 10vh 0;
+  overflow: hidden;
+  position: relative;
+}
+
+#section02 .tiText2 {
+  font-size: 8vw;
+  font-family: 'Noto Serif KR', serif;
+  font-weight: 700;
+  line-height: 10vw;
+  -webkit-text-stroke: 2px #2d2d2d;
+  -webkit-text-fill-color: transparent;
+  margin-left: 3vw;
+}
+
+#section02 #swiper {
+  margin: 5vh 0;
+  position: relative;
+  left: 20%;
+  overflow: hidden;
+}
+
+#section02 #swiper .item {
+  text-align: center;
+  cursor: pointer;
+  filter: grayscale(150%);
+  transition: 0.5s;
+}
+
+#section02 #swiper .item:hover {
+  filter: grayscale(0%);
+}
+
+#section02 #swiper .item h5 {
+  font-family: 'Noto Serif KR', serif;
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+#section02 #swiper .item p {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.35rem;
+  font-weight: 300;
+  margin-top: .3rem;
+}
+
+#section02 .container .row {
+  margin: 7vw 0;
+}
+
+#section02 .container .imgBox {
+  display: block;
+  text-align: center;
+}
+
+#section02 .container .imgBox img {
+  max-width: 98%;
+  margin: auto;
+}
+
+#section02 .container .imgBox p {
+  font-family: 'Noto Serif KR', serif;
+  margin-top: 1rem;
+}
+
+#section03 {
+  margin: 10vh 0;
+}
+
+#section03 h2 {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 2.7rem;
+  font-weight: 700;
+  margin-bottom: 5vw;
+  text-align: center;
+}
+
+#section03 .col-12 {
+  height: 500px;
+  margin-bottom: 5vh;
+}
+
+#section03 iframe {
+  border: none;
+  width: 100%;
+  height: 100%;
+}
+
+#section03 .tbox ul {
+  margin-top: 1rem;
+}
+
+#section03 .tbox li {
+  margin-bottom: 1rem;
+  font-size: .9rem;
+}
+
+#section04 {
+  margin: 10vh 0;
+}
+
+#section04 h2 {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 2.7rem;
+  font-weight: 700;
+  margin-bottom: 5vw;
+  text-align: center;
+}
+
+#section04 .container>p {
+  margin: 5vw 0;
+  line-height: 2rem;
+}
+
+#section04 .artText {
+  margin-top: 5vh;
+}
+
+#section04 .artText h5 {
+  margin-bottom: 1rem;
+}
+
+#section04 .artText p {
+  font-size: .9rem;
+}
+
+footer {
+  width: 100%;
+  height: 400px;
+  padding: 10%;
+  background-color: #333;
+}
+
+footer .flogo {
+  filter: brightness(500%);
+}
+footer .container{
+  height: 100%;
+}
+footer .copy{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer p{
+  color: #FCFBF6;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+  html {
+    font-size: 13px;
+  }
+
+  header .headerInner h1 img {
+    max-width: 90%;
+  }
+
+  #section .whanki1 .col-12 h4 {
+    font-size: 1.8rem;
+  }
+
+  #section03 .col-12 {
+    height: 400px;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+  html {
+    font-size: 11px;
+  }
+
+  header .headerInner h1 img {
+    max-width: 80%;
+  }
+
+  header .headerInner ul li {
+    margin: 0 1rem;
+  }
+  #section .whanki1 .pt p span{
+    display: none;
+  }
+  #section .whanki2 .textBox p span{
+    display: none;
+  }
+  #section .whanki2 .textBox ul li{
+    font-size: 1.1rem;
+    margin-bottom: .7rem;
+  }
+}
+
+@media screen and (max-width:767px) {
+  header .headerInner ul {
+    display: none;
+  }
+  header .headerInner .ham{
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+    line-height: 50px;
+    color: #2d2d2d;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+  }
+  header .headerInner h1 img {
+    max-width: 70%;
+  }
+  footer .flogo img{
+    max-width: 50%;
+  }
+
+  #section{
+    margin-top: 10vh;
+  }
+  .mt{
+    margin-top: 5vh;
+  }
+  #section .whanki1 .pt{
+    margin-top: 5vw;
+  }
+  #section .whanki1 .col-12 h4{
+    margin-bottom: 5vw;
+  }
+
+  #section .whanki2 .pt{
+    margin-top: 5vw;
+  }
+  #slide .tiText{
+    font-size: 11vw;
+  }
+  #section02 .tiText2{
+    font-size: 11vw;
+    -webkit-text-stroke:1px #2d2d2d;
+  }
+}
+
+@media screen and (max-width:575px){
+  html{
+    font-size: 10px;
+  }
+
+
+  #section .whanBox{
+    padding: 0;
+  }
+
+  #section02 #swiper .item h5{
+    font-size: 1.3rem;
+  }
+  
+  #section02 #swiper .item p{
+    font-size: 1rem;
+  }
+
+  #section03 .col-12{
+    padding: 0;
+  }
+  #section04 .artBox{
+    padding: 0;
+  }
+
+  .item{
+    width: 45vw;
+  }
+  .item img{
+    margin: auto;
+  }
+  #section04 .artText p{
+    overflow: hidden;
+  }
+}
+  
+
+@media screen and (max-width:400px) {
+  #slide{
+    height: 30vh;
+  }
+  #slide .mSwiper {
+    height: 100%;
+  }
+  #slide .mSwiper img{
+    min-height: 100%;
+  }
+  
+}
