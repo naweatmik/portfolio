@@ -345,7 +345,9 @@ footer p{
   html {
     font-size: 13px;
   }
-
+  #section .whanki1 .col-12 h4 span{
+    font-size:1.2rem;
+  }
   header .headerInner h1 img {
     max-width: 90%;
   }
