@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/37eac81ce5.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="shortcut icon" href="./img/favicon.ico">
+    <script src="./script/vandor/gsap.min.js"></script>
+    <script src="./script/vandor/ScrollTrigger.min.js"></script>
+    <script src="./script/vandor/jquery-3.6.3.min.js"></script>
+    <script src="./script/vandor/jquery-ui.min.js"></script>
+    <script src="./script/common.js"></script>
+    <script src="./script/common2.js"></script>
+    <title>HyangA</title>
+</head>
+
+<body>
+    <div id="intro">
+        <div class="container">
+            <div class="intro_warp">
+                <p class="intro_txt">
+                    Hello&nbsp;<i class="fa-regular fa-face-smile"></i>
+                </p>
+                <p class="intro_txt">
+                    <span class="typing first_txt">Welcome to </span>
+                    <span class="typing second_txt"></span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="slider"></div>
+    <div id="warp">
+        <header>
+            <div class="container">
+                <h1 class="logo">
+                    <a href="#">
+                        <img src="./img/logo_w.png" alt="/">
+                    </a>
+                    Hyang
+                </h1>
+                <ul class="header_ul">
+                    <li class="header_li"><a href="#sec1">about</a></li>
+                    <li class="header_li"><a href="#sec3">work</a></li>
+                    <li class="header_li"><a href="#sec4">contact</a></li>
+                </ul>
+                <div class="circle" onclick="navClick()"></div>
+            </div>
+        </header>
+        <main>
+            <div class="main_bg">
+                <video autoplay loop muted playsinline data-keepplaying>
+                    <source src="./video/bg.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="main_txt">
+                <div class="container">
+                    <span>i create</span>
+                    <span>memorable moments</span>
+                    <span>for brands</span>
+                </div>
+            </div>
+        </main>
+        <nav>
+            <div class="container">
+                <div class="nav_header">
+                    <div class="nav_logo">
+                        <a href="#">
+                            <img src="./img/logo_b.png" alt="/">
+                        </a>
+                    </div>
+                    <div class="nav_circle" onclick="navClick()"></div>
+                </div>
+                <ul class="nav_ul">
+                    <li>
+                        <a href="#sec1">
+                            <span class="i_box"><i class="ri-arrow-right-line nav_arrow"></i></span>
+                            <p>about me</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#sec3">
+                            <span class="i_box"><i class="ri-arrow-right-line nav_arrow"></i></span>
+                            <p>works</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#sec4">
+                            <span class="i_box"><i class="ri-arrow-right-line nav_arrow"></i></span>
+                            <p>contact</p>
+                        </a>
+                    </li>
+                </ul>
+                <div class="nav_copy">
+                    All rights reserved &copy;2023
+                </div>
+            </div>
+        </nav>
+        <div class="sec1" id="sec1">
+            <h2 hidden>introduce</h2>
+            <div class="container">
+                <div class="about">
+                    <div class="name">
+                        <span class="family">park</span>
+                        <span class="first">hyang-a</span>
+                    </div>
+                    <div class="introduce">
+                        <p>
+                            안녕하세요. 의미 있는 경험을 만들고 브랜드 아이덴티티를 전달<br class="pc_on">
+                            하는 웹 & UI/UX 디자이너입니다.<br>
+                            사용자 경험에 대한 깊은 이해를 바탕으로 브랜드의 이야기를<br class="pc_on">
+                            전달할 수 있는 시각적인 요소 및 기능 구현을 좋아합니다.
+                        </p>
+                    </div>
+                    <a href="#" class="click">
+                        <p>resume</p>
+                        <i class="ri-arrow-right-up-line resume_a"></i>
+                    </a>
+                </div>
+                <div class="earth">
+                    <video autoplay loop muted playsinline data-keepplaying>
+                        <source src="./video/earth.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+        <div class="sec2">
+            <div class="sec2_img1">
+                <img src="./img/astronaut.png" alt="/" class="ast">
+            </div>
+            <div class="sec2_img2">
+                <img src="./img/satellite.png" alt="/" class="sate">
+            </div>
+            <div class="container">
+                <h2 class="sec_title">work <span>flow</span></h2>
+                <div class="flow_warp">
+                    <div class="flow_content identify">
+                        <div class="flow_c">
+                            <p class="content_num">01</p>
+                            <button class="txt_warp">
+                                Identify
+                                <i class="ri-arrow-right-up-line flow_a"></i>
+                            </button>
+                            <p class="content_txt">
+                                소비자가 원하는 디자인을 발견하기 위해 원활한 커뮤니케이션과 자료조사를 통해 브랜드가 나아가야 할 방향성을 파악합니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flow_content plan">
+                        <div class="flow_c">
+                            <p class="content_num">02</p>
+                            <button class="txt_warp">
+                                Plan
+                                <i class="ri-arrow-right-up-line flow_a"></i>
+                            </button>
+                            <p class="content_txt">
+                                도출한 자료를 기반으로 단순 정보가 아닌 사용자의 흥미를 유발하고 컨텐츠들이 어우러질 수 있도록 홈페이지 와이어 프레임을 작성합니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flow_content design">
+                        <div class="flow_c">
+                            <p class="content_num">03</p>
+                            <button class="txt_warp">
+                                Design
+                                <i class="ri-arrow-right-up-line flow_a"></i>
+                            </button>
+                            <p class="content_txt">
+                                브랜드 메시지의 전달성과 대상층에 알맞는 감각적인 디자인 및 편리한 기능에 중점을 두어 디자인합니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flow_content build">
+                        <div class="flow_c">
+                            <p class="content_num">04</p>
+                            <button class="txt_warp">
+                                Build
+                                <i class="ri-arrow-right-up-line flow_a"></i>
+                            </button>
+                            <p class="content_txt">
+                                디자인 피드백 과정을 거친 후 소비자의 요구를 충족시키며, 브랜드 아이덴티티가 기억에 남을 수 있는 홈페이지를 완성합니다.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sec3" id="sec3">
+            <div class="container">
+                <h2 class="sec_title">works</h2>
+                <div class="sec3_content_warp">
+                    <div class="sec3_content sec3_Jcontent">
+                        <div class="left">
+                            <a href="#">
+                                <img src="./img/chicago.jpg" alt="/" class="l_img">
+                            </a>
+                        </div>
+                        <div class="right">
+                            <div class="txt_warp">
+                                <a href="#">
+                                    <p>chicago</p>
+                                    <i class="ri-arrow-right-up-line right_a"></i>
+                                </a>
+                            </div>
+                            <p class="txt_mid">
+                                반응형 웹사이트(2023)
+                            </p>
+                            <p class="txt_inner">
+                                뮤지컬에 대한 정보를 한눈에 쉽게 파악할 수 있도록 메인 및 상세 페이지를 세분화하여 작업했습니다. 공연 내용과 생동감 있는 사진을 활용하여 현장에서 느낄 수
+                                있는 강렬하고 매혹적인 이미지를 어필할 수 있도록 디자인했습니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="sec3_content sec3_Jcontent">
+                        <div class="left">
+                            <a href="#">
+                                <img src="./img/marithe.jpg" alt="/" class="l_img">
+                            </a>
+                        </div>
+                        <div class="right">
+                            <div class="txt_warp">
+                                <a href="#">
+                                    <p>marithe</p>
+                                    <i class="ri-arrow-right-up-line right_a"></i>
+                                </a>
+                            </div>
+                            <p class="txt_mid">
+                                반응형 웹템플릿(2023)
+                            </p>
+                            <p class="txt_inner">
+                                기존과 비교해 보았을 때 상품에 대한 정보를 빠르고 쉽게 찾을 수 있도록 깔끔함에 중점을 두었습니다. 메인 페이지가 심심하지 않도록 상품 영역에 자연스러운
+                                호버 애니메이션 효과를 적용했습니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="sec3_content sec3_Jcontent">
+                        <div class="left">
+                            <a href="#">
+                                <img src="./img/app.jpg" alt="/" class="l_img">
+                            </a>
+                        </div>
+                        <div class="right">
+                            <div class="txt_warp">
+                                <a href="#">
+                                    <p>뮤움</p>
+                                    <i class="ri-arrow-right-up-line right_a"></i>
+                                </a>
+                            </div>
+                            <p class="txt_mid">
+                                UI/UX 디자인(2023)
+                            </p>
+                            <p class="txt_inner">
+                                기존 앱과 상이하게 보다 직관적인 아이콘과 필터 기능을 추가하여 다양한 연령층의 유저를 확보할 수 있도록 기획했습니다. 정해진 규격과 일정한 여백을 주어
+                                시각적 편리함을 고려하여 리디자인을 했습니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="sec3_display">
+                        <div class="sec3_content">
+                            <div class="left">
+                                <a href="#">
+                                    <img src="./img/app.jpg" alt="/" class="l_img">
+                                </a>
+                            </div>
+                            <div class="right">
+                                <div class="txt_warp">
+                                    <a href="#">
+                                        <p>뮤움</p>
+                                        <i class="ri-arrow-right-up-line right_a"></i>
+                                    </a>
+                                </div>
+                                <p class="txt_mid">
+                                    UI/UX 디자인(2023)
+                                </p>
+                                <p class="txt_inner">
+                                    기존 앱과 상이하게 보다 직관적인 아이콘과 필터 기능을 추가하여 다양한 연령층의 유저를 확보할 수 있도록 기획했습니다. 정해진 규격과 일정한 여백을
+                                    주어 시각적 편리함을 고려하여 리디자인을 했습니다.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="click B_plus" onclick="buttonClick()">
+                    more&nbsp;&nbsp;
+                    <i class="ri-add-line plus"></i>
+                </button>
+                <button type="button" class="click B_minus" onclick="buttonClick()">
+                    more&nbsp;&nbsp;
+                    <i class="ri-subtract-line minus"></i>
+                </button>
+            </div>
+        </div>
+        <div class="sec4" id="sec4">
+            <div class="sec4_bg">
+                <video autoplay loop muted playsinline data-keepplaying>
+                    <source src="./video/b_earth.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="container">
+                <h2 hidden>contact</h2>
+                <div class="sec4_txt_warp">
+                    <div class="sec4_tbox">
+                        <div class="sec_title">
+                            <p class="sec4_txt1">
+                                looking for<br class="pc_on">
+                                a <span>creative</span> people?
+                            </p>
+                            <p class="sec4_txt2">contact me!</p>
+                        </div>
+                        <div class="contact_inner">
+                            <div class="contact_txt">
+                                <i class="ri-rocket-2-line icon"></i>
+                                <p>
+                                    giddk4584@gmail.com
+                                </p>
+                            </div>
+                            <div class="contact_txt">
+                                <i class="ri-base-station-line icon"></i>
+                                <p>
+                                    +82&#41; 010 - 6325 - 9470
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copy">
+                    All rights reserved &copy;2023
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cursor"></div>
+</body>
+
+</html>
