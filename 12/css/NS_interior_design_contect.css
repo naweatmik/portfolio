@@ -1,0 +1,259 @@
+@import url(./stylesheetreset.css);
+@import url(./headerfooterstylesheet.css);
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Noto Sans KR', sans-serif;
+*/
+body {
+    background-image: url(../img/contectbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+
+}
+
+#contect {
+    width: 50vw;
+    height: fit-content;
+    margin: auto;
+    margin: 11rem auto;
+}
+
+/*title*/
+#contect .title {
+    margin-bottom: 3.8rem;
+    width: 100%;
+    height: fit-content;
+}
+
+#contect .title h2 {
+    text-align: center;
+    color: #fff;
+    font-family: 'Cormorant Garamond', serif;
+    text-transform: uppercase;
+    font-size: 4.3rem;
+    font-weight: 600;
+    /* margin-bottom: 5rem; */
+    /* margin-bottom: 5vw; */
+}
+#contect .title h2 span {
+    color: #39574C;
+}
+/*//title*/
+input:focus {
+    outline: none;
+}
+input[type=text] {
+    background-color: rgba(0, 0, 0, 10%);
+    border: 1px solid #fff;
+    border-radius: .5rem;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1rem;
+    padding: 10px;
+    color: #fff;
+}
+
+input[type=tel] {
+    background-color: rgba(0, 0, 0, 10%);
+    border: 1px solid #fff;
+    border-radius: .5rem;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1rem;
+    padding: 10px;
+    color: #fff;
+}
+
+input[type=email] {
+    background-color: rgba(0, 0, 0, 10%);
+    border: 1px solid #fff;
+    border-radius: .5rem;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1rem;
+    padding: 10px;
+    color: #fff;
+}
+
+.box p,
+.textbox p {
+    color: #969696;
+}
+
+.textbox {
+    width: 100%;
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 10%);
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 1rem;
+    overflow-y: scroll;
+    margin: 2rem auto;
+}
+
+.textbox h6 {
+    font-size: 1rem;
+    color: #d7d7d7;
+}
+
+.textbox p {
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+}
+
+input[type=checkbox] {
+    width: 1.3rem;
+    height: 1.3rem;
+    color: #fff;
+}
+
+/*box*/
+.box {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box p {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+}
+
+.box1 {
+    width: 28%;
+}
+
+.box2 {
+    width: 28%;
+}
+
+.box3 {
+    width: 38%;
+}
+
+.box input {
+    height: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+/*//box*/
+/*내용*/
+.text {
+    width: 100%;
+    height: 20vw;
+    margin: 2rem auto;
+}
+
+textarea {
+    width: 100%;
+    height: 100%;
+    resize: none;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 10%);
+    border: 1px solid #fff;
+    border-radius: .5rem;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1rem;
+    padding: 10px;
+    padding: 1rem;
+}
+textarea:focus{
+    outline: none;
+}
+
+/*//내용*/
+/*동의하기*/
+.agree {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.agree p {
+    margin-left: 1rem;
+}
+
+/*//동의하기*/
+/*submit*/
+.contectbtn {
+    width: 100%;
+    height: fit-content;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.contectbtn input {
+    background-color: #39574C;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    width: 9rem;
+    height: 2.5rem;
+    font-size: 1.3rem;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+input[type=submit]:hover {
+    background-color: #5b7b70;
+}
+
+/*submit*/
+/*file*/
+input[type=file] {
+    border: none;
+    border-radius: none;
+    color: #fff;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: .8rem;
+}
+
+input::file-selector-button {
+    background-color: #969696;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    width: 5rem;
+    height: 1.5rem;
+    margin-right: 1rem;
+    font-size: .8rem;
+}
+
+/*//file*/
+@media screen and (max-width:1200px) {
+    #contect {
+        width: 70vw;
+    }
+    .box p{
+        font-size: 1.2rem;
+    }
+    #contect .title h2{
+        font-size: 4rem;
+    }
+    .contectbtn input{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width:1023px) {
+    #contect {
+        width: 80vw;
+    }
+     #contect .title h2{
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width:499px){
+   .footerglogo figure img{
+       width: 50%;
+       height: 50%;
+
+   }
+}
